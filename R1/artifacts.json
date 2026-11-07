@@ -1,0 +1,9 @@
+{
+  "tag": "r1-repro-20261108",
+  "asset": "r1-data-checkpoints-20261108.tar.gz",
+  "bytes": 764198345,
+  "sha256": "a8ba553622019bc3319527361cda4ee07fbe3cb317342628fc64e8ba751c5558",
+  "files": 7918,
+  "checkpoints": 606,
+  "description": "Actual R1 experiment data, complete checkpoints and measured/search records; content-anonymized."
+}

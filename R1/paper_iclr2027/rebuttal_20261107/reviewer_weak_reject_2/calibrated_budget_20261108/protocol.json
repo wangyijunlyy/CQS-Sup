@@ -1,0 +1,66 @@
+{
+  "confirmation_seeds": [
+    2101,
+    2102,
+    2103,
+    2104,
+    2105
+  ],
+  "development_seeds": [
+    45,
+    46,
+    47
+  ],
+  "couplings": [
+    -0.5,
+    -0.3,
+    -0.1,
+    0.1,
+    0.3,
+    0.5
+  ],
+  "h": -0.5,
+  "train": 2000,
+  "validation": 400,
+  "reserved_test": 400,
+  "original_shadow_shots_per_control": 10,
+  "representations": [
+    "product_rank32_Q1",
+    "complete_masked_Fourier_Q1_shared_features"
+  ],
+  "arms": [
+    "fixed_original",
+    "fixed_calibrated",
+    "time_calibrated"
+  ],
+  "alpha_grid": [
+    0,
+    0.5,
+    1
+  ],
+  "local_ridge_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "local_rounds": 3,
+  "local_train": 192,
+  "local_validation": 64,
+  "shots_per_group": 1000,
+  "measured_candidates": 20,
+  "incumbent_readouts": 1,
+  "fixed_updates": 100,
+  "search_lr": 0.03,
+  "timing_cap_rule": "ceil1.5times slowest development alpha1 block,minimum10seconds; freeze timing_cap before confirmation generation",
+  "timing_eligibility": "complete20-start/100-update blocks and copied selected pool finish within cap; last incomplete/late block discarded, actual overrun retained",
+  "timing_boundary": "classical search, including allocation/optimizer/steps/scoring/sorting/checkpoint copy, excluding warmup, fitting and measured-label calibration",
+  "total_shots_per_search": 1686000,
+  "primary_contrast": "time_calibrated product minus time_calibrated Fourier, paired dataset mean across all6couplings; lower is better",
+  "statistical_units": "5independent datasets; report paired t95CI and complete descriptive coupling table",
+  "test_scoring": "only after all180searches saved",
+  "historical_results": "preserved",
+  "hardware_shots": 0
+}

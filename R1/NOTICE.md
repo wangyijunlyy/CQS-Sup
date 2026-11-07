@@ -1,0 +1,1 @@
+This package is supplied for research review and reproduction of the stated experiments. You may inspect and run it for that purpose. Third-party dependencies retain their own licenses. This notice does not relicense those dependencies.

@@ -1,0 +1,67 @@
+{
+  "development": [
+    45,
+    46,
+    47
+  ],
+  "ranks": [
+    2,
+    4,
+    6,
+    8,
+    16,
+    32
+  ],
+  "product_regularizers": [
+    [
+      "weight_decay",
+      0.0001
+    ],
+    [
+      "coefficient",
+      0
+    ],
+    [
+      "coefficient",
+      0.1
+    ],
+    [
+      "coefficient",
+      1
+    ],
+    [
+      "coefficient",
+      10
+    ]
+  ],
+  "full_product_fits_per_dataset": 30,
+  "original_product_candidate": true,
+  "fourier_raw_grid": [
+    0,
+    1e-06,
+    0.0001,
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "fourier_scaled_grid": [
+    1e-08,
+    1e-06,
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1,
+    10
+  ],
+  "epoch_cap": 300,
+  "patience": 30,
+  "training": "moment MSE with declared regularizer",
+  "selection": "measured validation energy MSE averaged over all six couplings",
+  "exact_selection": false,
+  "added_shots": 0,
+  "confirmation_gate": "negative development product-minus-Fourier mean (Delta<0) over all six couplings, then freeze and10new pools; otherwise stop confirmation for futility",
+  "gate_clarification": "Sign wording corrected before tuned/time scoring; no confirmation data generated"
+}

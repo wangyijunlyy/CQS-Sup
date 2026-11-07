@@ -1,0 +1,45 @@
+{
+  "search_seconds_per_round": 10,
+  "rows": [
+    {
+      "model": "product",
+      "repeat": 0,
+      "seconds": 0.2418636780057568
+    },
+    {
+      "model": "fourier",
+      "repeat": 0,
+      "seconds": 5.368942715998855
+    },
+    {
+      "model": "fourier",
+      "repeat": 1,
+      "seconds": 4.921390077004617
+    },
+    {
+      "model": "product",
+      "repeat": 1,
+      "seconds": 0.16529033999540843
+    },
+    {
+      "model": "product",
+      "repeat": 2,
+      "seconds": 0.16462017499725334
+    },
+    {
+      "model": "fourier",
+      "repeat": 2,
+      "seconds": 5.225499758002115
+    }
+  ],
+  "rule": "ceil(1.5*slowest development alpha1 fixed100 block), minimum10seconds",
+  "threads": 2,
+  "device": "cpu",
+  "dtype": "float64",
+  "cpu_affinity": [
+    32,
+    33
+  ],
+  "new_confirmation_data_used": false,
+  "exact_energy_used": false
+}

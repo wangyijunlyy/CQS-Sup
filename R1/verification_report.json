@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "strict_CUDA_checkpoint_matches": 45,
+  "max_CUDA_prediction_difference": 0,
+  "fixed_chain_implementation_tests": 11,
+  "extension_implementation_tests": 5,
+  "fresh_complete_Fourier_grid_runs": 12,
+  "max_fresh_Fourier_search_trace_difference": 0.0,
+  "fresh_exact_ansatz_search_starts": 32,
+  "fresh_best_ansatz_energy": -3.024828764628243,
+  "source_equivalence_report": "source_equivalence.json",
+  "execution": "Installed requirements in a new Python3.12 environment; strict CUDA replay additionally uses the original Python3.10/PyTorch2.6 runtime.",
+  "full_training_matrix_repeated_during_packaging": false,
+  "all_suites_passed_individually": [
+    "masks",
+    "common",
+    "parallel",
+    "query",
+    "fixed-chain",
+    "reference",
+    "grid-continuation",
+    "local-chain",
+    "local-confirmation",
+    "strong-grid",
+    "timing"
+  ],
+  "privacy_process": "Python string/comment tokens only, with AST comparison to original scientific sources"
+}

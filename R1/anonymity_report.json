@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checked_source_files": 112,
+  "checked_artifact_files": 7918,
+  "numerical_arrays_inspected": 26956,
+  "compressed_members_inspected": 33757,
+  "anonymized_metadata_files": 12,
+  "credentials_or_workstation_identifiers_detected": 0,
+  "numeric_arrays_and_model_weights_preserved": true,
+  "scope": "Distributed content only. Hosting account and repository activity are outside content anonymity."
+}

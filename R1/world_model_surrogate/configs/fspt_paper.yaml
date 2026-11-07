@@ -1,0 +1,36 @@
+# Paper-aligned FSPT experiment (Nature Commun. 17, 4731 (2026), Fig. 4 setup)
+
+N: 20                  # 论文 20 量子比特
+K: 40                  # 40 个完整驱动周期(论文 "40 driving periods";79 为 kT1 半步采样)
+T_shadow: 32           # 经典阴影快照数(h_cs 标签)
+delta_range: [0.0, 2.0]
+J_range: [0.0, 1.0]
+n_train: 800
+n_val: 200
+n_test: 200
+seed: 42
+
+encoder_hidden: 128
+rssm_hidden: 128
+predictor_hidden: 128
+stochastic: false
+beta: 0.001
+dropout: 0.0
+
+epochs: 400
+batch_size: 32
+lr: 0.001
+weight_decay: 0.0001
+patience: 30
+device: auto
+
+kappa_lambda: 2
+ridge_lam: 1.0
+
+cache_dir: cache_fspt_paper
+out_dir: results_fspt_paper
+ckpt_dir: checkpoints_fspt_paper
+
+# 相识别参考网格(δ 扫描 x J 采样)
+n_delta: 41
+n_J: 4

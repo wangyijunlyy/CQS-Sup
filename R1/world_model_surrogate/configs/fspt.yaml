@@ -1,0 +1,32 @@
+# FSPT multi-step magnetization prediction — WMPS v2 configuration
+
+N: 8                  # 量子比特数
+K: 12                 # 驱动周期数(时间轴长度)
+T_shadow: 32          # 每周期经典阴影快照数
+delta_range: [0.0, 2.0]   # 驱动扰动采样范围
+J_range: [0.0, 1.0]       # 无序耦合采样范围
+n_train: 2000
+n_val: 400
+n_test: 400
+seed: 42
+
+encoder_hidden: 128
+rssm_hidden: 128
+predictor_hidden: 128
+stochastic: false
+beta: 0.001
+dropout: 0.0
+
+epochs: 300
+batch_size: 32
+lr: 0.001
+weight_decay: 0.0001
+patience: 30
+device: auto
+
+kappa_lambda: 2
+ridge_lam: 1.0
+
+cache_dir: cache_fspt
+out_dir: results_fspt
+ckpt_dir: checkpoints_fspt

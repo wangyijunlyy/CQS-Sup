@@ -1,0 +1,331 @@
+{
+  "passed": true,
+  "result": {
+    "checkpoints_evaluated": 45,
+    "strict_checkpoint_matches": 45,
+    "device": "cuda",
+    "CPU_Transformer_diagnostic_count": 0,
+    "all400test_controls_per_checkpoint": true,
+    "max_difference_from_published_prediction": 0.0,
+    "strict_prediction_tolerance": 2e-05,
+    "all45_published_test_metrics_recomputed_from_saved_predictions": true,
+    "results": [
+      {
+        "seed": 1001,
+        "name": "cqs_r",
+        "mae": 0.19430378079414368,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1001,
+        "name": "query_gru",
+        "mae": 0.1893424540758133,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1001,
+        "name": "period_mlp",
+        "mae": 0.29878896474838257,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1001,
+        "name": "joint_mlp_w128",
+        "mae": 0.24417153000831604,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1001,
+        "name": "joint_mlp_w256",
+        "mae": 0.24118682742118835,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1001,
+        "name": "transformer_w64_l2",
+        "mae": 0.22358067333698273,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1001,
+        "name": "transformer_w64_l4",
+        "mae": 0.23270949721336365,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1001,
+        "name": "transformer_w128_l2",
+        "mae": 0.22493566572666168,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1001,
+        "name": "transformer_w128_l4",
+        "mae": 0.215179905295372,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1002,
+        "name": "cqs_r",
+        "mae": 0.19064900279045105,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1002,
+        "name": "query_gru",
+        "mae": 0.19095531105995178,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1002,
+        "name": "period_mlp",
+        "mae": 0.2894900441169739,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1002,
+        "name": "joint_mlp_w128",
+        "mae": 0.24121594429016113,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1002,
+        "name": "joint_mlp_w256",
+        "mae": 0.24267667531967163,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1002,
+        "name": "transformer_w64_l2",
+        "mae": 0.22728152573108673,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1002,
+        "name": "transformer_w64_l4",
+        "mae": 0.2248174250125885,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1002,
+        "name": "transformer_w128_l2",
+        "mae": 0.22438588738441467,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1002,
+        "name": "transformer_w128_l4",
+        "mae": 0.2177969366312027,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1003,
+        "name": "cqs_r",
+        "mae": 0.18985028564929962,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1003,
+        "name": "query_gru",
+        "mae": 0.18915310502052307,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1003,
+        "name": "period_mlp",
+        "mae": 0.29808616638183594,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1003,
+        "name": "joint_mlp_w128",
+        "mae": 0.24287305772304535,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1003,
+        "name": "joint_mlp_w256",
+        "mae": 0.24336954951286316,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1003,
+        "name": "transformer_w64_l2",
+        "mae": 0.21840861439704895,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1003,
+        "name": "transformer_w64_l4",
+        "mae": 0.222809836268425,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1003,
+        "name": "transformer_w128_l2",
+        "mae": 0.21533988416194916,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1003,
+        "name": "transformer_w128_l4",
+        "mae": 0.21847209334373474,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1004,
+        "name": "cqs_r",
+        "mae": 0.1986851543188095,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1004,
+        "name": "query_gru",
+        "mae": 0.19429661333560944,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1004,
+        "name": "period_mlp",
+        "mae": 0.30119243264198303,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1004,
+        "name": "joint_mlp_w128",
+        "mae": 0.23916621506214142,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1004,
+        "name": "joint_mlp_w256",
+        "mae": 0.241667702794075,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1004,
+        "name": "transformer_w64_l2",
+        "mae": 0.23156026005744934,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1004,
+        "name": "transformer_w64_l4",
+        "mae": 0.2280157208442688,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1004,
+        "name": "transformer_w128_l2",
+        "mae": 0.22279998660087585,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1004,
+        "name": "transformer_w128_l4",
+        "mae": 0.21594774723052979,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1005,
+        "name": "cqs_r",
+        "mae": 0.19007064402103424,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1005,
+        "name": "query_gru",
+        "mae": 0.18525727093219757,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1005,
+        "name": "period_mlp",
+        "mae": 0.29023388028144836,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1005,
+        "name": "joint_mlp_w128",
+        "mae": 0.23579615354537964,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1005,
+        "name": "joint_mlp_w256",
+        "mae": 0.2374812513589859,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1005,
+        "name": "transformer_w64_l2",
+        "mae": 0.22466984391212463,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1005,
+        "name": "transformer_w64_l4",
+        "mae": 0.22850443422794342,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1005,
+        "name": "transformer_w128_l2",
+        "mae": 0.22033803164958954,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      },
+      {
+        "seed": 1005,
+        "name": "transformer_w128_l4",
+        "mae": 0.2122741937637329,
+        "max_difference_from_published_prediction": 0.0,
+        "CPU_Transformer_diagnostic": false
+      }
+    ],
+    "timing": "Published RTX4090 timings are audited from saved repetitions; run benchmark_parallel.py to remeasure."
+  }
+}

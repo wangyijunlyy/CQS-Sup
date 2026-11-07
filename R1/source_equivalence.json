@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "scientific_source_AST_matches_original": 79,
+  "portability_only_exceptions": [
+    "paper_iclr2027/rebuttal_20261107/analyze_resource_query.py",
+    "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/calibrated_budget_20261108/worker.py"
+  ],
+  "algorithm_expressions_preserved": true,
+  "anonymization": "Python string/comment tokens only; no regex replacement of executable expressions"
+}

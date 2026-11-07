@@ -1,0 +1,11 @@
+# Python3.10 environment of the new fixed-data chain fits/searches.
+# Use requirements.txt in a separate Python3.12 environment for the full audits.
+torch==2.6.0
+numpy==2.0.2
+scipy==1.13.1
+qiskit==1.4.3
+qiskit-aer==0.17.2
+PyYAML==6.0.2
+# Analysis-only additions for the automatic post-search audit.
+scikit-learn==1.6.1
+threadpoolctl==3.6.0

@@ -1,0 +1,45 @@
+# WMPS 默认实验配置
+
+# ---- 电路/数据 ----
+N: 4                # 量子比特数
+L: 2                # 电路层数(时间轴长度;L>=2 时 RSSM 时序结构才有意义)
+J: -0.1             # TFIM 耦合系数
+h: -0.5             # 横向场系数
+noise_level: 0.0    # 0=无噪声;>0 时单比特 Pauli 噪声强度(每门)
+pauli_weights: [0.45, 0.45, 0.1]   # [pX, pY, pZ] 相对权重(归一化)
+x_range: 1.0        # 输入采样范围 [-x_range, x_range]^d(h_qs 定理的小范围条件)
+n_train: 2000
+n_val: 400
+n_test: 400
+seed: 42
+
+# ---- 世界模型 ----
+encoder_hidden: 128
+rssm_hidden: 128
+predictor_hidden: 128
+stochastic: false   # v1 确定性 GRU;true 开启随机潜变量(KL)
+beta: 0.001         # KL 权重(仅 stochastic=true 时生效)
+dropout: 0.0
+compare_stochastic: true  # evaluate.py 中每个单元同时训练确定性与随机世界模型
+
+# ---- 训练 ----
+epochs: 300
+batch_size: 32
+lr: 0.001
+weight_decay: 0.0001
+patience: 30        # 早停
+device: auto        # auto/cpu/cuda
+
+# ---- 核回归基线 ----
+kappa_lambda: 2     # 三角特征截断阶数 Λ
+ridge_lam: 1.0      # 岭正则 λ
+
+# ---- 评估/测量开销 ----
+eval_eps: 0.05      # 目标预测精度 ε(用于等效测量数估算)
+shots_per_sample: 10    # 训练数据折算的每样本测量次数(对应论文 h_cs 的 T=10 快照)
+shadow_T: 32            # h_cs 基线的经典阴影快照数(T)
+
+# ---- 标度扫描(experiments) ----
+scaling_N: [4, 6]
+scaling_n: [512, 1000, 2000]
+noise_sweep: [0.0, 0.02]
