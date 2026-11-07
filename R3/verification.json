@@ -15,8 +15,8 @@
     "independent_circuit_probabilities": true,
     "finite_shot_query_accounting": true
   },
-  "artifact_files": 8244,
-  "checkpoint_files": 432,
+  "artifact_files": 8492,
+  "checkpoint_files": 456,
   "anonymization": {
     "source_identity_scan": true,
     "compressed_array_and_checkpoint_metadata_scan": true,
@@ -24,5 +24,13 @@
     "hardware_job_identifiers_removed": true,
     "tar_owner_metadata_removed": true
   },
-  "scientific_arrays_and_model_weights_preserved": true
+  "scientific_arrays_and_model_weights_preserved": true,
+  "tfim_input_sets_validated": 12,
+  "tfim_fresh_refit": {
+    "N": 8,
+    "seed": 42,
+    "mae": 0.20978783346510596,
+    "matches_released_result": true
+  },
+  "pinned_requirements_available_from_pypi": true
 }

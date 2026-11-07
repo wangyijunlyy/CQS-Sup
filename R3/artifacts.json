@@ -5,5 +5,16 @@
   "sha256": "04ed2f78e05688359ac9d1b475608a11757aa6cdaad728b940ac67f66cc0ff58",
   "files": 8244,
   "checkpoints": 432,
-  "description": "Actual datasets, split indices, checkpoints, predictions and saved search/measurement traces; anonymized provenance metadata."
+  "description": "Actual datasets, split indices, checkpoints, predictions and saved search/measurement traces; anonymized provenance metadata.",
+  "additional_assets": [
+    {
+      "asset": "r3-tfim-training-inputs-20261108.tar.gz",
+      "bytes": 15490705,
+      "sha256": "47a30f387a1f0da2433f7932e8ff0c863abeeb9908e06a41ad7d1ee95d6f007b",
+      "files": 248,
+      "checkpoints": 24
+    }
+  ],
+  "total_files": 8492,
+  "total_checkpoints": 456
 }

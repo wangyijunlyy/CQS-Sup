@@ -22,23 +22,26 @@ def main():
         print(f'All {len(inventory)} data/checkpoint/record files are present.');return
     meta=json.loads((ROOT/'artifacts.json').read_text())
     cache=ROOT/'.cache';cache.mkdir(exist_ok=True)
-    archive=cache/meta['asset'];url=f"https://github.com/{repository_name(args.repository)}/releases/download/{meta['tag']}/{meta['asset']}"
-    if not archive.exists():
-        partial=archive.with_suffix(archive.suffix+'.part')
-        request=urllib.request.Request(url,headers={'User-Agent':'CQS-R3-reproduction'})
-        print(f"Downloading {meta['bytes']/1024**2:.1f} MiB of data and model checkpoints...",flush=True)
-        with urllib.request.urlopen(request,timeout=120) as response,partial.open('wb') as stream:
-            while chunk:=response.read(1024*1024):stream.write(chunk)
-        partial.replace(archive)
-    with archive.open('rb') as stream:digest=hashlib.file_digest(stream,'sha256').hexdigest()
-    if digest!=meta['sha256']:raise SystemExit('Archive checksum mismatch; remove the cached archive and download again.')
-    with tarfile.open(archive,'r:gz') as package:
-        members=package.getmembers()
-        for member in members:
-            target=(ROOT/member.name).resolve()
-            if not target.is_relative_to(ROOT) or not (member.isfile() or member.isdir()):
-                raise SystemExit('Unexpected archive member')
-        package.extractall(ROOT,members=members,filter='data')
+    repo=repository_name(args.repository)
+    for asset in [meta,*meta.get('additional_assets',[])]:
+        archive=cache/asset['asset']
+        url=f"https://github.com/{repo}/releases/download/{meta['tag']}/{asset['asset']}"
+        if not archive.exists():
+            partial=archive.with_suffix(archive.suffix+'.part')
+            request=urllib.request.Request(url,headers={'User-Agent':'CQS-R3-reproduction'})
+            print(f"Downloading {asset['bytes']/1024**2:.1f} MiB: {asset['asset']}...",flush=True)
+            with urllib.request.urlopen(request,timeout=120) as response,partial.open('wb') as stream:
+                while chunk:=response.read(1024*1024):stream.write(chunk)
+            partial.replace(archive)
+        with archive.open('rb') as stream:digest=hashlib.file_digest(stream,'sha256').hexdigest()
+        if digest!=asset['sha256']:raise SystemExit('Archive checksum mismatch; remove the cached archive and download again.')
+        with tarfile.open(archive,'r:gz') as package:
+            members=package.getmembers()
+            for member in members:
+                target=(ROOT/member.name).resolve()
+                if not target.is_relative_to(ROOT) or not (member.isfile() or member.isdir()):
+                    raise SystemExit('Unexpected archive member')
+            package.extractall(ROOT,members=members,filter='data')
     missing=[r['file'] for r in inventory if not (ROOT/r['file']).is_file()]
     if missing:raise SystemExit(f'Incomplete extraction: {len(missing)} files missing')
     print(f'Ready: {len(inventory)} data/checkpoint/record files extracted under R3.')

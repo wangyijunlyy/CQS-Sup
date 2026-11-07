@@ -41219,6 +41219,1246 @@
       "file": "world_model_surrogate/results_supplementary/e3/confirmation/grid3x3_l2_seed1005/search.json",
       "bytes": 734,
       "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/datasets/table1_hcs_n10_T32.npz",
+      "bytes": 840472,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/datasets/table1_hcs_n12_T32.npz",
+      "bytes": 1011549,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/datasets/table1_hcs_n14_T32.npz",
+      "bytes": 1182418,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/datasets/table1_hcs_n8_T32.npz",
+      "bytes": 669516,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed42/coef_hcs.npy",
+      "bytes": 23240,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed42/pred_hcs.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed42/pred_redq_hcs.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed42/protocol.json",
+      "bytes": 407,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed42/redq_hcs.pt",
+      "bytes": 543697,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed42/redq_hcs_history.json",
+      "bytes": 5085,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed42/results.json",
+      "bytes": 1606,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed42/split.npz",
+      "bytes": 4973,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed43/coef_hcs.npy",
+      "bytes": 23240,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed43/pred_hcs.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed43/pred_redq_hcs.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed43/protocol.json",
+      "bytes": 407,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed43/redq_hcs.pt",
+      "bytes": 543697,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed43/redq_hcs_history.json",
+      "bytes": 5296,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed43/results.json",
+      "bytes": 1607,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed43/split.npz",
+      "bytes": 7245,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed44/coef_hcs.npy",
+      "bytes": 23240,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed44/pred_hcs.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed44/pred_redq_hcs.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed44/protocol.json",
+      "bytes": 407,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed44/redq_hcs.pt",
+      "bytes": 543697,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed44/redq_hcs_history.json",
+      "bytes": 4791,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed44/results.json",
+      "bytes": 1603,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed44/split.npz",
+      "bytes": 7256,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed42/coef_hcs.npy",
+      "bytes": 33992,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed42/pred_hcs.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed42/pred_redq_hcs.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed42/protocol.json",
+      "bytes": 407,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed42/redq_hcs.pt",
+      "bytes": 545745,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed42/redq_hcs_history.json",
+      "bytes": 5671,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed42/results.json",
+      "bytes": 1602,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed42/split.npz",
+      "bytes": 4973,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed43/coef_hcs.npy",
+      "bytes": 33992,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed43/pred_hcs.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed43/pred_redq_hcs.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed43/protocol.json",
+      "bytes": 407,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed43/redq_hcs.pt",
+      "bytes": 545745,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed43/redq_hcs_history.json",
+      "bytes": 4399,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed43/results.json",
+      "bytes": 1604,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed43/split.npz",
+      "bytes": 7245,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed44/coef_hcs.npy",
+      "bytes": 33992,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed44/pred_hcs.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed44/pred_redq_hcs.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed44/protocol.json",
+      "bytes": 407,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed44/redq_hcs.pt",
+      "bytes": 545745,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed44/redq_hcs_history.json",
+      "bytes": 4895,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed44/results.json",
+      "bytes": 1608,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed44/split.npz",
+      "bytes": 7256,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed42/coef_hcs.npy",
+      "bytes": 46792,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed42/pred_hcs.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed42/pred_redq_hcs.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed42/protocol.json",
+      "bytes": 407,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed42/redq_hcs.pt",
+      "bytes": 547793,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed42/redq_hcs_history.json",
+      "bytes": 4862,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed42/results.json",
+      "bytes": 1605,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed42/split.npz",
+      "bytes": 4973,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed43/coef_hcs.npy",
+      "bytes": 46792,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed43/pred_hcs.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed43/pred_redq_hcs.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed43/protocol.json",
+      "bytes": 407,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed43/redq_hcs.pt",
+      "bytes": 547793,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed43/redq_hcs_history.json",
+      "bytes": 5843,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed43/results.json",
+      "bytes": 1606,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed43/split.npz",
+      "bytes": 7245,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed44/coef_hcs.npy",
+      "bytes": 46792,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed44/pred_hcs.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed44/pred_redq_hcs.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed44/protocol.json",
+      "bytes": 407,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed44/redq_hcs.pt",
+      "bytes": 547793,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed44/redq_hcs_history.json",
+      "bytes": 3008,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed44/results.json",
+      "bytes": 1604,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed44/split.npz",
+      "bytes": 7256,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed42/coef_hcs.npy",
+      "bytes": 14536,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed42/pred_hcs.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed42/pred_redq_hcs.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed42/protocol.json",
+      "bytes": 406,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed42/redq_hcs.pt",
+      "bytes": 541649,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed42/redq_hcs_history.json",
+      "bytes": 5968,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed42/results.json",
+      "bytes": 1609,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed42/split.npz",
+      "bytes": 4973,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed43/coef_hcs.npy",
+      "bytes": 14536,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed43/pred_hcs.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed43/pred_redq_hcs.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed43/protocol.json",
+      "bytes": 406,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed43/redq_hcs.pt",
+      "bytes": 541649,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed43/redq_hcs_history.json",
+      "bytes": 5601,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed43/results.json",
+      "bytes": 1605,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed43/split.npz",
+      "bytes": 7245,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed44/coef_hcs.npy",
+      "bytes": 14536,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed44/pred_hcs.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed44/pred_redq_hcs.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed44/protocol.json",
+      "bytes": 406,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed44/redq_hcs.pt",
+      "bytes": 541649,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed44/redq_hcs_history.json",
+      "bytes": 5586,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed44/results.json",
+      "bytes": 1605,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed44/split.npz",
+      "bytes": 7256,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/summary.csv",
+      "bytes": 4425,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/summary.json",
+      "bytes": 1536,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed42/pred_product.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed42/product_energy.pt",
+      "bytes": 285461,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed42/product_energy_history.json",
+      "bytes": 5190,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed42/protocol.json",
+      "bytes": 518,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed42/results.json",
+      "bytes": 1367,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed42/split.npz",
+      "bytes": 4973,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed43/pred_product.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed43/product_energy.pt",
+      "bytes": 285461,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed43/product_energy_history.json",
+      "bytes": 3428,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed43/protocol.json",
+      "bytes": 518,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed43/results.json",
+      "bytes": 1368,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed43/split.npz",
+      "bytes": 7245,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed44/pred_product.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed44/product_energy.pt",
+      "bytes": 285461,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed44/product_energy_history.json",
+      "bytes": 4691,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed44/protocol.json",
+      "bytes": 518,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed44/results.json",
+      "bytes": 1365,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed44/split.npz",
+      "bytes": 7256,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed42/pred_product.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed42/product_energy.pt",
+      "bytes": 416341,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed42/product_energy_history.json",
+      "bytes": 3714,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed42/protocol.json",
+      "bytes": 518,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed42/results.json",
+      "bytes": 1369,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed42/split.npz",
+      "bytes": 4973,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed43/pred_product.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed43/product_energy.pt",
+      "bytes": 416341,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed43/product_energy_history.json",
+      "bytes": 3519,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed43/protocol.json",
+      "bytes": 518,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed43/results.json",
+      "bytes": 1366,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed43/split.npz",
+      "bytes": 7245,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed44/pred_product.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed44/product_energy.pt",
+      "bytes": 416341,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed44/product_energy_history.json",
+      "bytes": 4501,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed44/protocol.json",
+      "bytes": 518,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed44/results.json",
+      "bytes": 1371,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed44/split.npz",
+      "bytes": 7256,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed42/pred_product.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed42/product_energy.pt",
+      "bytes": 572053,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed42/product_energy_history.json",
+      "bytes": 3894,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed42/protocol.json",
+      "bytes": 518,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed42/results.json",
+      "bytes": 1367,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed42/split.npz",
+      "bytes": 4973,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed43/pred_product.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed43/product_energy.pt",
+      "bytes": 572053,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed43/product_energy_history.json",
+      "bytes": 3901,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed43/protocol.json",
+      "bytes": 518,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed43/results.json",
+      "bytes": 1369,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed43/split.npz",
+      "bytes": 7245,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed44/pred_product.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed44/product_energy.pt",
+      "bytes": 572053,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed44/product_energy_history.json",
+      "bytes": 3704,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed44/protocol.json",
+      "bytes": 518,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed44/results.json",
+      "bytes": 1369,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed44/split.npz",
+      "bytes": 7256,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed42/pred_product.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed42/product_energy.pt",
+      "bytes": 179285,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed42/product_energy_history.json",
+      "bytes": 3924,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed42/protocol.json",
+      "bytes": 517,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed42/results.json",
+      "bytes": 1369,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed42/split.npz",
+      "bytes": 4973,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed43/pred_product.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed43/product_energy.pt",
+      "bytes": 179285,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed43/product_energy_history.json",
+      "bytes": 3616,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed43/protocol.json",
+      "bytes": 517,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed43/results.json",
+      "bytes": 1367,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed43/split.npz",
+      "bytes": 7245,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed44/pred_product.npy",
+      "bytes": 1728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed44/product_energy.pt",
+      "bytes": 179285,
+      "kind": "checkpoint"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed44/product_energy_history.json",
+      "bytes": 3819,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed44/protocol.json",
+      "bytes": 517,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed44/results.json",
+      "bytes": 1365,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed44/split.npz",
+      "bytes": 7256,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/seed_results.csv",
+      "bytes": 798,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/summary.json",
+      "bytes": 26728,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed42_nc_hqs/coef.npy",
+      "bytes": 23240,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed42_nc_hqs/counts.npy",
+      "bytes": 878384,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed42_nc_hqs/pred.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed42_nc_hqs/protocol.json",
+      "bytes": 958,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed42_nc_hqs/results.json",
+      "bytes": 1645,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed42_nc_hqs/split.npz",
+      "bytes": 4973,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed44_nc_hqs/coef.npy",
+      "bytes": 14536,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed44_nc_hqs/counts.npy",
+      "bytes": 432368,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed44_nc_hqs/pred.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed44_nc_hqs/protocol.json",
+      "bytes": 954,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed44_nc_hqs/results.json",
+      "bytes": 1641,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed44_nc_hqs/split.npz",
+      "bytes": 7256,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed42_nc_hqs/coef.npy",
+      "bytes": 46792,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed42_nc_hqs/counts.npy",
+      "bytes": 2519984,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed42_nc_hqs/pred.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed42_nc_hqs/protocol.json",
+      "bytes": 958,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed42_nc_hqs/results.json",
+      "bytes": 1647,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed42_nc_hqs/split.npz",
+      "bytes": 4973,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed44_nc_hqs/coef.npy",
+      "bytes": 46792,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed44_nc_hqs/counts.npy",
+      "bytes": 2519984,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed44_nc_hqs/pred.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed44_nc_hqs/protocol.json",
+      "bytes": 958,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed44_nc_hqs/results.json",
+      "bytes": 1643,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed44_nc_hqs/split.npz",
+      "bytes": 7256,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed42_nc_hqs/coef.npy",
+      "bytes": 14536,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed42_nc_hqs/counts.npy",
+      "bytes": 432368,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed42_nc_hqs/pred.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed42_nc_hqs/protocol.json",
+      "bytes": 954,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed42_nc_hqs/results.json",
+      "bytes": 1643,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed42_nc_hqs/split.npz",
+      "bytes": 4973,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed44_nc_hqs/coef.npy",
+      "bytes": 23240,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed44_nc_hqs/counts.npy",
+      "bytes": 878384,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed44_nc_hqs/pred.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed44_nc_hqs/protocol.json",
+      "bytes": 958,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed44_nc_hqs/results.json",
+      "bytes": 1645,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed44_nc_hqs/split.npz",
+      "bytes": 7256,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed43_nc_hqs/coef.npy",
+      "bytes": 33992,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed43_nc_hqs/counts.npy",
+      "bytes": 1557872,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed43_nc_hqs/pred.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed43_nc_hqs/protocol.json",
+      "bytes": 958,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed43_nc_hqs/results.json",
+      "bytes": 1646,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed43_nc_hqs/split.npz",
+      "bytes": 7245,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed43_nc_hqs/coef.npy",
+      "bytes": 46792,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed43_nc_hqs/counts.npy",
+      "bytes": 2519984,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed43_nc_hqs/pred.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed43_nc_hqs/protocol.json",
+      "bytes": 958,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed43_nc_hqs/results.json",
+      "bytes": 1645,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n14_seed43_nc_hqs/split.npz",
+      "bytes": 7245,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed43_nc_hqs/coef.npy",
+      "bytes": 23240,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed43_nc_hqs/counts.npy",
+      "bytes": 878384,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed43_nc_hqs/pred.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed43_nc_hqs/protocol.json",
+      "bytes": 958,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed43_nc_hqs/results.json",
+      "bytes": 1648,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n10_seed43_nc_hqs/split.npz",
+      "bytes": 7245,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed44_nc_hqs/coef.npy",
+      "bytes": 33992,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed44_nc_hqs/counts.npy",
+      "bytes": 1557872,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed44_nc_hqs/pred.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed44_nc_hqs/protocol.json",
+      "bytes": 958,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed44_nc_hqs/results.json",
+      "bytes": 1645,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed44_nc_hqs/split.npz",
+      "bytes": 7256,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed42_nc_hqs/coef.npy",
+      "bytes": 33992,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed42_nc_hqs/counts.npy",
+      "bytes": 1557872,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed42_nc_hqs/pred.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed42_nc_hqs/protocol.json",
+      "bytes": 958,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed42_nc_hqs/results.json",
+      "bytes": 1645,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n12_seed42_nc_hqs/split.npz",
+      "bytes": 4973,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed43_nc_hqs/coef.npy",
+      "bytes": 14536,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed43_nc_hqs/counts.npy",
+      "bytes": 432368,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed43_nc_hqs/pred.npy",
+      "bytes": 3328,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed43_nc_hqs/protocol.json",
+      "bytes": 954,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed43_nc_hqs/results.json",
+      "bytes": 1643,
+      "kind": "data_or_record"
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/table1_n8_seed43_nc_hqs/split.npz",
+      "bytes": 7245,
+      "kind": "data_or_record"
     }
   ]
 }

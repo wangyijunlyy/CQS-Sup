@@ -82,7 +82,12 @@
     "world_model_surrogate/src/wmps/models/nc_baselines.py",
     "world_model_surrogate/src/wmps/models/periodic_redq.py",
     "world_model_surrogate/src/wmps/models/world_model.py",
-    "world_model_surrogate/src/wmps/train.py"
+    "world_model_surrogate/src/wmps/train.py",
+    "world_model_surrogate/scripts/run_table1_hcs.py",
+    "world_model_surrogate/scripts/nc_hqs_expanded.py",
+    "world_model_surrogate/scripts/nc_reference_fixture.py",
+    "tmp/nc_predictive_surrogates_upstream/lib/surrogate.py",
+    "tmp/nc_predictive_surrogates_upstream/LICENSE"
   ],
   "layout": "Relative to R3",
   "privacy": "Host paths and author/account metadata removed; scientific arrays unchanged",

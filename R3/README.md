@@ -1,6 +1,6 @@
 # R3: additional experiments and reproducibility materials
 
-This folder provides the experiment code, the actual datasets and model checkpoints, and the saved predictions and measurement/search traces used in the R3 response. The large artifacts are attached to the `r3-repro-20261108` release of this same repository. `fetch_artifacts.py` downloads and extracts them automatically; no author workstation or server is required.
+This folder provides the experiment code, the actual datasets and model checkpoints, and the saved predictions and measurement/search traces used in the R3 response. The main artifact and an additional TFIM training-input bundle are attached to the `r3-repro-20261108` release of this same repository. `fetch_artifacts.py` downloads and extracts them automatically; no author workstation or server is required.
 
 ## Reproduce the results
 
@@ -16,7 +16,7 @@ python reproduce.py --suite all
 
 The downloader derives the repository name from the checkout's Git origin. If the folder was downloaded without Git metadata, pass `--repository OWNER/REPOSITORY` to the downloader. Both the code and the release asset must be retained when making a mirror.
 
-The artifact contains 8,244 files, including **432 checkpoint files**. It includes acquired/simulated labels, exact evaluation targets, split indices, Fourier/NC coefficients, neural-network weights, validation histories, and saved optimization and measurement records. `artifact_inventory.json` enumerates them. The download is checked against the published archive checksum before extraction. No credentials or hardware-service account is needed to replay the hardware measurements.
+The artifact contains 8,492 files, including **456 checkpoint files**. It includes acquired/simulated labels, exact evaluation targets, split indices, Fourier/NC coefficients, neural-network weights, validation histories, and saved optimization and measurement records. `artifact_inventory.json` enumerates them. The download is checked against the published archive checksum before extraction. No credentials or hardware-service account is needed to replay the hardware measurements.
 
 The default reproduction command recomputes numerical evidence from these inputs. It evaluates saved neural checkpoints, reconstructs energy scores and acceptance decisions, and checks the measurement budgets. It does not rerun the expensive training or acquire new QPU measurements. A successful run writes `reproduction_report.json`.
 
@@ -50,6 +50,8 @@ All paths below are relative to this folder. The directory layout is retained so
 | Dense implementation costs | `cost_audit.py` |
 | Independent fits under an actual training-time budget | `resource_query.py`, `analyze_resource_query.py` |
 | Finite-shot SPSA/parameter-shift Adam and total-budget curves | `resource_chain.py`, `analyze_resource_chain.py` |
+
+The TFIM supplement also includes the original measured training labels and checkpoints needed to refit the tuned NC baseline. Run `python retrain_tfim.py --check-inputs` to validate all twelve input sets, or `python retrain_tfim.py --n 8 --seed 42` to perform a fresh fit in `outputs/tfim/`. The bundled reference NC implementation retains its third-party license.
 
 The corresponding model, circuit, fitting and data-generation implementations are included under `world_model_surrogate/src/` and `world_model_surrogate/scripts/`. `code_manifest.json` lists the included files.
 
