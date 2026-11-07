@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "source": "Public repository checkout and public Release asset",
+  "request_uses_GitHub_authentication": false,
+  "GitHub_token_environment_variables_removed": true,
+  "release_tag": "r1-repro-20261108",
+  "asset": "r1-data-checkpoints-20261108.tar.gz",
+  "downloaded_bytes": 764198345,
+  "archive_sha256": "a8ba553622019bc3319527361cda4ee07fbe3cb317342628fc64e8ba751c5558",
+  "archive_matches_published_digest": true,
+  "all_artifact_files_extracted": 7918
+}

@@ -24,5 +24,11 @@
     "strong-grid",
     "timing"
   ],
-  "privacy_process": "Python string/comment tokens only, with AST comparison to original scientific sources"
+  "privacy_process": "Python string/comment tokens only, with AST comparison to original scientific sources",
+  "public_clean_checkout_all_suites_passed": true,
+  "public_clean_checkout_suites": 11,
+  "public_clean_checkout_programs": 14,
+  "public_download_without_authentication_verified": true,
+  "public_clean_replay_report": "verification/public_clean_replay.json",
+  "public_download_report": "verification/public_download.json"
 }

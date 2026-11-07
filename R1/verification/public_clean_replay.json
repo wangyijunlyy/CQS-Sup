@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "mode": "numerical replay of published runs",
+  "runs": [
+    {
+      "suite": "masks",
+      "script": "replay_evidence.py",
+      "passed": true,
+      "seconds": 1.825842999969609
+    },
+    {
+      "suite": "common",
+      "script": "replay_evidence.py",
+      "passed": true,
+      "seconds": 33.46434283407871
+    },
+    {
+      "suite": "parallel",
+      "script": "replay_evidence.py",
+      "passed": true,
+      "seconds": 4.94372275006026
+    },
+    {
+      "suite": "query",
+      "script": "paper_iclr2027/rebuttal_20261107/analyze_resource_query.py",
+      "passed": true,
+      "seconds": 9.244209666969255
+    },
+    {
+      "suite": "fixed-chain",
+      "script": "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/fixed_data_chain_20261108/analyze_confirmation.py",
+      "passed": true,
+      "seconds": 20.54596316604875
+    },
+    {
+      "suite": "reference",
+      "script": "replay_evidence.py",
+      "passed": true,
+      "seconds": 2.9943017499754205
+    },
+    {
+      "suite": "grid-continuation",
+      "script": "replay_evidence.py",
+      "passed": true,
+      "seconds": 3.872431708034128
+    },
+    {
+      "suite": "local-chain",
+      "script": "paper_iclr2027/rebuttal_20261107/analyze_chain_depth_recovery.py",
+      "passed": true,
+      "seconds": 4.740345290978439
+    },
+    {
+      "suite": "local-chain",
+      "script": "paper_iclr2027/rebuttal_20261107/analyze_resource_chain.py",
+      "passed": true,
+      "seconds": 5.329368415987119
+    },
+    {
+      "suite": "local-chain",
+      "script": "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/extensions_20261108/analyze_fourier_chain.py",
+      "passed": true,
+      "seconds": 5.520825125044212
+    },
+    {
+      "suite": "local-chain",
+      "script": "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/extensions_20261108/analyze_direct_jitter.py",
+      "passed": true,
+      "seconds": 5.24401324999053
+    },
+    {
+      "suite": "local-confirmation",
+      "script": "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/calibrated_budget_20261108/analyze.py",
+      "passed": true,
+      "seconds": 202.54943795897998
+    },
+    {
+      "suite": "strong-grid",
+      "script": "replay_evidence.py",
+      "passed": true,
+      "seconds": 5.459983165957965
+    },
+    {
+      "suite": "timing",
+      "script": "replay_evidence.py",
+      "passed": true,
+      "seconds": 1.6384306669933721
+    }
+  ]
+}

@@ -81,6 +81,8 @@
     "rerun_reference.py",
     "source_equivalence.json",
     "verification/cuda_checkpoint_replay.json",
+    "verification/public_clean_replay.json",
+    "verification/public_download.json",
     "verification_report.json",
     "world_model_surrogate/configs/fspt.yaml",
     "world_model_surrogate/configs/fspt_paper.yaml",
