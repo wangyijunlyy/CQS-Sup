@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.cache/
+reproduction_report.json
+world_model_surrogate/results*/
+paper_iclr2027/rebuttal_20261107/evidence/
+
+outputs/

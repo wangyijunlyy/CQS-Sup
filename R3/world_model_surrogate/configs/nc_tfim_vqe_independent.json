@@ -1,0 +1,16 @@
+{
+  "version": "nc-si-tfim-vqe-independent-v1",
+  "reference": "Independent confirmation split for the matched simulator TFIM VQE evaluation",
+  "seeds": [45, 46, 47],
+  "baseline": {"alpha": 1.0, "support": 2, "fit_lr": 0.01, "fit_epochs": 5000, "init_seed": 1234, "ema_decay": 0.9, "ema_threshold": 0.0001},
+  "redq": {"width": 128, "epochs": 300, "lr": 0.001, "batch_size": 32, "patience": 30},
+  "vqe": {"restarts": 20, "steps": 100, "lr": 0.1, "clip": 3.141592653589793, "exact_curve_every": 10},
+  "cases": [
+    {"id": "chain6_l1", "rows": 1, "cols": 6, "layers": 1, "shared": false, "train": 2000, "val": 400, "test": 400, "shots": 10, "feature_count": null, "couplings": [-0.1]},
+    {"id": "chain6_l2", "rows": 1, "cols": 6, "layers": 2, "shared": false, "train": 2000, "val": 400, "test": 400, "shots": 10, "feature_count": null, "couplings": [-0.5, -0.3, -0.1, 0.1, 0.3, 0.5]},
+    {"id": "grid2x3_l1", "rows": 2, "cols": 3, "layers": 1, "shared": true, "train": 160, "val": 40, "test": 200, "shots": 10000, "feature_count": 1000, "couplings": [-0.1]},
+    {"id": "grid2x3_l2", "rows": 2, "cols": 3, "layers": 2, "shared": true, "train": 160, "val": 40, "test": 200, "shots": 10000, "feature_count": 1000, "couplings": [-0.1]},
+    {"id": "grid3x3_l1", "rows": 3, "cols": 3, "layers": 1, "shared": true, "train": 160, "val": 40, "test": 200, "shots": 10000, "feature_count": 1000, "couplings": [-0.1]},
+    {"id": "grid3x3_l2", "rows": 3, "cols": 3, "layers": 2, "shared": true, "train": 160, "val": 40, "test": 200, "shots": 10000, "feature_count": 1000, "couplings": [-0.1]}
+  ]
+}

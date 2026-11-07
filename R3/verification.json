@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "python": "3.12.7",
+  "tested_from": "Independent package directory with extracted published artifacts",
+  "replay_suites": [
+    "hardware",
+    "w1",
+    "w2",
+    "query",
+    "chain"
+  ],
+  "replay_jobs": 7,
+  "resource_tests": {
+    "matched_history_predictions_and_gradients": true,
+    "independent_circuit_probabilities": true,
+    "finite_shot_query_accounting": true
+  },
+  "artifact_files": 8244,
+  "checkpoint_files": 432,
+  "anonymization": {
+    "source_identity_scan": true,
+    "compressed_array_and_checkpoint_metadata_scan": true,
+    "host_and_account_metadata_removed": true,
+    "hardware_job_identifiers_removed": true,
+    "tar_owner_metadata_removed": true
+  },
+  "scientific_arrays_and_model_weights_preserved": true
+}

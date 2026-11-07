@@ -1,0 +1,9 @@
+{
+  "tag": "r3-repro-20261108",
+  "asset": "r3-data-checkpoints-20261108.tar.gz",
+  "bytes": 709639026,
+  "sha256": "04ed2f78e05688359ac9d1b475608a11757aa6cdaad728b940ac67f66cc0ff58",
+  "files": 8244,
+  "checkpoints": 432,
+  "description": "Actual datasets, split indices, checkpoints, predictions and saved search/measurement traces; anonymized provenance metadata."
+}
