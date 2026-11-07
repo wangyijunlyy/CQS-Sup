@@ -13,8 +13,16 @@
       "sha256": "47a30f387a1f0da2433f7932e8ff0c863abeeb9908e06a41ad7d1ee95d6f007b",
       "files": 248,
       "checkpoints": 24
+    },
+    {
+      "asset": "r3-fixed-data-chain-20261108.tar.gz",
+      "bytes": 195315061,
+      "sha256": "2a466191c628ec48d7fbd053b73935a4762f0d7a2b38a7471922d524427b86e7",
+      "files": 1966,
+      "checkpoints": 310,
+      "description": "Ten independent fixed-data chain datasets, all 310 product checkpoints, complete Fourier fits, validation candidates and 360 search traces."
     }
   ],
-  "total_files": 8492,
-  "total_checkpoints": 456
+  "total_files": 10458,
+  "total_checkpoints": 766
 }

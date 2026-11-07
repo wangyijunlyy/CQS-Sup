@@ -1,0 +1,16 @@
+{
+  "delta_definition": "E_product-E_Fourier; negative favors product",
+  "development_only": true,
+  "independent_datasets": 3,
+  "all_six_couplings": true,
+  "all20terminal_outputs": true,
+  "eligible_arms": [
+    "clamp_uniform100",
+    "wrap_reference100"
+  ],
+  "run_confirmation": true,
+  "selected_arm": "wrap_reference100",
+  "rule": "mean difference must be negative against both historical and tuned complete Fourier for the same arm",
+  "confirmation_datasets": 10,
+  "added_shots": 0
+}

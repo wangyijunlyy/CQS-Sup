@@ -1,0 +1,127 @@
+{
+  "cap_seconds": 10,
+  "pilot": [
+    {
+      "seed": 45,
+      "method": "product",
+      "repeat": 0,
+      "seconds": 0.11567451099836035
+    },
+    {
+      "seed": 45,
+      "method": "product",
+      "repeat": 1,
+      "seconds": 0.11602977399888914
+    },
+    {
+      "seed": 45,
+      "method": "fourier",
+      "repeat": 0,
+      "seconds": 4.718523203002405
+    },
+    {
+      "seed": 45,
+      "method": "fourier",
+      "repeat": 1,
+      "seconds": 4.788164589997905
+    },
+    {
+      "seed": 45,
+      "method": "fourier_original",
+      "repeat": 0,
+      "seconds": 5.130557965996559
+    },
+    {
+      "seed": 45,
+      "method": "fourier_original",
+      "repeat": 1,
+      "seconds": 4.7976055899998755
+    },
+    {
+      "seed": 46,
+      "method": "product",
+      "repeat": 0,
+      "seconds": 0.10060013800102752
+    },
+    {
+      "seed": 46,
+      "method": "product",
+      "repeat": 1,
+      "seconds": 0.10068211999896448
+    },
+    {
+      "seed": 46,
+      "method": "fourier",
+      "repeat": 0,
+      "seconds": 5.062699990994588
+    },
+    {
+      "seed": 46,
+      "method": "fourier",
+      "repeat": 1,
+      "seconds": 4.761809126997832
+    },
+    {
+      "seed": 46,
+      "method": "fourier_original",
+      "repeat": 0,
+      "seconds": 5.161366380001709
+    },
+    {
+      "seed": 46,
+      "method": "fourier_original",
+      "repeat": 1,
+      "seconds": 4.772791821997089
+    },
+    {
+      "seed": 47,
+      "method": "product",
+      "repeat": 0,
+      "seconds": 0.09280920099990908
+    },
+    {
+      "seed": 47,
+      "method": "product",
+      "repeat": 1,
+      "seconds": 0.09220068800641457
+    },
+    {
+      "seed": 47,
+      "method": "fourier",
+      "repeat": 0,
+      "seconds": 5.089530676996219
+    },
+    {
+      "seed": 47,
+      "method": "fourier",
+      "repeat": 1,
+      "seconds": 5.0222752609988675
+    },
+    {
+      "seed": 47,
+      "method": "fourier_original",
+      "repeat": 0,
+      "seconds": 5.142857498998637
+    },
+    {
+      "seed": 47,
+      "method": "fourier_original",
+      "repeat": 1,
+      "seconds": 5.0670382710013655
+    }
+  ],
+  "rule": "ceil(1.5*slowest full100-update/20-start block), minimum10seconds",
+  "CPU_threads": 2,
+  "dtype": "float64",
+  "steps_per_block": 100,
+  "continuation": {
+    "sigma": 1.0,
+    "fraction": 0.6
+  },
+  "boundary": "periodic wrap",
+  "selection": "lowest predicted energy with periodic active-coordinate RMS diversity0.2; fill remaining by predicted score",
+  "eligible": "complete block, pooled selection and copied outputs within cap; late blocks discarded",
+  "original_acquisition_shots": 24000,
+  "added_shots": 0,
+  "exact_targets_used": false
+}

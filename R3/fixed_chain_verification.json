@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "anonymity": {
+    "passed": true,
+    "files_scanned": 1981,
+    "binary_archives_scanned": 1290,
+    "anonymous_archive_metadata": true,
+    "numeric_arrays_scanned_via_headers": true,
+    "string_arrays_decoded": true,
+    "findings": []
+  },
+  "independent_datasets": 10,
+  "checkpoints": 310,
+  "searches": 360,
+  "unit_tests": 11,
+  "replay_matches_original": true,
+  "original_scientific_arrays_unchanged": true
+}

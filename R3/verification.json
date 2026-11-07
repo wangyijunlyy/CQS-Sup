@@ -7,16 +7,17 @@
     "w1",
     "w2",
     "query",
-    "chain"
+    "chain",
+    "chain-fixed"
   ],
-  "replay_jobs": 7,
+  "replay_jobs": 8,
   "resource_tests": {
     "matched_history_predictions_and_gradients": true,
     "independent_circuit_probabilities": true,
     "finite_shot_query_accounting": true
   },
-  "artifact_files": 8492,
-  "checkpoint_files": 456,
+  "artifact_files": 10458,
+  "checkpoint_files": 766,
   "anonymization": {
     "source_identity_scan": true,
     "compressed_array_and_checkpoint_metadata_scan": true,
@@ -32,5 +33,17 @@
     "mae": 0.20978783346510596,
     "matches_released_result": true
   },
-  "pinned_requirements_available_from_pypi": true
+  "pinned_requirements_available_from_pypi": true,
+  "fixed_data_chain": {
+    "full_datasets": 10,
+    "full_product_checkpoints": 310,
+    "searches": 360,
+    "added_search_shots": 0,
+    "all_measured_labels_reconstructed": true,
+    "all_model_selections_rebuilt": true,
+    "recomputed_energy_summaries_match": true,
+    "unit_tests": 11,
+    "fresh_training_entrypoint": "rerun_fixed_chain.py",
+    "entrypoint_resume_verified": true
+  }
 }

@@ -9,6 +9,7 @@ SUITES={
  'w2':[("analyze_W2.py","--curriculum")],
  'query':[("analyze_resource_query.py",)],
  'chain':[("analyze_chain_depth_recovery.py",),("analyze_chain_mechanism.py",),("analyze_resource_chain.py",)],
+ 'chain-fixed':[("reviewer_weak_reject_2/fixed_data_chain_20261108/analyze_confirmation.py",)],
 }
 def main():
     ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--suite',choices=['all',*SUITES],default='all');args=ap.parse_args()

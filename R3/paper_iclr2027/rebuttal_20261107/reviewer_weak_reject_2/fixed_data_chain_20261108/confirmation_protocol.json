@@ -1,0 +1,130 @@
+{
+  "seeds": [
+    3101,
+    3102,
+    3103,
+    3104,
+    3105,
+    3106,
+    3107,
+    3108,
+    3109,
+    3110
+  ],
+  "primary_arm": "wrap_reference100",
+  "fixed_arms": [
+    "clamp_uniform100",
+    "wrap_reference100"
+  ],
+  "secondary_original_search": "clamp_uniform100",
+  "time_cap_seconds": 10,
+  "N": 6,
+  "layers": 2,
+  "active_controls": 16,
+  "splits": [
+    2000,
+    400,
+    400
+  ],
+  "measured_controls": 2400,
+  "random_Pauli_shots_per_control": 10,
+  "simulated_acquisition_shots_per_dataset": 24000,
+  "added_search_shots": 0,
+  "total_new_simulated_shots": 240000,
+  "hardware_shots": 0,
+  "ranks": [
+    2,
+    4,
+    6,
+    8,
+    16,
+    32
+  ],
+  "product_regularizers": [
+    [
+      "weight_decay",
+      0.0001
+    ],
+    [
+      "coefficient",
+      0
+    ],
+    [
+      "coefficient",
+      0.1
+    ],
+    [
+      "coefficient",
+      1
+    ],
+    [
+      "coefficient",
+      10
+    ]
+  ],
+  "original_product_candidate": "original moment-validation R32 model fitted separately and retained",
+  "Fourier_baselines": [
+    "original8 scaled-ridge selected by moment validation",
+    "union8 scaled +8 raw penalty selected by energy validation"
+  ],
+  "selection": "CQS-P: six-coupling measured energy validation across31candidates; tuned Fourier: six-coupling energy validation across16candidates; original Fourier: moment validation across original8scaled candidates",
+  "epoch_cap": 300,
+  "patience": 30,
+  "couplings": [
+    -0.5,
+    -0.3,
+    -0.1,
+    0.1,
+    0.3,
+    0.5
+  ],
+  "h": -0.5,
+  "restarts": 20,
+  "statistical_unit": "independent dataset; average20outputs then six couplings",
+  "primary_delta": "product-minus-each-complete-Fourier-baseline; negative favors product",
+  "success": "upper endpoint of paired95CI below0 against both baselines on primary arm",
+  "secondary_rule": "original-search result reported separately; no replacement of primary after confirmation scoring",
+  "freeze": "before any3101-3110dataset generation or exact endpoint scoring",
+  "primary_choice": "prespecified development worst-baseline mean difference rule; best of eligible fixed/time conditions",
+  "exact_targets": "all ten datasets fit and searches saved and preflighted before any exact scoring",
+  "random_streams": {
+    "controls": "seed",
+    "measurement": "seed+2000 independent stream",
+    "uniform_search": "seed+10000",
+    "reference_search": "970000+seed"
+  },
+  "random_stream_note": "Independent measurement stream matches the earlier new-data protocol; original45-47 generation used the control RNG stream after sampling controls. Distribution and pairing are unchanged.",
+  "Fourier_grids": {
+    "raw": [
+      0,
+      1e-06,
+      0.0001,
+      0.01,
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "scaled": [
+      1e-08,
+      1e-06,
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1,
+      10
+    ]
+  },
+  "search_parameters": {
+    "Adam_lr": 0.1,
+    "initial_sigma": 1,
+    "fraction_to_zero": 0.6,
+    "steps": 100,
+    "uniform_boundary": "clamp",
+    "reference_boundary": "periodic_wrap",
+    "reference_perturbation_halfwidth": 0.2,
+    "reference_active_slots": "6:22"
+  },
+  "clarification": "Documentation of implemented selection exceptions, RNG and search values; no method or primary/secondary change after freezing."
+}

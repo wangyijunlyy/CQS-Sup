@@ -1,6 +1,6 @@
 # R3: additional experiments and reproducibility materials
 
-This folder provides the experiment code, the actual datasets and model checkpoints, and the saved predictions and measurement/search traces used in the R3 response. The main artifact and an additional TFIM training-input bundle are attached to the `r3-repro-20261108` release of this same repository. `fetch_artifacts.py` downloads and extracts them automatically; no author workstation or server is required.
+This folder provides the experiment code, the actual datasets and model checkpoints, and the saved predictions and measurement/search traces used in the R3 response. The main artifact, an additional TFIM training-input bundle and the ten-dataset fixed-data chain bundle are attached to the `r3-repro-20261108` release of this same repository. `fetch_artifacts.py` downloads and extracts them automatically; no author workstation or server is required.
 
 ## Reproduce the results
 
@@ -16,7 +16,7 @@ python reproduce.py --suite all
 
 The downloader derives the repository name from the checkout's Git origin. If the folder was downloaded without Git metadata, pass `--repository OWNER/REPOSITORY` to the downloader. Both the code and the release asset must be retained when making a mirror.
 
-The artifact contains 8,492 files, including **456 checkpoint files**. It includes acquired/simulated labels, exact evaluation targets, split indices, Fourier/NC coefficients, neural-network weights, validation histories, and saved optimization and measurement records. `artifact_inventory.json` enumerates them. The download is checked against the published archive checksum before extraction. No credentials or hardware-service account is needed to replay the hardware measurements.
+The artifact contains 10,458 files, including **766 checkpoint files**. It includes acquired/simulated labels, exact evaluation targets, split indices, Fourier/NC coefficients, neural-network weights, validation histories, and saved optimization and measurement records. `artifact_inventory.json` enumerates them. The download is checked against the published archive checksum before extraction. No credentials or hardware-service account is needed to replay the hardware measurements.
 
 The default reproduction command recomputes numerical evidence from these inputs. It evaluates saved neural checkpoints, reconstructs energy scores and acceptance decisions, and checks the measurement budgets. It does not rerun the expensive training or acquire new QPU measurements. A successful run writes `reproduction_report.json`.
 
@@ -28,7 +28,10 @@ python reproduce.py --suite w1
 python reproduce.py --suite w2
 python reproduce.py --suite query
 python reproduce.py --suite chain
+python reproduce.py --suite chain-fixed
 ```
+
+The new fixed-data chain suite reconstructs all ten datasets' measured labels and model selections and scores all 360 saved searches. [FIXED_CHAIN.md](FIXED_CHAIN.md) gives the full settings, result interpretation and commands for fresh data generation and all 310 fits.
 
 ## Experiments and entry points
 

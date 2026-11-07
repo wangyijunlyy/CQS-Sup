@@ -50,6 +50,19 @@
     "paper_iclr2027/rebuttal_20261107/resource_chain.py",
     "paper_iclr2027/rebuttal_20261107/resource_query.py",
     "paper_iclr2027/rebuttal_20261107/resource_response_tables.py",
+    "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/extensions_20261108/complete_fourier.py",
+    "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/fixed_data_chain_20261108/analyze.py",
+    "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/fixed_data_chain_20261108/analyze_confirmation.py",
+    "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/fixed_data_chain_20261108/artifacts.py",
+    "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/fixed_data_chain_20261108/confirm.py",
+    "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/fixed_data_chain_20261108/fitting.py",
+    "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/fixed_data_chain_20261108/run_tuned.py",
+    "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/fixed_data_chain_20261108/search.py",
+    "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/fixed_data_chain_20261108/test_artifacts.py",
+    "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/fixed_data_chain_20261108/test_fitting.py",
+    "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/fixed_data_chain_20261108/test_search.py",
+    "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/fixed_data_chain_20261108/test_timed.py",
+    "paper_iclr2027/rebuttal_20261107/reviewer_weak_reject_2/fixed_data_chain_20261108/timed.py",
     "paper_iclr2027/rebuttal_20261107/run_W1_common_penalty.py",
     "paper_iclr2027/rebuttal_20261107/run_W1_fspt_matrix.py",
     "paper_iclr2027/rebuttal_20261107/run_W2_curriculum.py",
@@ -58,6 +71,11 @@
     "paper_iclr2027/rebuttal_20261107/stronger_grid_controls.py",
     "paper_iclr2027/rebuttal_20261107/test_resource_controls.py",
     "paper_iclr2027/rebuttal_20261107/tune_nc.py",
+    "rerun_fixed_chain.py",
+    "tmp/nc_predictive_surrogates_upstream/LICENSE",
+    "tmp/nc_predictive_surrogates_upstream/lib/surrogate.py",
+    "world_model_surrogate/scripts/nc_hqs_expanded.py",
+    "world_model_surrogate/scripts/nc_reference_fixture.py",
     "world_model_surrogate/scripts/prepare_fspt_scaling.py",
     "world_model_surrogate/scripts/run_fspt8_fair.py",
     "world_model_surrogate/scripts/run_fspt_controls.py",
@@ -69,6 +87,7 @@
     "world_model_surrogate/scripts/run_supplement_e1.py",
     "world_model_surrogate/scripts/run_supplement_e2.py",
     "world_model_surrogate/scripts/run_supplement_e3.py",
+    "world_model_surrogate/scripts/run_table1_hcs.py",
     "world_model_surrogate/scripts/run_table1_tuned_control.py",
     "world_model_surrogate/scripts/run_vqe_fourier_controls.py",
     "world_model_surrogate/src/wmps/__init__.py",
@@ -82,16 +101,20 @@
     "world_model_surrogate/src/wmps/models/nc_baselines.py",
     "world_model_surrogate/src/wmps/models/periodic_redq.py",
     "world_model_surrogate/src/wmps/models/world_model.py",
-    "world_model_surrogate/src/wmps/train.py",
-    "world_model_surrogate/scripts/run_table1_hcs.py",
-    "world_model_surrogate/scripts/nc_hqs_expanded.py",
-    "world_model_surrogate/scripts/nc_reference_fixture.py",
-    "tmp/nc_predictive_surrogates_upstream/lib/surrogate.py",
-    "tmp/nc_predictive_surrogates_upstream/LICENSE"
+    "world_model_surrogate/src/wmps/train.py"
   ],
   "layout": "Relative to R3",
   "privacy": "Host paths and author/account metadata removed; scientific arrays unchanged",
   "portability_changes": [
     "Lowercase e2 dataset folder in analyze_resource_query.py"
-  ]
+  ],
+  "fixed_data_chain": {
+    "programs": [
+      "confirm.py",
+      "analyze_confirmation.py"
+    ],
+    "protocol": "reviewer_weak_reject_2/fixed_data_chain_20261108/confirmation_protocol.json",
+    "checkpoints": 310,
+    "searches": 360
+  }
 }
