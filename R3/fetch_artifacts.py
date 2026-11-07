@@ -36,7 +36,10 @@ def main():
         with archive.open('rb') as stream:digest=hashlib.file_digest(stream,'sha256').hexdigest()
         if digest!=asset['sha256']:raise SystemExit('Archive checksum mismatch; remove the cached archive and download again.')
         with tarfile.open(archive,'r:gz') as package:
-            members=package.getmembers()
+            # Older data bundles carry their own historical inventory. Keep
+            # the checkout inventory, which covers every current release asset.
+            members=[member for member in package.getmembers()
+                     if member.name not in ('artifact_inventory.json','./artifact_inventory.json')]
             for member in members:
                 target=(ROOT/member.name).resolve()
                 if not target.is_relative_to(ROOT) or not (member.isfile() or member.isdir()):
