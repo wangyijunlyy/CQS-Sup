@@ -1,0 +1,24 @@
+{
+  "arm": "hybrid",
+  "seed": 1001,
+  "budget_seconds": 120.0,
+  "actual_seconds": 120.00783224400038,
+  "selected": {
+    "epoch": 70,
+    "seconds": 119.989806855001,
+    "steps": 4410,
+    "train_mse": 0.06921195095777512,
+    "val_mse": 0.07343581318855286
+  },
+  "epochs_started": 71,
+  "optimizer_steps": 4412,
+  "parameters": 108872,
+  "initial_validation_mse": 0.20124225318431854,
+  "warmup_seconds_excluded": 0.07292956899982528,
+  "setup_excluded": true,
+  "test_evaluated": false,
+  "device": "NVIDIA GeForce RTX 4090",
+  "torch": "2.6.0+cu124",
+  "numpy": "2.0.2",
+  "python": "3.10.19"
+}

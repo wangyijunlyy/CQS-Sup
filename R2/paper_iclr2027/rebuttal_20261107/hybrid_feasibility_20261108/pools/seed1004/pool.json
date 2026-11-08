@@ -1,0 +1,15 @@
+{
+  "seed": 1004,
+  "arm_order": [
+    "additive",
+    "recurrent",
+    "product",
+    "hybrid"
+  ],
+  "original_split": [
+    2000,
+    400,
+    400
+  ],
+  "new_labels": 0
+}

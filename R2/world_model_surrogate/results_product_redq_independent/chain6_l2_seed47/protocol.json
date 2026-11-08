@@ -1,0 +1,40 @@
+{
+  "method": "product",
+  "case": {
+    "id": "chain6_l2",
+    "rows": 1,
+    "cols": 6,
+    "layers": 2,
+    "shared": false,
+    "train": 2000,
+    "val": 400,
+    "test": 400,
+    "shots": 10,
+    "feature_count": null,
+    "couplings": [
+      -0.5,
+      -0.3,
+      -0.1,
+      0.1,
+      0.3,
+      0.5
+    ]
+  },
+  "seed": 47,
+  "width": 32,
+  "harmonics": 1,
+  "epochs": 300,
+  "dataset_sha256": "33b837c580512a53c5ee86e2b403330f08b573753b2b4128cac80de20df240ed",
+  "training_labels": "stored measured_terms only",
+  "checkpoint": "measured validation MSE",
+  "extra_measurements": 0,
+  "exact_values": "post-fit evaluation only",
+  "vqe": {
+    "restarts": 20,
+    "steps": 100,
+    "lr": 0.1,
+    "clip": 3.141592653589793,
+    "exact_curve_every": 10
+  },
+  "scope": "development audit; seeds used in earlier development"
+}

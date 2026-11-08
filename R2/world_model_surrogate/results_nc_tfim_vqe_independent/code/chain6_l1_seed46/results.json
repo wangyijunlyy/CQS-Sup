@@ -1,0 +1,156 @@
+{
+  "completed": true,
+  "protocol": {
+    "case": {
+      "id": "chain6_l1",
+      "rows": 1,
+      "cols": 6,
+      "layers": 1,
+      "shared": false,
+      "train": 2000,
+      "val": 400,
+      "test": 400,
+      "shots": 10,
+      "feature_count": null,
+      "couplings": [
+        -0.1
+      ]
+    },
+    "seed": 46,
+    "config": "nc-si-tfim-vqe-independent-v1",
+    "baseline": "h_cs",
+    "source": "NC experimental regression; new noiseless simulator with finite-shot labels",
+    "profile": "code",
+    "hamiltonian_sign": -1,
+    "actual_alpha": 10.0,
+    "feature_budget": null,
+    "measured_training_and_validation_circuits": 2400,
+    "shots_per_control": 10,
+    "h": -0.5,
+    "initial_state": "plus",
+    "hadamards": "once only",
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "baseline_fit": {
+      "alpha": 1.0,
+      "support": 2,
+      "fit_lr": 0.01,
+      "fit_epochs": 5000,
+      "init_seed": 1234,
+      "ema_decay": 0.9,
+      "ema_threshold": 0.0001
+    },
+    "redq": {
+      "width": 128,
+      "epochs": 300,
+      "lr": 0.001,
+      "batch_size": 32,
+      "patience": 30
+    },
+    "vqe": {
+      "restarts": 20,
+      "steps": 100,
+      "lr": 0.1,
+      "clip": 3.141592653589793,
+      "exact_curve_every": 10
+    },
+    "public_code_setting_difference": "SI alpha=1; code alpha=10 (h_cs),0.1 (h_qs); code h_qs uses +J ZZ +h X",
+    "model_selection": "NC training EMA; RED-Q validation measured MSE",
+    "data_reuse": "same stored measurements; both classical models refit per Hamiltonian",
+    "quantum_hardware_access": false
+  },
+  "records": [
+    {
+      "J": -0.1,
+      "h": -0.5,
+      "N": 6,
+      "features": 243,
+      "baseline": "h_cs",
+      "seed": 46,
+      "prediction": {
+        "h_cs": {
+          "mae": 0.19901153980434372,
+          "rmse": 0.24170588705052554,
+          "r2": 0.9013193489599153,
+          "pearson": 0.9512836938015975,
+          "R(h)": 0.05842173583488141
+        },
+        "redq": {
+          "mae": 0.47076938864584106,
+          "rmse": 0.6015031581718501,
+          "r2": 0.3888703239637199,
+          "pearson": 0.6254484174249275,
+          "R(h)": 0.3618060492907097
+        }
+      },
+      "baseline_training": {
+        "updates": 110,
+        "loss": 779.0663939636704,
+        "stop": "ema"
+      },
+      "redq_training": {
+        "best_val_mse": 0.8181731700897217,
+        "best_epoch": 7,
+        "epochs_run": 37,
+        "parameters": 133761,
+        "training_seconds": 8.349552541971207
+      },
+      "spectrum": [
+        -3.0250376229278246,
+        3.0250376229278264
+      ],
+      "vqe": {
+        "h_cs": {
+          "initial_mean": -0.12956216517940256,
+          "final_mean": -2.5732762494194903,
+          "restart_std": 0.8088095825954404,
+          "energy_error_per_spin": 0.07529356225138911,
+          "normalized_deviation": 0.0746703727061568,
+          "surrogate_reported_final": -3.324019416219702,
+          "restarts": 20,
+          "seconds": 2.039316999958828
+        },
+        "redq": {
+          "initial_mean": -0.12956216517940256,
+          "final_mean": -0.7536605134845761,
+          "restart_std": 0.8776214856582217,
+          "energy_error_per_spin": 0.37856285157387476,
+          "normalized_deviation": 0.3754295636238838,
+          "surrogate_reported_final": -1.5238481700420379,
+          "restarts": 20,
+          "seconds": 0.5808307910338044
+        },
+        "exact_vqe": {
+          "initial_mean": -0.12956216517940256,
+          "final_mean": -2.4999518540354178,
+          "restart_std": 0.8884954556650789,
+          "energy_error_per_spin": 0.08751429481540116,
+          "normalized_deviation": 0.08678995674509912,
+          "surrogate_reported_final": -2.4999518540354178,
+          "restarts": 20,
+          "seconds": 43.352133333915845
+        }
+      }
+    }
+  ]
+}

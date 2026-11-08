@@ -1,0 +1,27 @@
+{
+  "cell": {
+    "name": "tfim_n12_seed43",
+    "task": "tfim",
+    "n": 12,
+    "seed": 43,
+    "epochs": 250,
+    "patience": 30,
+    "min_epochs": 0,
+    "data": "results_table1_hcs/datasets/table1_hcs_n12_T32.npz",
+    "source": "results_table1_hcs/n12_seed43",
+    "product": "results_product_table1/n12_seed43"
+  },
+  "training": {
+    "best_val_mse": 0.41424041986465454,
+    "best_epoch": 67,
+    "epochs_run": 97,
+    "parameters": 128951,
+    "training_seconds": 53.22036795399981
+  },
+  "total_fit_seconds": 53.23142730099789,
+  "test_evaluated": false,
+  "torch": "2.6.0+cu124",
+  "numpy": "2.0.2",
+  "python": "3.10.19",
+  "device": "NVIDIA GeForce RTX 4090"
+}

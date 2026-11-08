@@ -1,0 +1,28 @@
+{
+  "cell": {
+    "name": "fspt_n6_k6_seed43",
+    "task": "fspt",
+    "n": 6,
+    "k": 6,
+    "seed": 43,
+    "epochs": 300,
+    "patience": 30,
+    "min_epochs": 0,
+    "data": "results_fspt_scaling/datasets/dataset_n6.npz",
+    "source": "results_fspt_scaling/n6_k6_seed43",
+    "product": "results_remaining_comparisons/fspt_scaling_n6_k6_seed43_redq_m"
+  },
+  "training": {
+    "best_val_mse": 0.02848358266055584,
+    "best_epoch": 280,
+    "epochs_run": 300,
+    "parameters": 49926,
+    "training_seconds": 314.74185162899994
+  },
+  "total_fit_seconds": 314.7498444080011,
+  "test_evaluated": false,
+  "torch": "2.6.0+cu124",
+  "numpy": "2.0.2",
+  "python": "3.10.19",
+  "device": "NVIDIA GeForce RTX 4090"
+}

@@ -1,0 +1,5 @@
+# CPU replay, validated with Python 3.12.
+numpy==2.5.2
+scipy==1.18.1
+torch==2.13.0
+qiskit==2.5.2

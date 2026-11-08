@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "case": "chain6_l1",
+      "seed": 47,
+      "J": -0.1,
+      "methods": {
+        "redq": {
+          "final_mean": -2.4987410340081233,
+          "restart_std": 0.8880848664621469
+        },
+        "nc": {
+          "final_mean": -2.5945136489280296,
+          "restart_std": 0.819542136785708
+        }
+      },
+      "original_baseline": -2.4950824770237907,
+      "unsmoothed_product": -2.5986942664618504,
+      "paired_improvement": -0.0957726149199063
+    }
+  ],
+  "sigma": 1.0,
+  "fraction": 0.6,
+  "source": "world_model_surrogate/results_product_redq_independent/chain6_l1_seed47",
+  "training_protocol": {
+    "method": "product",
+    "case": {
+      "id": "chain6_l1",
+      "rows": 1,
+      "cols": 6,
+      "layers": 1,
+      "shared": false,
+      "train": 2000,
+      "val": 400,
+      "test": 400,
+      "shots": 10,
+      "feature_count": null,
+      "couplings": [
+        -0.1
+      ]
+    },
+    "seed": 47,
+    "width": 32,
+    "harmonics": 1,
+    "epochs": 300,
+    "dataset_sha256": "06864938a3cca73f90b4bd4dd3eb654b339d7944dd4c65caf637aeca8668f005",
+    "training_labels": "stored measured_terms only",
+    "checkpoint": "measured validation MSE",
+    "extra_measurements": 0,
+    "exact_values": "post-fit evaluation only",
+    "vqe": {
+      "restarts": 20,
+      "steps": 100,
+      "lr": 0.1,
+      "clip": 3.141592653589793,
+      "exact_curve_every": 10
+    },
+    "scope": "development audit; seeds used in earlier development"
+  }
+}

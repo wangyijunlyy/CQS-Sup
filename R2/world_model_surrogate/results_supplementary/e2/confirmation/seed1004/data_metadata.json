@@ -1,0 +1,10 @@
+{
+  "data_seed": 1004,
+  "dataset_sha256": "e3fcc06bf6f82e600b1ba1057a80c4e7b3e4478a0c4416030c06dfdfa2bae9a9",
+  "generation_seconds": 72.10958409123123,
+  "old_path": null,
+  "rng": "numpy.default_rng(PCG64); delta then J; independent of model/batch generators",
+  "source": "fresh_exact",
+  "spec_hash": "f940167ce048e89fbbe2827ee6538d3db10033090f4b52cf8a3e8f553cdf7f7b",
+  "split_sha256": "2ef76e0f2dcc6af6e4add00d1e2248af6fb4fc2d17bcb6110115fae0748609fd"
+}

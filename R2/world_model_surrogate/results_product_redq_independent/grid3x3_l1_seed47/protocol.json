@@ -1,0 +1,37 @@
+{
+  "method": "product",
+  "case": {
+    "id": "grid3x3_l1",
+    "rows": 3,
+    "cols": 3,
+    "layers": 1,
+    "shared": true,
+    "train": 160,
+    "val": 40,
+    "test": 200,
+    "shots": 10000,
+    "feature_count": 1000,
+    "couplings": [
+      -0.1
+    ]
+  },
+  "seed": 47,
+  "width": 32,
+  "harmonics": 4,
+  "epochs": 3000,
+  "dataset_sha256": "c78bdda20b330be718fdf12c1e8e9c31a4dab9fe6b2df60dfb25cbdb43a04bc2",
+  "training_labels": "stored measured_terms only",
+  "checkpoint": "measured validation MSE",
+  "extra_measurements": 0,
+  "exact_values": "post-fit evaluation only",
+  "vqe": {
+    "restarts": 20,
+    "steps": 100,
+    "lr": 0.1,
+    "clip": 3.141592653589793,
+    "exact_curve_every": 10
+  },
+  "scope": "development audit; seeds used in earlier development",
+  "min_epochs": 500,
+  "patience": 100
+}

@@ -1,0 +1,23 @@
+{
+  "name": "fspt_scaling_n4_k6_seed44_redq_m",
+  "family": "fspt_scaling",
+  "method": "redq_m",
+  "n": 4,
+  "k": 6,
+  "seed": 44,
+  "epochs": 300,
+  "source": "results_fspt_scaling/n4_k6_seed44",
+  "dataset": "results_fspt_scaling/datasets/dataset_n4.npz",
+  "dataset_sha256": "aabef4bfe3e7eb0153882cd0e6fedba78b0fafbb88a674417e6439155af502d7",
+  "train_labels_sha256": "9344bf72f0893545eb009437fd85654f9b2fa8e9774c2aaa3206fae00b3f6d9a",
+  "val_labels_sha256": "cfd8ac3c786be17ec4bab8cb5e0332bde4ea8ae195537c574240036437caf738",
+  "test_targets_sha256": "5ab46d891967c9f1cad7fe20ffd551cd26453cc0378f61c132d8ad2877c87f36",
+  "split_sha256": {
+    "train": "c11656e1bb84b30009c47e8294a7c65e854541349d1f793133356b3900affae5",
+    "val": "d7a458f0ed4b5f8f15745be03d65bd6f0f9f2afcd1763b9e811648fbdeb38255",
+    "test": "476ab896f7dc8e26160e2d112e4c985dbc24d19b241a944f011caf6d1f3d84d1"
+  },
+  "version": "paired-extension-v1",
+  "no_extra_measurements": true,
+  "hardware": false
+}

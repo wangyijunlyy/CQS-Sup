@@ -1,0 +1,37 @@
+{
+  "cell": {
+    "name": "vqe_chain6_l2_seed46",
+    "task": "vqe",
+    "n": 6,
+    "case": {
+      "id": "chain6_l2",
+      "rows": 1,
+      "cols": 6,
+      "layers": 2,
+      "shared": false,
+      "train": 2000,
+      "val": 400,
+      "test": 400,
+      "shots": 10,
+      "feature_count": null,
+      "couplings": [
+        -0.5,
+        -0.3,
+        -0.1,
+        0.1,
+        0.3,
+        0.5
+      ]
+    },
+    "seed": 46,
+    "epochs": 300,
+    "patience": 30,
+    "min_epochs": 0,
+    "data": "results_nc_tfim_vqe_independent/datasets/chain6_l2_seed46/dataset.npz",
+    "source": "results_nc_tfim_vqe_independent/code/chain6_l2_seed46",
+    "product": "results_product_redq_independent/chain6_l2_seed46",
+    "continuation": "results_redq_continuation_independent/chain6_l2_seed46",
+    "moment_gru": "results_vqe_moment_gru_independent/chain6_l2_seed46"
+  },
+  "started_at": 1794153307.4036047
+}

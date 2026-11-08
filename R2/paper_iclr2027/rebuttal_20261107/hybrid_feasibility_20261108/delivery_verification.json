@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "saved_test_arrays": 20,
+  "metrics_checked": 80,
+  "max_cross_numpy_float32_reduction_difference": 2.9802322387695312e-08,
+  "paired_intervals_checked": 4,
+  "bilingual_R4_values_identical": true,
+  "selected_path_audits": 5,
+  "structural_unit_tests_passed": 5,
+  "initial_idle_samples_checked": 3
+}

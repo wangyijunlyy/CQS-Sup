@@ -1,0 +1,155 @@
+{
+  "records": [
+    {
+      "case": "chain6_l2",
+      "seed": 47,
+      "J": -0.5,
+      "methods": {
+        "redq": {
+          "final_mean": -1.7792905857990338,
+          "restart_std": 0.4255907548423276
+        },
+        "nc": {
+          "final_mean": -0.9994435923668623,
+          "restart_std": 0.6956012670579836
+        }
+      },
+      "original_baseline": -1.004886413200809,
+      "unsmoothed_product": -2.0084354493211527,
+      "paired_improvement": 0.7798469934321715
+    },
+    {
+      "case": "chain6_l2",
+      "seed": 47,
+      "J": -0.3,
+      "methods": {
+        "redq": {
+          "final_mean": -1.3462234544824345,
+          "restart_std": 0.4490638034573942
+        },
+        "nc": {
+          "final_mean": -0.8324725279563754,
+          "restart_std": 0.7651839089093017
+        }
+      },
+      "original_baseline": -0.9053589137426545,
+      "unsmoothed_product": -1.4241128425731453,
+      "paired_improvement": 0.5137509265260591
+    },
+    {
+      "case": "chain6_l2",
+      "seed": 47,
+      "J": -0.1,
+      "methods": {
+        "redq": {
+          "final_mean": -0.9017926275719244,
+          "restart_std": 0.41787409645399803
+        },
+        "nc": {
+          "final_mean": -0.72669692375777,
+          "restart_std": 0.631492473416417
+        }
+      },
+      "original_baseline": -0.6561916770387668,
+      "unsmoothed_product": -1.04751517631117,
+      "paired_improvement": 0.1750957038141544
+    },
+    {
+      "case": "chain6_l2",
+      "seed": 47,
+      "J": 0.1,
+      "methods": {
+        "redq": {
+          "final_mean": -0.9620758849453808,
+          "restart_std": 0.7222454206901578
+        },
+        "nc": {
+          "final_mean": -0.9893379408666559,
+          "restart_std": 0.6410194267602701
+        }
+      },
+      "original_baseline": -0.9636107421926088,
+      "unsmoothed_product": -1.0619747935941688,
+      "paired_improvement": -0.027262055921275175
+    },
+    {
+      "case": "chain6_l2",
+      "seed": 47,
+      "J": 0.3,
+      "methods": {
+        "redq": {
+          "final_mean": -1.566782005019023,
+          "restart_std": 0.5886423039605571
+        },
+        "nc": {
+          "final_mean": -1.1367333638375714,
+          "restart_std": 0.5982749595574117
+        }
+      },
+      "original_baseline": -0.8692026807269139,
+      "unsmoothed_product": -1.543254238261418,
+      "paired_improvement": 0.4300486411814517
+    },
+    {
+      "case": "chain6_l2",
+      "seed": 47,
+      "J": 0.5,
+      "methods": {
+        "redq": {
+          "final_mean": -1.9547710389015553,
+          "restart_std": 0.3924556764997279
+        },
+        "nc": {
+          "final_mean": -0.9223938051157425,
+          "restart_std": 0.7980927084506398
+        }
+      },
+      "original_baseline": -0.6955917627593042,
+      "unsmoothed_product": -1.9952741979450423,
+      "paired_improvement": 1.0323772337858128
+    }
+  ],
+  "sigma": 1.0,
+  "fraction": 0.6,
+  "source": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed47",
+  "training_protocol": {
+    "method": "product",
+    "case": {
+      "id": "chain6_l2",
+      "rows": 1,
+      "cols": 6,
+      "layers": 2,
+      "shared": false,
+      "train": 2000,
+      "val": 400,
+      "test": 400,
+      "shots": 10,
+      "feature_count": null,
+      "couplings": [
+        -0.5,
+        -0.3,
+        -0.1,
+        0.1,
+        0.3,
+        0.5
+      ]
+    },
+    "seed": 47,
+    "width": 32,
+    "harmonics": 1,
+    "epochs": 300,
+    "dataset_sha256": "33b837c580512a53c5ee86e2b403330f08b573753b2b4128cac80de20df240ed",
+    "training_labels": "stored measured_terms only",
+    "checkpoint": "measured validation MSE",
+    "extra_measurements": 0,
+    "exact_values": "post-fit evaluation only",
+    "vqe": {
+      "restarts": 20,
+      "steps": 100,
+      "lr": 0.1,
+      "clip": 3.141592653589793,
+      "exact_curve_every": 10
+    },
+    "scope": "development audit; seeds used in earlier development"
+  }
+}

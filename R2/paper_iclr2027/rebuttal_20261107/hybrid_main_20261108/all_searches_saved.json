@@ -1,0 +1,5 @@
+{
+  "searches": 33,
+  "endpoints_per_search": 20,
+  "before_exact_scoring": true
+}

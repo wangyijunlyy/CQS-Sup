@@ -1,0 +1,184 @@
+{
+  "completed": true,
+  "protocol": {
+    "case": {
+      "id": "grid3x3_l1",
+      "rows": 3,
+      "cols": 3,
+      "layers": 1,
+      "shared": true,
+      "train": 160,
+      "val": 40,
+      "test": 200,
+      "shots": 10000,
+      "feature_count": 1000,
+      "couplings": [
+        -0.1
+      ]
+    },
+    "seed": 47,
+    "config": "nc-si-tfim-vqe-independent-v1",
+    "baseline": "h_qs",
+    "source": "NC experimental regression; new noiseless simulator with finite-shot labels",
+    "profile": "code",
+    "hamiltonian_sign": 1,
+    "actual_alpha": 0.1,
+    "feature_budget": null,
+    "measured_training_and_validation_circuits": 200,
+    "shots_per_control": 20000,
+    "h": -0.5,
+    "initial_state": "plus",
+    "hadamards": "once only",
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "baseline_fit": {
+      "alpha": 1.0,
+      "support": 2,
+      "fit_lr": 0.01,
+      "fit_epochs": 5000,
+      "init_seed": 1234,
+      "ema_decay": 0.9,
+      "ema_threshold": 0.0001
+    },
+    "redq": {
+      "width": 128,
+      "epochs": 300,
+      "lr": 0.001,
+      "batch_size": 32,
+      "patience": 30
+    },
+    "vqe": {
+      "restarts": 20,
+      "steps": 100,
+      "lr": 0.1,
+      "clip": 3.141592653589793,
+      "exact_curve_every": 10
+    },
+    "public_code_setting_difference": "SI alpha=1; code alpha=10 (h_cs),0.1 (h_qs); code h_qs uses +J ZZ +h X",
+    "model_selection": "NC training EMA; RED-Q validation measured MSE",
+    "data_reuse": "same stored measurements; both classical models refit per Hamiltonian",
+    "quantum_hardware_access": false
+  },
+  "records": [
+    {
+      "J": -0.1,
+      "h": -0.5,
+      "N": 9,
+      "features": 883,
+      "baseline": "h_qs",
+      "seed": 47,
+      "prediction": {
+        "h_qs": {
+          "mae": 0.3340648017078321,
+          "rmse": 0.3789034692537189,
+          "r2": 0.9199990745869561,
+          "pearson": 0.9614390200393395,
+          "R(h)": 0.14356783901250392
+        },
+        "redq": {
+          "mae": 0.02957588986557212,
+          "rmse": 0.04199771638262931,
+          "r2": 0.9990171455687421,
+          "pearson": 0.9995101191235428,
+          "R(h)": 0.0017638081813557702
+        }
+      },
+      "baseline_training": {
+        "updates": 116,
+        "loss": 19.192907643915227,
+        "stop": "ema"
+      },
+      "redq_training": {
+        "best_val_mse": 0.0027729866560548544,
+        "best_epoch": 136,
+        "epochs_run": 166,
+        "parameters": 132609,
+        "training_seconds": 3.8305463751312345
+      },
+      "spectrum": [
+        -4.561468041577569,
+        4.561468041577565
+      ],
+      "vqe": {
+        "h_qs": {
+          "initial_mean": -1.4034711751776445,
+          "final_mean": -2.8957493500167266,
+          "restart_std": 2.0069381800597386,
+          "energy_error_per_spin": 0.18507985461787133,
+          "normalized_deviation": 0.18258581188971343,
+          "surrogate_reported_final": -2.8563787471668576,
+          "restarts": 20,
+          "seconds": 1.6918292499613017
+        },
+        "redq": {
+          "initial_mean": -1.4034711751776445,
+          "final_mean": -2.49898087252491,
+          "restart_std": 2.0509118455451123,
+          "energy_error_per_spin": 0.22916524100585095,
+          "normalized_deviation": 0.22607712585654274,
+          "surrogate_reported_final": -2.5054543882608415,
+          "restarts": 20,
+          "seconds": 0.9623932919930667
+        },
+        "exact_vqe": {
+          "initial_mean": -1.4034711751776445,
+          "final_mean": -2.4999853822828904,
+          "restart_std": 2.0519417069586066,
+          "energy_error_per_spin": 0.2290536288105199,
+          "normalized_deviation": 0.22596701769083563,
+          "surrogate_reported_final": -2.4999853822828895,
+          "restarts": 20,
+          "seconds": 193.92317941598594
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "cell": {
+    "name": "vqe_chain6_l1_seed47",
+    "task": "vqe",
+    "n": 6,
+    "case": {
+      "id": "chain6_l1",
+      "rows": 1,
+      "cols": 6,
+      "layers": 1,
+      "shared": false,
+      "train": 2000,
+      "val": 400,
+      "test": 400,
+      "shots": 10,
+      "feature_count": null,
+      "couplings": [
+        -0.1
+      ]
+    },
+    "seed": 47,
+    "epochs": 300,
+    "patience": 30,
+    "min_epochs": 0,
+    "data": "results_nc_tfim_vqe_independent/datasets/chain6_l1_seed47/dataset.npz",
+    "source": "results_nc_tfim_vqe_independent/code/chain6_l1_seed47",
+    "product": "results_product_redq_independent/chain6_l1_seed47",
+    "continuation": "results_redq_continuation_independent/chain6_l1_seed47",
+    "moment_gru": "results_vqe_moment_gru_independent/chain6_l1_seed47"
+  },
+  "training": {
+    "best_val_mse": 0.5482459664344788,
+    "best_epoch": 34,
+    "epochs_run": 64,
+    "parameters": 37835,
+    "training_seconds": 25.77431231800074
+  },
+  "total_fit_seconds": 25.782788296000945,
+  "test_evaluated": false,
+  "torch": "2.6.0+cu124",
+  "numpy": "2.0.2",
+  "python": "3.10.19",
+  "device": "NVIDIA GeForce RTX 4090"
+}

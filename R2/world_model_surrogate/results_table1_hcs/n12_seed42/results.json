@@ -1,0 +1,62 @@
+{
+  "completed": true,
+  "protocol": {
+    "version": "table1-tfim-hcs-v1",
+    "N": 12,
+    "L": 2,
+    "seed": 42,
+    "train": 2000,
+    "val": 400,
+    "test": 400,
+    "shots_per_input": 32,
+    "labels": "same scalar h_cs-style finite-shot energy labels for RED-Q and trig regression",
+    "test_labels": "exact noiseless final-layer energy",
+    "baseline": "NC-style support-two trigonometric regression, unsquared-L2 Adam, alpha=10",
+    "redq_epochs": 250
+  },
+  "environment": {
+    "python": "3.12.7",
+    "numpy": "2.5.2",
+    "torch": "2.13.0",
+    "device": "cpu"
+  },
+  "label_noise": {
+    "train_mse": 0.3245225188404565,
+    "val_mse": 0.30483849584800704
+  },
+  "models": {
+    "redq_hcs": {
+      "metrics": {
+        "mae": 0.23623879844278495,
+        "rmse": 0.29503517398196705,
+        "r2": 0.4110048667858839,
+        "pearson": 0.6778675713264875,
+        "R(h)": 0.08704575388656957
+      },
+      "training": {
+        "best_val_mse": 0.356802761554718,
+        "best_epoch": 28,
+        "epochs_run": 58,
+        "parameters": 135297,
+        "training_seconds": 33.52650316699874
+      }
+    },
+    "hcs": {
+      "metrics": {
+        "mae": 0.6573830859905341,
+        "rmse": 0.846431164602026,
+        "r2": -3.8478302655315346,
+        "pearson": 0.3708828838634052,
+        "R(h)": 0.7164457164095421
+      },
+      "features": 4233,
+      "training": {
+        "updates": 930,
+        "loss": 81.51521426495174,
+        "stop": "ema"
+      },
+      "alpha": 10.0,
+      "initialization": "world_model_surrogate/results_nc_reference/initial_f4233.npy"
+    }
+  }
+}

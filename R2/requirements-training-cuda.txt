@@ -1,0 +1,6 @@
+# Original fitted-run environment: Python 3.10, NVIDIA CUDA 12.4.
+--extra-index-url https://download.pytorch.org/whl/cu124
+numpy==2.0.2
+scipy==1.15.3
+torch==2.6.0+cu124
+qiskit==2.5.2

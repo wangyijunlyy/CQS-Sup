@@ -1,0 +1,16 @@
+{
+  "cell": {
+    "name": "fspt_n6_k24_seed42",
+    "task": "fspt",
+    "n": 6,
+    "k": 24,
+    "seed": 42,
+    "epochs": 300,
+    "patience": 30,
+    "min_epochs": 0,
+    "data": "results_fspt_scaling/datasets/dataset_n6.npz",
+    "source": "results_fspt_scaling/n6_k24_seed42",
+    "product": "results_remaining_comparisons/fspt_scaling_n6_k24_seed42_redq_m"
+  },
+  "started_at": 1794152502.251921
+}

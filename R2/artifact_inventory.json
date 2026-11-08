@@ -1,0 +1,3288 @@
+{
+  "files": [
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/additive/initial.pt",
+      "bytes": 441724
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/additive/selected.pt",
+      "bytes": 442185
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/additive/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/additive/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/hybrid/initial.pt",
+      "bytes": 441724
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/hybrid/selected.pt",
+      "bytes": 442185
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/hybrid/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/hybrid/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/product/initial.pt",
+      "bytes": 2204806
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/product/selected.pt",
+      "bytes": 2205306
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/product/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/product/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/recurrent/initial.pt",
+      "bytes": 439410
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/recurrent/selected.pt",
+      "bytes": 439426
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/recurrent/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1001/recurrent/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/additive/initial.pt",
+      "bytes": 441724
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/additive/selected.pt",
+      "bytes": 442185
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/additive/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/additive/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/hybrid/initial.pt",
+      "bytes": 441724
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/hybrid/selected.pt",
+      "bytes": 442185
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/hybrid/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/hybrid/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/product/initial.pt",
+      "bytes": 2204806
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/product/selected.pt",
+      "bytes": 2205306
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/product/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/product/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/recurrent/initial.pt",
+      "bytes": 439410
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/recurrent/selected.pt",
+      "bytes": 439426
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/recurrent/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1002/recurrent/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/additive/initial.pt",
+      "bytes": 441724
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/additive/selected.pt",
+      "bytes": 442185
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/additive/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/additive/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/hybrid/initial.pt",
+      "bytes": 441724
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/hybrid/selected.pt",
+      "bytes": 442185
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/hybrid/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/hybrid/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/product/initial.pt",
+      "bytes": 2204806
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/product/selected.pt",
+      "bytes": 2205306
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/product/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/product/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/recurrent/initial.pt",
+      "bytes": 439410
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/recurrent/selected.pt",
+      "bytes": 439426
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/recurrent/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1003/recurrent/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/additive/initial.pt",
+      "bytes": 441724
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/additive/selected.pt",
+      "bytes": 442185
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/additive/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/additive/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/hybrid/initial.pt",
+      "bytes": 441724
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/hybrid/selected.pt",
+      "bytes": 442185
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/hybrid/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/hybrid/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/product/initial.pt",
+      "bytes": 2204806
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/product/selected.pt",
+      "bytes": 2205306
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/product/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/product/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/recurrent/initial.pt",
+      "bytes": 439410
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/recurrent/selected.pt",
+      "bytes": 439426
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/recurrent/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1004/recurrent/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/additive/initial.pt",
+      "bytes": 441724
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/additive/selected.pt",
+      "bytes": 442185
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/additive/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/additive/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/hybrid/initial.pt",
+      "bytes": 441724
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/hybrid/selected.pt",
+      "bytes": 442185
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/hybrid/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/hybrid/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/product/initial.pt",
+      "bytes": 2204806
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/product/selected.pt",
+      "bytes": 2205306
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/product/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/product/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/recurrent/initial.pt",
+      "bytes": 439410
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/recurrent/selected.pt",
+      "bytes": 439426
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/recurrent/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_feasibility_20261108/pools/seed1005/recurrent/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed42/initial.pt",
+      "bytes": 619832
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed42/joint.pt",
+      "bytes": 619612
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed42/test_prediction.npy",
+      "bytes": 192128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed42/validation_prediction.npy",
+      "bytes": 192128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed43/initial.pt",
+      "bytes": 619832
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed43/joint.pt",
+      "bytes": 619612
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed43/test_prediction.npy",
+      "bytes": 192128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed43/validation_prediction.npy",
+      "bytes": 192128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed44/initial.pt",
+      "bytes": 619832
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed44/joint.pt",
+      "bytes": 619612
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed44/test_prediction.npy",
+      "bytes": 192128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k12_seed44/validation_prediction.npy",
+      "bytes": 192128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed42/initial.pt",
+      "bytes": 1131960
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed42/joint.pt",
+      "bytes": 1131740
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed42/test_prediction.npy",
+      "bytes": 384128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed42/validation_prediction.npy",
+      "bytes": 384128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed43/initial.pt",
+      "bytes": 1131960
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed43/joint.pt",
+      "bytes": 1131740
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed43/test_prediction.npy",
+      "bytes": 384128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed43/validation_prediction.npy",
+      "bytes": 384128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed44/initial.pt",
+      "bytes": 1131960
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed44/joint.pt",
+      "bytes": 1131740
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed44/test_prediction.npy",
+      "bytes": 384128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k24_seed44/validation_prediction.npy",
+      "bytes": 384128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed42/initial.pt",
+      "bytes": 363768
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed42/joint.pt",
+      "bytes": 363548
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed42/test_prediction.npy",
+      "bytes": 96128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed42/validation_prediction.npy",
+      "bytes": 96128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed43/initial.pt",
+      "bytes": 363768
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed43/joint.pt",
+      "bytes": 363548
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed43/test_prediction.npy",
+      "bytes": 96128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed43/validation_prediction.npy",
+      "bytes": 96128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed44/initial.pt",
+      "bytes": 363768
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed44/joint.pt",
+      "bytes": 363548
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed44/test_prediction.npy",
+      "bytes": 96128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n10_k6_seed44/validation_prediction.npy",
+      "bytes": 96128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed42/initial.pt",
+      "bytes": 198456
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed42/joint.pt",
+      "bytes": 198236
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed42/test_prediction.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed42/validation_prediction.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed43/initial.pt",
+      "bytes": 198456
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed43/joint.pt",
+      "bytes": 198236
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed43/test_prediction.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed43/validation_prediction.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed44/initial.pt",
+      "bytes": 198456
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed44/joint.pt",
+      "bytes": 198236
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed44/test_prediction.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k12_seed44/validation_prediction.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed42/initial.pt",
+      "bytes": 291576
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed42/joint.pt",
+      "bytes": 291356
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed42/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed42/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed43/initial.pt",
+      "bytes": 291576
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed43/joint.pt",
+      "bytes": 291356
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed43/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed43/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed44/initial.pt",
+      "bytes": 291576
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed44/joint.pt",
+      "bytes": 291356
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed44/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k24_seed44/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed42/initial.pt",
+      "bytes": 151928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed42/joint.pt",
+      "bytes": 151708
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed42/test_prediction.npy",
+      "bytes": 38528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed42/validation_prediction.npy",
+      "bytes": 38528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed43/initial.pt",
+      "bytes": 151928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed43/joint.pt",
+      "bytes": 151708
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed43/test_prediction.npy",
+      "bytes": 38528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed43/validation_prediction.npy",
+      "bytes": 38528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed44/initial.pt",
+      "bytes": 151928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed44/joint.pt",
+      "bytes": 151708
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed44/test_prediction.npy",
+      "bytes": 38528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n4_k6_seed44/validation_prediction.npy",
+      "bytes": 38528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed42/initial.pt",
+      "bytes": 301688
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed42/joint.pt",
+      "bytes": 301468
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed42/test_prediction.npy",
+      "bytes": 115328
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed42/validation_prediction.npy",
+      "bytes": 115328
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed43/initial.pt",
+      "bytes": 301688
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed43/joint.pt",
+      "bytes": 301468
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed43/test_prediction.npy",
+      "bytes": 115328
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed43/validation_prediction.npy",
+      "bytes": 115328
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed44/initial.pt",
+      "bytes": 301688
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed44/joint.pt",
+      "bytes": 301468
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed44/test_prediction.npy",
+      "bytes": 115328
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k12_seed44/validation_prediction.npy",
+      "bytes": 115328
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed42/initial.pt",
+      "bytes": 497208
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed42/joint.pt",
+      "bytes": 496988
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed42/test_prediction.npy",
+      "bytes": 230528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed42/validation_prediction.npy",
+      "bytes": 230528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed43/initial.pt",
+      "bytes": 497208
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed43/joint.pt",
+      "bytes": 496988
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed43/test_prediction.npy",
+      "bytes": 230528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed43/validation_prediction.npy",
+      "bytes": 230528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed44/initial.pt",
+      "bytes": 497208
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed44/joint.pt",
+      "bytes": 496988
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed44/test_prediction.npy",
+      "bytes": 230528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k24_seed44/validation_prediction.npy",
+      "bytes": 230528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed42/initial.pt",
+      "bytes": 203896
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed42/joint.pt",
+      "bytes": 203676
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed42/test_prediction.npy",
+      "bytes": 57728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed42/validation_prediction.npy",
+      "bytes": 57728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed43/initial.pt",
+      "bytes": 203896
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed43/joint.pt",
+      "bytes": 203676
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed43/test_prediction.npy",
+      "bytes": 57728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed43/validation_prediction.npy",
+      "bytes": 57728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed44/initial.pt",
+      "bytes": 203896
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed44/joint.pt",
+      "bytes": 203676
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed44/test_prediction.npy",
+      "bytes": 57728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n6_k6_seed44/validation_prediction.npy",
+      "bytes": 57728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed42/initial.pt",
+      "bytes": 442104
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed42/joint.pt",
+      "bytes": 441884
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed42/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed42/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed43/initial.pt",
+      "bytes": 442104
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed43/joint.pt",
+      "bytes": 441884
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed43/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed43/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed44/initial.pt",
+      "bytes": 442104
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed44/joint.pt",
+      "bytes": 441884
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed44/test_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k12_seed44/validation_prediction.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed42/initial.pt",
+      "bytes": 777336
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed42/joint.pt",
+      "bytes": 777116
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed42/test_prediction.npy",
+      "bytes": 307328
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed42/validation_prediction.npy",
+      "bytes": 307328
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed43/initial.pt",
+      "bytes": 777336
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed43/joint.pt",
+      "bytes": 777116
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed43/test_prediction.npy",
+      "bytes": 307328
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed43/validation_prediction.npy",
+      "bytes": 307328
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed44/initial.pt",
+      "bytes": 777336
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed44/joint.pt",
+      "bytes": 777116
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed44/test_prediction.npy",
+      "bytes": 307328
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k24_seed44/validation_prediction.npy",
+      "bytes": 307328
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed42/initial.pt",
+      "bytes": 274488
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed42/joint.pt",
+      "bytes": 274268
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed42/test_prediction.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed42/validation_prediction.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed43/initial.pt",
+      "bytes": 274488
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed43/joint.pt",
+      "bytes": 274268
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed43/test_prediction.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed43/validation_prediction.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed44/initial.pt",
+      "bytes": 274488
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed44/joint.pt",
+      "bytes": 274268
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed44/test_prediction.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/fspt_n8_k6_seed44/validation_prediction.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed42/initial.pt",
+      "bytes": 391797
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed42/joint.pt",
+      "bytes": 391511
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed42/test_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed42/validation_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed43/initial.pt",
+      "bytes": 391797
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed43/joint.pt",
+      "bytes": 391511
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed43/test_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed43/validation_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed44/initial.pt",
+      "bytes": 391797
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed44/joint.pt",
+      "bytes": 391511
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed44/test_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n10_seed44/validation_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed42/initial.pt",
+      "bytes": 523701
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed42/joint.pt",
+      "bytes": 523415
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed42/test_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed42/validation_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed43/initial.pt",
+      "bytes": 523701
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed43/joint.pt",
+      "bytes": 523415
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed43/test_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed43/validation_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed44/initial.pt",
+      "bytes": 523701
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed44/joint.pt",
+      "bytes": 523415
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed44/test_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n12_seed44/validation_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed42/initial.pt",
+      "bytes": 680437
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed42/joint.pt",
+      "bytes": 680151
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed42/test_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed42/validation_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed43/initial.pt",
+      "bytes": 680437
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed43/joint.pt",
+      "bytes": 680151
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed43/test_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed43/validation_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed44/initial.pt",
+      "bytes": 680437
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed44/joint.pt",
+      "bytes": 680151
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed44/test_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n14_seed44/validation_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed42/initial.pt",
+      "bytes": 284597
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed42/joint.pt",
+      "bytes": 284311
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed42/test_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed42/validation_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed43/initial.pt",
+      "bytes": 284597
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed43/joint.pt",
+      "bytes": 284311
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed43/test_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed43/validation_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed44/initial.pt",
+      "bytes": 284597
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed44/joint.pt",
+      "bytes": 284311
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed44/test_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/tfim_n8_seed44/validation_prediction.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed45/initial.pt",
+      "bytes": 155000
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed45/joint.pt",
+      "bytes": 154780
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed45/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed45/test_prediction.npy",
+      "bytes": 17728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed45/validation_prediction.npy",
+      "bytes": 17728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed46/initial.pt",
+      "bytes": 155000
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed46/joint.pt",
+      "bytes": 154780
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed46/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed46/test_prediction.npy",
+      "bytes": 17728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed46/validation_prediction.npy",
+      "bytes": 17728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed47/initial.pt",
+      "bytes": 155000
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed47/joint.pt",
+      "bytes": 154780
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed47/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed47/test_prediction.npy",
+      "bytes": 17728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l1_seed47/validation_prediction.npy",
+      "bytes": 17728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed45/initial.pt",
+      "bytes": 201976
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed45/joint.pt",
+      "bytes": 201756
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed45/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed45/test_prediction.npy",
+      "bytes": 17728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed45/validation_prediction.npy",
+      "bytes": 17728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed46/initial.pt",
+      "bytes": 201976
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed46/joint.pt",
+      "bytes": 201756
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed46/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed46/test_prediction.npy",
+      "bytes": 17728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed46/validation_prediction.npy",
+      "bytes": 17728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed47/initial.pt",
+      "bytes": 201976
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed47/joint.pt",
+      "bytes": 201756
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed47/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed47/test_prediction.npy",
+      "bytes": 17728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_chain6_l2_seed47/validation_prediction.npy",
+      "bytes": 17728
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed45/initial.pt",
+      "bytes": 138872
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed45/joint.pt",
+      "bytes": 138652
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed45/split.npz",
+      "bytes": 1284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed45/test_prediction.npy",
+      "bytes": 10528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed45/validation_prediction.npy",
+      "bytes": 2208
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed46/initial.pt",
+      "bytes": 138872
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed46/joint.pt",
+      "bytes": 138652
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed46/split.npz",
+      "bytes": 1284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed46/test_prediction.npy",
+      "bytes": 10528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed46/validation_prediction.npy",
+      "bytes": 2208
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed47/initial.pt",
+      "bytes": 138872
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed47/joint.pt",
+      "bytes": 138652
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed47/split.npz",
+      "bytes": 1284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed47/test_prediction.npy",
+      "bytes": 10528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l1_seed47/validation_prediction.npy",
+      "bytes": 2208
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed45/initial.pt",
+      "bytes": 168952
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed45/joint.pt",
+      "bytes": 168732
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed45/split.npz",
+      "bytes": 1284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed45/test_prediction.npy",
+      "bytes": 10528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed45/validation_prediction.npy",
+      "bytes": 2208
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed46/initial.pt",
+      "bytes": 168952
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed46/joint.pt",
+      "bytes": 168732
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed46/split.npz",
+      "bytes": 1284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed46/test_prediction.npy",
+      "bytes": 10528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed46/validation_prediction.npy",
+      "bytes": 2208
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed47/initial.pt",
+      "bytes": 168952
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed47/joint.pt",
+      "bytes": 168732
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed47/split.npz",
+      "bytes": 1284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed47/test_prediction.npy",
+      "bytes": 10528
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid2x3_l2_seed47/validation_prediction.npy",
+      "bytes": 2208
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed45/initial.pt",
+      "bytes": 160504
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed45/joint.pt",
+      "bytes": 160284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed45/split.npz",
+      "bytes": 1284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed45/test_prediction.npy",
+      "bytes": 16928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed45/validation_prediction.npy",
+      "bytes": 3488
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed46/initial.pt",
+      "bytes": 160504
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed46/joint.pt",
+      "bytes": 160284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed46/split.npz",
+      "bytes": 1284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed46/test_prediction.npy",
+      "bytes": 16928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed46/validation_prediction.npy",
+      "bytes": 3488
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed47/initial.pt",
+      "bytes": 160504
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed47/joint.pt",
+      "bytes": 160284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed47/split.npz",
+      "bytes": 1284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed47/test_prediction.npy",
+      "bytes": 16928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l1_seed47/validation_prediction.npy",
+      "bytes": 3488
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed45/initial.pt",
+      "bytes": 209080
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed45/joint.pt",
+      "bytes": 208860
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed45/split.npz",
+      "bytes": 1284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed45/test_prediction.npy",
+      "bytes": 16928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed45/validation_prediction.npy",
+      "bytes": 3488
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed46/initial.pt",
+      "bytes": 209080
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed46/joint.pt",
+      "bytes": 208860
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed46/split.npz",
+      "bytes": 1284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed46/test_prediction.npy",
+      "bytes": 16928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed46/validation_prediction.npy",
+      "bytes": 3488
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed47/initial.pt",
+      "bytes": 209080
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed47/joint.pt",
+      "bytes": 208860
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed47/split.npz",
+      "bytes": 1284
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed47/test_prediction.npy",
+      "bytes": 16928
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/fits/vqe_grid3x3_l2_seed47/validation_prediction.npy",
+      "bytes": 3488
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l1_seed45/J-0.1.npz",
+      "bytes": 73338
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l1_seed46/J-0.1.npz",
+      "bytes": 72392
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l1_seed47/J-0.1.npz",
+      "bytes": 72227
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed45/J+0.1.npz",
+      "bytes": 226231
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed45/J+0.3.npz",
+      "bytes": 225288
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed45/J+0.5.npz",
+      "bytes": 220247
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed45/J-0.1.npz",
+      "bytes": 227188
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed45/J-0.3.npz",
+      "bytes": 226128
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed45/J-0.5.npz",
+      "bytes": 221582
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed46/J+0.1.npz",
+      "bytes": 213844
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed46/J+0.3.npz",
+      "bytes": 214340
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed46/J+0.5.npz",
+      "bytes": 215631
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed46/J-0.1.npz",
+      "bytes": 210006
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed46/J-0.3.npz",
+      "bytes": 213645
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed46/J-0.5.npz",
+      "bytes": 220100
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed47/J+0.1.npz",
+      "bytes": 207339
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed47/J+0.3.npz",
+      "bytes": 203074
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed47/J+0.5.npz",
+      "bytes": 203126
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed47/J-0.1.npz",
+      "bytes": 213169
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed47/J-0.3.npz",
+      "bytes": 215677
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_chain6_l2_seed47/J-0.5.npz",
+      "bytes": 217682
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_grid2x3_l1_seed45/J-0.1.npz",
+      "bytes": 20169
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_grid2x3_l1_seed46/J-0.1.npz",
+      "bytes": 24066
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_grid2x3_l1_seed47/J-0.1.npz",
+      "bytes": 21442
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_grid2x3_l2_seed45/J-0.1.npz",
+      "bytes": 55263
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_grid2x3_l2_seed46/J-0.1.npz",
+      "bytes": 58824
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_grid2x3_l2_seed47/J-0.1.npz",
+      "bytes": 55551
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_grid3x3_l1_seed45/J-0.1.npz",
+      "bytes": 21613
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_grid3x3_l1_seed46/J-0.1.npz",
+      "bytes": 26136
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_grid3x3_l1_seed47/J-0.1.npz",
+      "bytes": 23828
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_grid3x3_l2_seed45/J-0.1.npz",
+      "bytes": 56244
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_grid3x3_l2_seed46/J-0.1.npz",
+      "bytes": 57901
+    },
+    {
+      "file": "paper_iclr2027/rebuttal_20261107/hybrid_main_20261108/search/vqe_grid3x3_l2_seed47/J-0.1.npz",
+      "bytes": 58936
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/datasets/dataset_n10.npz",
+      "bytes": 2571002
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/datasets/dataset_n4.npz",
+      "bytes": 1035560
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/datasets/dataset_n6.npz",
+      "bytes": 1547747
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/datasets/dataset_n8.npz",
+      "bytes": 2059354
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k12_seed42/pred_redq.npy",
+      "bytes": 192128
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k12_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k12_seed43/pred_redq.npy",
+      "bytes": 192128
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k12_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k12_seed44/pred_redq.npy",
+      "bytes": 192128
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k12_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k24_seed42/pred_redq.npy",
+      "bytes": 384128
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k24_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k24_seed43/pred_redq.npy",
+      "bytes": 384128
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k24_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k24_seed44/pred_redq.npy",
+      "bytes": 384128
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k24_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k6_seed42/pred_redq.npy",
+      "bytes": 96128
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k6_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k6_seed43/pred_redq.npy",
+      "bytes": 96128
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k6_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k6_seed44/pred_redq.npy",
+      "bytes": 96128
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n10_k6_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k12_seed42/pred_redq.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k12_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k12_seed43/pred_redq.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k12_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k12_seed44/pred_redq.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k12_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k24_seed42/pred_redq.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k24_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k24_seed43/pred_redq.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k24_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k24_seed44/pred_redq.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k24_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k6_seed42/pred_redq.npy",
+      "bytes": 38528
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k6_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k6_seed43/pred_redq.npy",
+      "bytes": 38528
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k6_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k6_seed44/pred_redq.npy",
+      "bytes": 38528
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n4_k6_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k12_seed42/pred_redq.npy",
+      "bytes": 115328
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k12_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k12_seed43/pred_redq.npy",
+      "bytes": 115328
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k12_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k12_seed44/pred_redq.npy",
+      "bytes": 115328
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k12_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k24_seed42/pred_redq.npy",
+      "bytes": 230528
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k24_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k24_seed43/pred_redq.npy",
+      "bytes": 230528
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k24_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k24_seed44/pred_redq.npy",
+      "bytes": 230528
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k24_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k6_seed42/pred_redq.npy",
+      "bytes": 57728
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k6_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k6_seed43/pred_redq.npy",
+      "bytes": 57728
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k6_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k6_seed44/pred_redq.npy",
+      "bytes": 57728
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n6_k6_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k12_seed42/pred_redq.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k12_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k12_seed43/pred_redq.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k12_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k12_seed44/pred_redq.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k12_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k24_seed42/pred_redq.npy",
+      "bytes": 307328
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k24_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k24_seed43/pred_redq.npy",
+      "bytes": 307328
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k24_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k24_seed44/pred_redq.npy",
+      "bytes": 307328
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k24_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k6_seed42/pred_redq.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k6_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k6_seed43/pred_redq.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k6_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k6_seed44/pred_redq.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "world_model_surrogate/results_fspt_scaling/n8_k6_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l1_seed45/J-0.1/vqe_redq.npz",
+      "bytes": 117857
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l1_seed45/initial_parameters.npy",
+      "bytes": 1888
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l1_seed46/J-0.1/vqe_redq.npz",
+      "bytes": 120877
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l1_seed46/initial_parameters.npy",
+      "bytes": 1888
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l1_seed47/J-0.1/vqe_redq.npz",
+      "bytes": 133030
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l1_seed47/initial_parameters.npy",
+      "bytes": 1888
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed45/J+0.1/vqe_redq.npz",
+      "bytes": 178071
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed45/J+0.3/vqe_redq.npz",
+      "bytes": 189328
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed45/J+0.5/vqe_redq.npz",
+      "bytes": 233159
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed45/J-0.1/vqe_redq.npz",
+      "bytes": 172962
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed45/J-0.3/vqe_redq.npz",
+      "bytes": 198654
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed45/J-0.5/vqe_redq.npz",
+      "bytes": 215290
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed45/initial_parameters.npy",
+      "bytes": 3648
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed46/J+0.1/vqe_redq.npz",
+      "bytes": 192740
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed46/J+0.3/vqe_redq.npz",
+      "bytes": 220324
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed46/J+0.5/vqe_redq.npz",
+      "bytes": 158052
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed46/J-0.1/vqe_redq.npz",
+      "bytes": 194452
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed46/J-0.3/vqe_redq.npz",
+      "bytes": 202669
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed46/J-0.5/vqe_redq.npz",
+      "bytes": 200209
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed46/initial_parameters.npy",
+      "bytes": 3648
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed47/J+0.1/vqe_redq.npz",
+      "bytes": 203114
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed47/J+0.3/vqe_redq.npz",
+      "bytes": 156073
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed47/J+0.5/vqe_redq.npz",
+      "bytes": 154682
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed47/J-0.1/vqe_redq.npz",
+      "bytes": 250119
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed47/J-0.3/vqe_redq.npz",
+      "bytes": 246965
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed47/J-0.5/vqe_redq.npz",
+      "bytes": 240889
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/chain6_l2_seed47/initial_parameters.npy",
+      "bytes": 3648
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid2x3_l1_seed45/J-0.1/vqe_redq.npz",
+      "bytes": 24292
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid2x3_l1_seed45/initial_parameters.npy",
+      "bytes": 448
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid2x3_l1_seed46/J-0.1/vqe_redq.npz",
+      "bytes": 30431
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid2x3_l1_seed46/initial_parameters.npy",
+      "bytes": 448
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid2x3_l1_seed47/J-0.1/vqe_redq.npz",
+      "bytes": 26661
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid2x3_l1_seed47/initial_parameters.npy",
+      "bytes": 448
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid2x3_l2_seed45/J-0.1/vqe_redq.npz",
+      "bytes": 52044
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid2x3_l2_seed45/initial_parameters.npy",
+      "bytes": 768
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid2x3_l2_seed46/J-0.1/vqe_redq.npz",
+      "bytes": 15956
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid2x3_l2_seed46/initial_parameters.npy",
+      "bytes": 768
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid2x3_l2_seed47/J-0.1/vqe_redq.npz",
+      "bytes": 33170
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid2x3_l2_seed47/initial_parameters.npy",
+      "bytes": 768
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid3x3_l1_seed45/J-0.1/vqe_redq.npz",
+      "bytes": 26321
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid3x3_l1_seed45/initial_parameters.npy",
+      "bytes": 448
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid3x3_l1_seed46/J-0.1/vqe_redq.npz",
+      "bytes": 33289
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid3x3_l1_seed46/initial_parameters.npy",
+      "bytes": 448
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid3x3_l1_seed47/J-0.1/vqe_redq.npz",
+      "bytes": 26395
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid3x3_l1_seed47/initial_parameters.npy",
+      "bytes": 448
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid3x3_l2_seed45/J-0.1/vqe_redq.npz",
+      "bytes": 51303
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid3x3_l2_seed45/initial_parameters.npy",
+      "bytes": 768
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid3x3_l2_seed46/J-0.1/vqe_redq.npz",
+      "bytes": 56538
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid3x3_l2_seed46/initial_parameters.npy",
+      "bytes": 768
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid3x3_l2_seed47/J-0.1/vqe_redq.npz",
+      "bytes": 36393
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/code/grid3x3_l2_seed47/initial_parameters.npy",
+      "bytes": 768
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/chain6_l1_seed45/dataset.npz",
+      "bytes": 418526
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/chain6_l1_seed46/dataset.npz",
+      "bytes": 418398
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/chain6_l1_seed47/dataset.npz",
+      "bytes": 418191
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/chain6_l2_seed45/dataset.npz",
+      "bytes": 735641
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/chain6_l2_seed46/dataset.npz",
+      "bytes": 735510
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/chain6_l2_seed47/dataset.npz",
+      "bytes": 735553
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/grid2x3_l1_seed45/dataset.npz",
+      "bytes": 31300
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/grid2x3_l1_seed46/dataset.npz",
+      "bytes": 31287
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/grid2x3_l1_seed47/dataset.npz",
+      "bytes": 31468
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/grid2x3_l2_seed45/dataset.npz",
+      "bytes": 45971
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/grid2x3_l2_seed46/dataset.npz",
+      "bytes": 45978
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/grid2x3_l2_seed47/dataset.npz",
+      "bytes": 45939
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/grid3x3_l1_seed45/dataset.npz",
+      "bytes": 48125
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/grid3x3_l1_seed46/dataset.npz",
+      "bytes": 48041
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/grid3x3_l1_seed47/dataset.npz",
+      "bytes": 48061
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/grid3x3_l2_seed45/dataset.npz",
+      "bytes": 57492
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/grid3x3_l2_seed46/dataset.npz",
+      "bytes": 57625
+    },
+    {
+      "file": "world_model_surrogate/results_nc_tfim_vqe_independent/datasets/grid3x3_l2_seed47/dataset.npz",
+      "bytes": 57654
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l1_seed45/vqe_J-0.1.npz",
+      "bytes": 68907
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l1_seed46/vqe_J-0.1.npz",
+      "bytes": 70319
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l1_seed47/vqe_J-0.1.npz",
+      "bytes": 65593
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed45/vqe_J+0.1.npz",
+      "bytes": 231510
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed45/vqe_J+0.3.npz",
+      "bytes": 239817
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed45/vqe_J+0.5.npz",
+      "bytes": 240058
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed45/vqe_J-0.1.npz",
+      "bytes": 234342
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed45/vqe_J-0.3.npz",
+      "bytes": 232725
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed45/vqe_J-0.5.npz",
+      "bytes": 236276
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed46/vqe_J+0.1.npz",
+      "bytes": 236238
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed46/vqe_J+0.3.npz",
+      "bytes": 233638
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed46/vqe_J+0.5.npz",
+      "bytes": 232624
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed46/vqe_J-0.1.npz",
+      "bytes": 236616
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed46/vqe_J-0.3.npz",
+      "bytes": 241145
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed46/vqe_J-0.5.npz",
+      "bytes": 237759
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed47/vqe_J+0.1.npz",
+      "bytes": 238171
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed47/vqe_J+0.3.npz",
+      "bytes": 243934
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed47/vqe_J+0.5.npz",
+      "bytes": 240392
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed47/vqe_J-0.1.npz",
+      "bytes": 238061
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed47/vqe_J-0.3.npz",
+      "bytes": 237149
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed47/vqe_J-0.5.npz",
+      "bytes": 237887
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/grid2x3_l1_seed45/vqe_J-0.1.npz",
+      "bytes": 18416
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/grid2x3_l1_seed46/vqe_J-0.1.npz",
+      "bytes": 20690
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/grid2x3_l1_seed47/vqe_J-0.1.npz",
+      "bytes": 19704
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/grid2x3_l2_seed45/vqe_J-0.1.npz",
+      "bytes": 55133
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/grid2x3_l2_seed46/vqe_J-0.1.npz",
+      "bytes": 56744
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/grid2x3_l2_seed47/vqe_J-0.1.npz",
+      "bytes": 56517
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/grid3x3_l1_seed45/vqe_J-0.1.npz",
+      "bytes": 19733
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/grid3x3_l1_seed46/vqe_J-0.1.npz",
+      "bytes": 23105
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/grid3x3_l1_seed47/vqe_J-0.1.npz",
+      "bytes": 20865
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/grid3x3_l2_seed45/vqe_J-0.1.npz",
+      "bytes": 56764
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/grid3x3_l2_seed46/vqe_J-0.1.npz",
+      "bytes": 57334
+    },
+    {
+      "file": "world_model_surrogate/results_product_redq_independent/grid3x3_l2_seed47/vqe_J-0.1.npz",
+      "bytes": 56560
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed42/pred_product.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed43/pred_product.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed44/pred_product.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n10_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed42/pred_product.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed43/pred_product.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed44/pred_product.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n12_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed42/pred_product.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed43/pred_product.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed44/pred_product.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n14_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed42/pred_product.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed43/pred_product.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed44/pred_product.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_product_table1/n8_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l1_seed45/redq_J-0.1.npz",
+      "bytes": 72463
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l1_seed46/redq_J-0.1.npz",
+      "bytes": 75331
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l1_seed47/redq_J-0.1.npz",
+      "bytes": 69809
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed45/redq_J+0.1.npz",
+      "bytes": 228068
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed45/redq_J+0.3.npz",
+      "bytes": 236498
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed45/redq_J+0.5.npz",
+      "bytes": 237015
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed45/redq_J-0.1.npz",
+      "bytes": 232518
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed45/redq_J-0.3.npz",
+      "bytes": 234120
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed45/redq_J-0.5.npz",
+      "bytes": 241829
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed46/redq_J+0.1.npz",
+      "bytes": 232752
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed46/redq_J+0.3.npz",
+      "bytes": 234761
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed46/redq_J+0.5.npz",
+      "bytes": 236876
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed46/redq_J-0.1.npz",
+      "bytes": 234744
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed46/redq_J-0.3.npz",
+      "bytes": 234881
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed46/redq_J-0.5.npz",
+      "bytes": 240021
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed47/redq_J+0.1.npz",
+      "bytes": 235625
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed47/redq_J+0.3.npz",
+      "bytes": 236869
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed47/redq_J+0.5.npz",
+      "bytes": 240046
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed47/redq_J-0.1.npz",
+      "bytes": 234357
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed47/redq_J-0.3.npz",
+      "bytes": 234923
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/chain6_l2_seed47/redq_J-0.5.npz",
+      "bytes": 239651
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/grid2x3_l1_seed45/redq_J-0.1.npz",
+      "bytes": 31831
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/grid2x3_l1_seed46/redq_J-0.1.npz",
+      "bytes": 28305
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/grid2x3_l1_seed47/redq_J-0.1.npz",
+      "bytes": 30204
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/grid2x3_l2_seed45/redq_J-0.1.npz",
+      "bytes": 55236
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/grid2x3_l2_seed46/redq_J-0.1.npz",
+      "bytes": 54906
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/grid2x3_l2_seed47/redq_J-0.1.npz",
+      "bytes": 47169
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/grid3x3_l1_seed45/redq_J-0.1.npz",
+      "bytes": 33180
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/grid3x3_l1_seed46/redq_J-0.1.npz",
+      "bytes": 33128
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/grid3x3_l1_seed47/redq_J-0.1.npz",
+      "bytes": 33112
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/grid3x3_l2_seed45/redq_J-0.1.npz",
+      "bytes": 54574
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/grid3x3_l2_seed46/redq_J-0.1.npz",
+      "bytes": 56313
+    },
+    {
+      "file": "world_model_surrogate/results_redq_continuation_independent/grid3x3_l2_seed47/redq_J-0.1.npz",
+      "bytes": 54006
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k12_seed42_redq_m/pred.npy",
+      "bytes": 192128
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k12_seed42_redq_m/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k12_seed43_redq_m/pred.npy",
+      "bytes": 192128
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k12_seed43_redq_m/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k12_seed44_redq_m/pred.npy",
+      "bytes": 192128
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k12_seed44_redq_m/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k24_seed42_redq_m/pred.npy",
+      "bytes": 384128
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k24_seed42_redq_m/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k24_seed43_redq_m/pred.npy",
+      "bytes": 384128
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k24_seed43_redq_m/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k24_seed44_redq_m/pred.npy",
+      "bytes": 384128
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k24_seed44_redq_m/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k6_seed42_redq_m/pred.npy",
+      "bytes": 96128
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k6_seed42_redq_m/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k6_seed43_redq_m/pred.npy",
+      "bytes": 96128
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k6_seed43_redq_m/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k6_seed44_redq_m/pred.npy",
+      "bytes": 96128
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n10_k6_seed44_redq_m/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k12_seed42_redq_m/pred.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k12_seed42_redq_m/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k12_seed43_redq_m/pred.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k12_seed43_redq_m/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k12_seed44_redq_m/pred.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k12_seed44_redq_m/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k24_seed42_redq_m/pred.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k24_seed42_redq_m/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k24_seed43_redq_m/pred.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k24_seed43_redq_m/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k24_seed44_redq_m/pred.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k24_seed44_redq_m/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k6_seed42_redq_m/pred.npy",
+      "bytes": 38528
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k6_seed42_redq_m/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k6_seed43_redq_m/pred.npy",
+      "bytes": 38528
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k6_seed43_redq_m/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k6_seed44_redq_m/pred.npy",
+      "bytes": 38528
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n4_k6_seed44_redq_m/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k12_seed42_redq_m/pred.npy",
+      "bytes": 115328
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k12_seed42_redq_m/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k12_seed43_redq_m/pred.npy",
+      "bytes": 115328
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k12_seed43_redq_m/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k12_seed44_redq_m/pred.npy",
+      "bytes": 115328
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k12_seed44_redq_m/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k24_seed42_redq_m/pred.npy",
+      "bytes": 230528
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k24_seed42_redq_m/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k24_seed43_redq_m/pred.npy",
+      "bytes": 230528
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k24_seed43_redq_m/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k24_seed44_redq_m/pred.npy",
+      "bytes": 230528
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k24_seed44_redq_m/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k6_seed42_redq_m/pred.npy",
+      "bytes": 57728
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k6_seed42_redq_m/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k6_seed43_redq_m/pred.npy",
+      "bytes": 57728
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k6_seed43_redq_m/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k6_seed44_redq_m/pred.npy",
+      "bytes": 57728
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n6_k6_seed44_redq_m/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k12_seed42_redq_m/pred.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k12_seed42_redq_m/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k12_seed43_redq_m/pred.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k12_seed43_redq_m/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k12_seed44_redq_m/pred.npy",
+      "bytes": 153728
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k12_seed44_redq_m/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k24_seed42_redq_m/pred.npy",
+      "bytes": 307328
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k24_seed42_redq_m/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k24_seed43_redq_m/pred.npy",
+      "bytes": 307328
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k24_seed43_redq_m/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k24_seed44_redq_m/pred.npy",
+      "bytes": 307328
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k24_seed44_redq_m/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k6_seed42_redq_m/pred.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k6_seed42_redq_m/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k6_seed43_redq_m/pred.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k6_seed43_redq_m/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k6_seed44_redq_m/pred.npy",
+      "bytes": 76928
+    },
+    {
+      "file": "world_model_surrogate/results_remaining_comparisons/fspt_scaling_n8_k6_seed44_redq_m/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_supplementary/e2/confirmation/seed1001/dataset.npz",
+      "bytes": 1076104
+    },
+    {
+      "file": "world_model_surrogate/results_supplementary/e2/confirmation/seed1001/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_supplementary/e2/confirmation/seed1002/dataset.npz",
+      "bytes": 1075691
+    },
+    {
+      "file": "world_model_surrogate/results_supplementary/e2/confirmation/seed1002/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_supplementary/e2/confirmation/seed1003/dataset.npz",
+      "bytes": 1075895
+    },
+    {
+      "file": "world_model_surrogate/results_supplementary/e2/confirmation/seed1003/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_supplementary/e2/confirmation/seed1004/dataset.npz",
+      "bytes": 1075952
+    },
+    {
+      "file": "world_model_surrogate/results_supplementary/e2/confirmation/seed1004/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_supplementary/e2/confirmation/seed1005/dataset.npz",
+      "bytes": 1075685
+    },
+    {
+      "file": "world_model_surrogate/results_supplementary/e2/confirmation/seed1005/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/datasets/table1_hcs_n10_T32.npz",
+      "bytes": 840472
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/datasets/table1_hcs_n12_T32.npz",
+      "bytes": 1011549
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/datasets/table1_hcs_n14_T32.npz",
+      "bytes": 1182418
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/datasets/table1_hcs_n8_T32.npz",
+      "bytes": 669516
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed42/pred_redq_hcs.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed43/pred_redq_hcs.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed44/pred_redq_hcs.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n10_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed42/pred_redq_hcs.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed43/pred_redq_hcs.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed44/pred_redq_hcs.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n12_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed42/pred_redq_hcs.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed43/pred_redq_hcs.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed44/pred_redq_hcs.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n14_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed42/pred_redq_hcs.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed42/split.npz",
+      "bytes": 4973
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed43/pred_redq_hcs.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed43/split.npz",
+      "bytes": 7245
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed44/pred_redq_hcs.npy",
+      "bytes": 1728
+    },
+    {
+      "file": "world_model_surrogate/results_table1_hcs/n8_seed44/split.npz",
+      "bytes": 7256
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l1_seed45/vqe_J-0.1.npz",
+      "bytes": 117192
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l1_seed46/vqe_J-0.1.npz",
+      "bytes": 124946
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l1_seed47/vqe_J-0.1.npz",
+      "bytes": 119376
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed45/vqe_J+0.1.npz",
+      "bytes": 167938
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed45/vqe_J+0.3.npz",
+      "bytes": 193757
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed45/vqe_J+0.5.npz",
+      "bytes": 213176
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed45/vqe_J-0.1.npz",
+      "bytes": 203389
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed45/vqe_J-0.3.npz",
+      "bytes": 234411
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed45/vqe_J-0.5.npz",
+      "bytes": 222718
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed46/vqe_J+0.1.npz",
+      "bytes": 247742
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed46/vqe_J+0.3.npz",
+      "bytes": 242913
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed46/vqe_J+0.5.npz",
+      "bytes": 246125
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed46/vqe_J-0.1.npz",
+      "bytes": 221259
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed46/vqe_J-0.3.npz",
+      "bytes": 194021
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed46/vqe_J-0.5.npz",
+      "bytes": 174594
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed47/vqe_J+0.1.npz",
+      "bytes": 217207
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed47/vqe_J+0.3.npz",
+      "bytes": 210336
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed47/vqe_J+0.5.npz",
+      "bytes": 206878
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed47/vqe_J-0.1.npz",
+      "bytes": 245863
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed47/vqe_J-0.3.npz",
+      "bytes": 268981
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/chain6_l2_seed47/vqe_J-0.5.npz",
+      "bytes": 264720
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/grid2x3_l1_seed45/vqe_J-0.1.npz",
+      "bytes": 25440
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/grid2x3_l1_seed46/vqe_J-0.1.npz",
+      "bytes": 30275
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/grid2x3_l1_seed47/vqe_J-0.1.npz",
+      "bytes": 27806
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/grid2x3_l2_seed45/vqe_J-0.1.npz",
+      "bytes": 52702
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/grid2x3_l2_seed46/vqe_J-0.1.npz",
+      "bytes": 48171
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/grid2x3_l2_seed47/vqe_J-0.1.npz",
+      "bytes": 44019
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/grid3x3_l1_seed45/vqe_J-0.1.npz",
+      "bytes": 25781
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/grid3x3_l1_seed46/vqe_J-0.1.npz",
+      "bytes": 31613
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/grid3x3_l1_seed47/vqe_J-0.1.npz",
+      "bytes": 28025
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/grid3x3_l2_seed45/vqe_J-0.1.npz",
+      "bytes": 43448
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/grid3x3_l2_seed46/vqe_J-0.1.npz",
+      "bytes": 54613
+    },
+    {
+      "file": "world_model_surrogate/results_vqe_moment_gru_independent/grid3x3_l2_seed47/vqe_J-0.1.npz",
+      "bytes": 55243
+    }
+  ]
+}

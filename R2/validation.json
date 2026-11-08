@@ -1,0 +1,24 @@
+{
+  "main": {
+    "fits": 66,
+    "saved_test_arrays": 66,
+    "checkpoint_samples_per_fit": 16,
+    "searches": 33,
+    "endpoints": 660,
+    "max_checkpoint_prediction_error": 8.165836334228516e-06,
+    "max_metric_error": 1.1102230246251565e-16,
+    "max_energy_error": 9.769962616701378e-15,
+    "baseline_rows": 228
+  },
+  "feasibility": {
+    "fits": 20,
+    "saved_test_arrays": 20,
+    "checkpoint_samples_per_fit": 16,
+    "max_checkpoint_prediction_error": 1.9669532775878906e-06,
+    "max_metric_error": 2.9802322387695312e-08
+  },
+  "passed": true,
+  "structural_and_audit_tests": 13,
+  "fresh_run_input_cells_checked": 66,
+  "full_retraining_repeated_for_packaging": false
+}

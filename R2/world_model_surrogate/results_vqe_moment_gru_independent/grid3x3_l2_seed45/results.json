@@ -1,0 +1,58 @@
+{
+  "protocol": {
+    "method": "moment_gru",
+    "case": {
+      "id": "grid3x3_l2",
+      "rows": 3,
+      "cols": 3,
+      "layers": 2,
+      "shared": true,
+      "train": 160,
+      "val": 40,
+      "test": 200,
+      "shots": 10000,
+      "feature_count": 1000,
+      "couplings": [
+        -0.1
+      ]
+    },
+    "seed": 45,
+    "width": 128,
+    "epochs": 300,
+    "dataset_sha256": "286883e652317411510881be73c7fa2602abf6c4c2f8e9dc361a818efaac8105",
+    "training_labels": "stored measured_terms only",
+    "checkpoint": "measured validation MSE",
+    "extra_measurements": 0,
+    "exact_values": "post-fit evaluation only",
+    "vqe": {
+      "restarts": 20,
+      "steps": 100,
+      "lr": 0.1,
+      "clip": 3.141592653589793,
+      "exact_curve_every": 10
+    }
+  },
+  "training": {
+    "best_val_mse": 0.03884390741586685,
+    "best_epoch": 35,
+    "epochs_run": 65,
+    "parameters": 135189,
+    "training_seconds": 3.024823499843478
+  },
+  "records": [
+    {
+      "J": -0.1,
+      "prediction": {
+        "mae": 0.7725383746412063,
+        "rmse": 1.059613049497847,
+        "r2": 0.2455649023530212,
+        "pearson": 0.5048142355659405,
+        "R(h)": 1.122779814666127
+      },
+      "final_mean": -4.122902289740396,
+      "restart_std": 0.7097267108460331,
+      "initial_mean": -0.6923868368266509,
+      "surrogate_reported_final": -3.6156641910644254
+    }
+  ]
+}

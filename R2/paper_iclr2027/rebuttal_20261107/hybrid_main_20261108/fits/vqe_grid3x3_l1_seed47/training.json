@@ -1,0 +1,44 @@
+{
+  "cell": {
+    "name": "vqe_grid3x3_l1_seed47",
+    "task": "vqe",
+    "n": 9,
+    "case": {
+      "id": "grid3x3_l1",
+      "rows": 3,
+      "cols": 3,
+      "layers": 1,
+      "shared": true,
+      "train": 160,
+      "val": 40,
+      "test": 200,
+      "shots": 10000,
+      "feature_count": 1000,
+      "couplings": [
+        -0.1
+      ]
+    },
+    "seed": 47,
+    "epochs": 3000,
+    "patience": 100,
+    "min_epochs": 500,
+    "data": "results_nc_tfim_vqe_independent/datasets/grid3x3_l1_seed47/dataset.npz",
+    "source": "results_nc_tfim_vqe_independent/code/grid3x3_l1_seed47",
+    "product": "results_product_redq_independent/grid3x3_l1_seed47",
+    "continuation": "results_redq_continuation_independent/grid3x3_l1_seed47",
+    "moment_gru": "results_vqe_moment_gru_independent/grid3x3_l1_seed47"
+  },
+  "training": {
+    "best_val_mse": 9.526522626401857e-05,
+    "best_epoch": 208,
+    "epochs_run": 500,
+    "parameters": 39285,
+    "training_seconds": 16.754087891997187
+  },
+  "total_fit_seconds": 16.762281192000955,
+  "test_evaluated": false,
+  "torch": "2.6.0+cu124",
+  "numpy": "2.0.2",
+  "python": "3.10.19",
+  "device": "NVIDIA GeForce RTX 4090"
+}

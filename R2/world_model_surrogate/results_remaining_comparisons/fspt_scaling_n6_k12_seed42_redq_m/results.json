@@ -1,0 +1,77 @@
+{
+  "protocol": {
+    "name": "fspt_scaling_n6_k12_seed42_redq_m",
+    "family": "fspt_scaling",
+    "method": "redq_m",
+    "n": 6,
+    "k": 12,
+    "seed": 42,
+    "epochs": 300,
+    "source": "results_fspt_scaling/n6_k12_seed42",
+    "dataset": "results_fspt_scaling/datasets/dataset_n6.npz",
+    "dataset_sha256": "e25a7a65ba6cd3a9224f9d5835bc5ee58610b7c827e05cd11093a029882c2ece",
+    "train_labels_sha256": "fb39432f4c046e74ad8ddc27cd646f47f6242f8fa43b454c20895c05c6c0d75e",
+    "val_labels_sha256": "d915797c57670eade19be156a82f0dab5cb64133aa71344bd4d09f2b06b64af6",
+    "test_targets_sha256": "cc9c026fd6e8599c02156ec89cdd3c811798eacc23bb1d47bc45f236177465ca",
+    "split_sha256": {
+      "train": "55f385cf2332d9056aaed6f496e7bebd2df52c6a9547ce2144b309432d4b0290",
+      "val": "c059903174c6aa1b09ba5be918458c3ec19acbbd00cdb795fa1ed06c27b20671",
+      "test": "df74807e5196ff1e30de6b5a6191260a3def7891698e78bd589478d7fe87d51d"
+    },
+    "version": "paired-extension-v1",
+    "no_extra_measurements": true,
+    "hardware": false
+  },
+  "completed": true,
+  "metrics": {
+    "mae": 0.31436883144953753,
+    "rmse": 0.40943677785034516,
+    "r2": 0.19471603163483708,
+    "pearson": 0.44157542374032105,
+    "R(h)": 0.1676384750564729,
+    "per_period_mae": [
+      0.12680354714393616,
+      0.19987580180168152,
+      0.3367203176021576,
+      0.3362868130207062,
+      0.335690438747406,
+      0.34638699889183044,
+      0.3433261811733246,
+      0.35110557079315186,
+      0.34129083156585693,
+      0.357424795627594,
+      0.3481643795967102,
+      0.349350243806839
+    ],
+    "boundary": {
+      "mae": 0.39184624805270385,
+      "rmse": 0.481506853792235,
+      "r2": 0.17483311341906738,
+      "pearson": 0.41904500331000966,
+      "R(h)": 0.2318488502488968
+    },
+    "bulk": {
+      "mae": 0.2756301231479544,
+      "rmse": 0.36814845845156136,
+      "r2": 0.21044219416374865,
+      "pearson": 0.45895513781406405,
+      "R(h)": 0.135533287460261
+    }
+  },
+  "training": {
+    "epochs_run": 234,
+    "best_epoch": 204,
+    "best_val_mse": 0.16950016200542445,
+    "training_seconds": 164.01285257702693,
+    "parameters": 316872,
+    "rank": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 30,
+    "cap": 300,
+    "batch_size": 32,
+    "selection": "validation MSE"
+  },
+  "total_seconds": 166.618030450074,
+  "pred_sha256": "c41bc6636cabd4bd341fbb1acffec20bfdbd7317b7b56c5dbebe75c0c535e352"
+}

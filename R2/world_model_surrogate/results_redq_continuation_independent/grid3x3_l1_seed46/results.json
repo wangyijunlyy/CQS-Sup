@@ -1,0 +1,62 @@
+{
+  "records": [
+    {
+      "case": "grid3x3_l1",
+      "seed": 46,
+      "J": -0.1,
+      "methods": {
+        "redq": {
+          "final_mean": -4.499857512869054,
+          "restart_std": 0.0001862182500110345
+        },
+        "nc": {
+          "final_mean": -4.499898088903853,
+          "restart_std": 0.0001269910929279459
+        }
+      },
+      "original_baseline": -3.299913577992946,
+      "unsmoothed_product": -2.8998874197940476,
+      "paired_improvement": -4.057603479878935e-05
+    }
+  ],
+  "sigma": 1.0,
+  "fraction": 0.6,
+  "source": "world_model_surrogate/results_product_redq_independent/grid3x3_l1_seed46",
+  "training_protocol": {
+    "method": "product",
+    "case": {
+      "id": "grid3x3_l1",
+      "rows": 3,
+      "cols": 3,
+      "layers": 1,
+      "shared": true,
+      "train": 160,
+      "val": 40,
+      "test": 200,
+      "shots": 10000,
+      "feature_count": 1000,
+      "couplings": [
+        -0.1
+      ]
+    },
+    "seed": 46,
+    "width": 32,
+    "harmonics": 4,
+    "epochs": 3000,
+    "dataset_sha256": "d9eb23c452c9a172189673bdfff89262a29af08ed58fe403f7aab8f89020fea8",
+    "training_labels": "stored measured_terms only",
+    "checkpoint": "measured validation MSE",
+    "extra_measurements": 0,
+    "exact_values": "post-fit evaluation only",
+    "vqe": {
+      "restarts": 20,
+      "steps": 100,
+      "lr": 0.1,
+      "clip": 3.141592653589793,
+      "exact_curve_every": 10
+    },
+    "scope": "development audit; seeds used in earlier development",
+    "min_epochs": 500,
+    "patience": 100
+  }
+}

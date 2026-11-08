@@ -1,0 +1,23 @@
+{
+  "name": "fspt_scaling_n8_k6_seed43_redq_m",
+  "family": "fspt_scaling",
+  "method": "redq_m",
+  "n": 8,
+  "k": 6,
+  "seed": 43,
+  "epochs": 300,
+  "source": "results_fspt_scaling/n8_k6_seed43",
+  "dataset": "results_fspt_scaling/datasets/dataset_n8.npz",
+  "dataset_sha256": "1773268b617e97a3f747f9ad52b0cde18e32941aa7e7af80c4ee61bf66b5f49d",
+  "train_labels_sha256": "ca4935304620d0d08504447d33d6ed0d625ee2d166e93da16d5a91dde7993301",
+  "val_labels_sha256": "cd03fc38c7a46613da55309676b1d46e0d113f2d64164d776e0540a6ab3b528f",
+  "test_targets_sha256": "64313d02f1b59ed96a3c66cfbf2fd16c1bd6b2dce8927fccd9c2940e8e4585ae",
+  "split_sha256": {
+    "train": "fa865ab05de957d963bc2e5a05ede0f579cb6aa022ba5e2fabbd277d3eb159dc",
+    "val": "4033febc42cc33151ea74a99badccafcaaeac380f6c55a36a35fbebf518c4814",
+    "test": "cbd8f907ab283118701a3f94e66c6210303c8e66a0d6fcab63e2673853a23934"
+  },
+  "version": "paired-extension-v1",
+  "no_extra_measurements": true,
+  "hardware": false
+}

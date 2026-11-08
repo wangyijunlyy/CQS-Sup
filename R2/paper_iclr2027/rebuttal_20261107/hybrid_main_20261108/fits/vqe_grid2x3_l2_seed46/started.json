@@ -1,0 +1,32 @@
+{
+  "cell": {
+    "name": "vqe_grid2x3_l2_seed46",
+    "task": "vqe",
+    "n": 6,
+    "case": {
+      "id": "grid2x3_l2",
+      "rows": 2,
+      "cols": 3,
+      "layers": 2,
+      "shared": true,
+      "train": 160,
+      "val": 40,
+      "test": 200,
+      "shots": 10000,
+      "feature_count": 1000,
+      "couplings": [
+        -0.1
+      ]
+    },
+    "seed": 46,
+    "epochs": 3000,
+    "patience": 100,
+    "min_epochs": 500,
+    "data": "results_nc_tfim_vqe_independent/datasets/grid2x3_l2_seed46/dataset.npz",
+    "source": "results_nc_tfim_vqe_independent/code/grid2x3_l2_seed46",
+    "product": "results_product_redq_independent/grid2x3_l2_seed46",
+    "continuation": "results_redq_continuation_independent/grid2x3_l2_seed46",
+    "moment_gru": "results_vqe_moment_gru_independent/grid2x3_l2_seed46"
+  },
+  "started_at": 1794154178.8455036
+}

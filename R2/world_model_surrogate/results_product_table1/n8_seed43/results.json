@@ -1,0 +1,53 @@
+{
+  "protocol": {
+    "method": "RED-Q-M scalar-energy adaptation",
+    "N": 8,
+    "layers": 2,
+    "seed": 43,
+    "rank": 32,
+    "harmonics": 1,
+    "hadamards_each_layer": true,
+    "shots": 32,
+    "supervision": "same cached scalar y_hcs as original RED-Q; no moment labels",
+    "dataset_sha256": "0f8e0f3b4e4484305755790445a779b01d407782bf30f30f91558246944b18ac",
+    "epochs": 250,
+    "patience": 30,
+    "batch_size": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "selection": "measured validation MSE",
+    "smoothing": 0.0,
+    "extra_labels": 0
+  },
+  "training": {
+    "best_val_mse": 0.24511772394180298,
+    "best_epoch": 7,
+    "epochs_run": 37,
+    "parameters": 43695,
+    "training_seconds": 29.385717542027123
+  },
+  "models": {
+    "product": {
+      "mae": 0.15463440577592028,
+      "rmse": 0.19661337319898123,
+      "r2": 0.6532907401812618,
+      "pearson": 0.8158149269241084,
+      "R(h)": 0.03865681852068187
+    },
+    "redq_hcs": {
+      "mae": 0.15299147778794595,
+      "rmse": 0.19571391703767826,
+      "r2": 0.6564556974591951,
+      "pearson": 0.811437761601216,
+      "R(h)": 0.03830393732223121
+    },
+    "hcs": {
+      "mae": 0.33880254441317903,
+      "rmse": 0.4214832375985325,
+      "r2": -0.5933087719989327,
+      "pearson": 0.5668213705986472,
+      "R(h)": 0.177648119576541
+    }
+  },
+  "completed": true
+}

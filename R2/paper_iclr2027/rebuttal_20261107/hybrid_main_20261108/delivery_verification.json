@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "fits": 66,
+  "saved_test_predictions": 66,
+  "searches": 33,
+  "endpoints": 660,
+  "max_metric_recomputation_difference": 1.1102230246251565e-16,
+  "max_independent_host_energy_difference": 9.769962616701378e-15,
+  "all_saved_splits_match": true
+}

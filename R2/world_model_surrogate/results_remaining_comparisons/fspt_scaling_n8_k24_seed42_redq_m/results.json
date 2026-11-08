@@ -1,0 +1,89 @@
+{
+  "protocol": {
+    "name": "fspt_scaling_n8_k24_seed42_redq_m",
+    "family": "fspt_scaling",
+    "method": "redq_m",
+    "n": 8,
+    "k": 24,
+    "seed": 42,
+    "epochs": 300,
+    "source": "results_fspt_scaling/n8_k24_seed42",
+    "dataset": "results_fspt_scaling/datasets/dataset_n8.npz",
+    "dataset_sha256": "1773268b617e97a3f747f9ad52b0cde18e32941aa7e7af80c4ee61bf66b5f49d",
+    "train_labels_sha256": "388a950b2ab6a0d2e6a9ee3fa28dca85df79bc233eaab5965dabc1f8c96db2f0",
+    "val_labels_sha256": "ab96dfd9b3476742be89bcc17be82810f4c238d773c43d7e9ed940efad8ba851",
+    "test_targets_sha256": "74f07536e34ac538662e4091eaf67a2dda9d57732ae1ffad4120cb7b7bbcfaad",
+    "split_sha256": {
+      "train": "55f385cf2332d9056aaed6f496e7bebd2df52c6a9547ce2144b309432d4b0290",
+      "val": "c059903174c6aa1b09ba5be918458c3ec19acbbd00cdb795fa1ed06c27b20671",
+      "test": "df74807e5196ff1e30de6b5a6191260a3def7891698e78bd589478d7fe87d51d"
+    },
+    "version": "paired-extension-v1",
+    "no_extra_measurements": true,
+    "hardware": false
+  },
+  "completed": true,
+  "metrics": {
+    "mae": 0.30786597463692184,
+    "rmse": 0.4072542903355824,
+    "r2": 0.07846242822355431,
+    "pearson": 0.2803204275859307,
+    "R(h)": 0.16585605699673886,
+    "per_period_mae": [
+      0.14603210985660553,
+      0.32993248105049133,
+      0.33984631299972534,
+      0.3236594796180725,
+      0.3112439811229706,
+      0.3143424093723297,
+      0.30613985657691956,
+      0.31409868597984314,
+      0.30739688873291016,
+      0.32107532024383545,
+      0.3102358877658844,
+      0.32011401653289795,
+      0.31501492857933044,
+      0.312929630279541,
+      0.31016847491264343,
+      0.3131449222564697,
+      0.30269306898117065,
+      0.3106602728366852,
+      0.30605876445770264,
+      0.3052942752838135,
+      0.30867883563041687,
+      0.3212723433971405,
+      0.31347572803497314,
+      0.32527515292167664
+    ],
+    "boundary": {
+      "mae": 0.415277306905676,
+      "rmse": 0.5006397399192327,
+      "r2": 0.07753352492930432,
+      "pearson": 0.2787509411290811,
+      "R(h)": 0.250640149186397
+    },
+    "bulk": {
+      "mae": 0.2720621972140038,
+      "rmse": 0.3709375863046498,
+      "r2": 0.07902494273222216,
+      "pearson": 0.28145287217723924,
+      "R(h)": 0.1375946929335195
+    }
+  },
+  "training": {
+    "epochs_run": 126,
+    "best_epoch": 96,
+    "best_val_mse": 0.16361385747790344,
+    "training_seconds": 191.49459829111584,
+    "parameters": 2079936,
+    "rank": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 30,
+    "cap": 300,
+    "batch_size": 32,
+    "selection": "validation MSE"
+  },
+  "total_seconds": 193.8696919430513,
+  "pred_sha256": "7087e1e8fe818647daf2915f3e4e56df01b7fab27a6b760ecf3e320608995ad3"
+}

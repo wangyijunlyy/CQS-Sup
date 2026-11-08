@@ -1,0 +1,521 @@
+{
+  "completed": true,
+  "protocol": {
+    "case": {
+      "id": "chain6_l2",
+      "rows": 1,
+      "cols": 6,
+      "layers": 2,
+      "shared": false,
+      "train": 2000,
+      "val": 400,
+      "test": 400,
+      "shots": 10,
+      "feature_count": null,
+      "couplings": [
+        -0.5,
+        -0.3,
+        -0.1,
+        0.1,
+        0.3,
+        0.5
+      ]
+    },
+    "seed": 45,
+    "config": "nc-si-tfim-vqe-independent-v1",
+    "baseline": "h_cs",
+    "source": "NC experimental regression; new noiseless simulator with finite-shot labels",
+    "profile": "code",
+    "hamiltonian_sign": -1,
+    "actual_alpha": 10.0,
+    "feature_budget": null,
+    "measured_training_and_validation_circuits": 2400,
+    "shots_per_control": 10,
+    "h": -0.5,
+    "initial_state": "plus",
+    "hadamards": "once only",
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "baseline_fit": {
+      "alpha": 1.0,
+      "support": 2,
+      "fit_lr": 0.01,
+      "fit_epochs": 5000,
+      "init_seed": 1234,
+      "ema_decay": 0.9,
+      "ema_threshold": 0.0001
+    },
+    "redq": {
+      "width": 128,
+      "epochs": 300,
+      "lr": 0.001,
+      "batch_size": 32,
+      "patience": 30
+    },
+    "vqe": {
+      "restarts": 20,
+      "steps": 100,
+      "lr": 0.1,
+      "clip": 3.141592653589793,
+      "exact_curve_every": 10
+    },
+    "public_code_setting_difference": "SI alpha=1; code alpha=10 (h_cs),0.1 (h_qs); code h_qs uses +J ZZ +h X",
+    "model_selection": "NC training EMA; RED-Q validation measured MSE",
+    "data_reuse": "same stored measurements; both classical models refit per Hamiltonian",
+    "quantum_hardware_access": false
+  },
+  "records": [
+    {
+      "J": -0.5,
+      "h": -0.5,
+      "N": 6,
+      "features": 969,
+      "baseline": "h_cs",
+      "seed": 45,
+      "prediction": {
+        "h_cs": {
+          "mae": 1.1646314472847872,
+          "rmse": 1.444327611964895,
+          "r2": -2.8681341777634772,
+          "pearson": 0.10855993169260804,
+          "R(h)": 2.086082250684216
+        },
+        "redq": {
+          "mae": 0.6146245038785675,
+          "rmse": 0.7573420093736751,
+          "r2": -0.06354090425626557,
+          "pearson": -0.09766726746376014,
+          "R(h)": 0.5735669191621559
+        }
+      },
+      "baseline_training": {
+        "updates": 106,
+        "loss": 1985.0754060124716,
+        "stop": "ema"
+      },
+      "redq_training": {
+        "best_val_mse": 1.771687626838684,
+        "best_epoch": 4,
+        "epochs_run": 34,
+        "parameters": 133761,
+        "training_seconds": 10.361674082931131
+      },
+      "spectrum": [
+        -3.648114905279378,
+        3.648114905279376
+      ],
+      "vqe": {
+        "h_cs": {
+          "initial_mean": 0.15507776992363786,
+          "final_mean": -0.5483830597594967,
+          "restart_std": 0.47966622982336476,
+          "energy_error_per_spin": 0.5166219742533136,
+          "normalized_deviation": 0.4248402155636734,
+          "surrogate_reported_final": -9.579321086415325,
+          "restarts": 20,
+          "seconds": 9.84289866592735
+        },
+        "redq": {
+          "initial_mean": 0.15507776992363786,
+          "final_mean": 0.8491113850999872,
+          "restart_std": 0.9221223094460994,
+          "energy_error_per_spin": 0.7495377150632276,
+          "normalized_deviation": 0.6163767325244054,
+          "surrogate_reported_final": -0.651687490940094,
+          "restarts": 20,
+          "seconds": 0.8068137080408633
+        },
+        "exact_vqe": {
+          "initial_mean": 0.15507776992363786,
+          "final_mean": -3.214815582132823,
+          "restart_std": 0.5012962329062199,
+          "energy_error_per_spin": 0.07221655385775921,
+          "normalized_deviation": 0.059386742796876425,
+          "surrogate_reported_final": -3.214815582132823,
+          "restarts": 20,
+          "seconds": 72.21695754211396
+        }
+      }
+    },
+    {
+      "J": -0.3,
+      "h": -0.5,
+      "N": 6,
+      "features": 969,
+      "baseline": "h_cs",
+      "seed": 45,
+      "prediction": {
+        "h_cs": {
+          "mae": 0.8895118884121307,
+          "rmse": 1.1086462237077666,
+          "r2": -1.9784860391382586,
+          "pearson": 0.16183047204034365,
+          "R(h)": 1.229096449341491
+        },
+        "redq": {
+          "mae": 0.5135170278688438,
+          "rmse": 0.6430022811674342,
+          "r2": -0.001923659206692685,
+          "pearson": -0.009202146912539177,
+          "R(h)": 0.4134519335865241
+        }
+      },
+      "baseline_training": {
+        "updates": 108,
+        "loss": 1169.0903210685924,
+        "stop": "ema"
+      },
+      "redq_training": {
+        "best_val_mse": 1.0851246118545532,
+        "best_epoch": 1,
+        "epochs_run": 31,
+        "parameters": 133761,
+        "training_seconds": 10.320621542166919
+      },
+      "spectrum": [
+        -3.2281072572755503,
+        3.2281072572755534
+      ],
+      "vqe": {
+        "h_cs": {
+          "initial_mean": 0.13242820525509175,
+          "final_mean": -0.7974753229058368,
+          "restart_std": 0.42297741219804397,
+          "energy_error_per_spin": 0.4051053223949522,
+          "normalized_deviation": 0.37647942596881234,
+          "surrogate_reported_final": -7.351214271831336,
+          "restarts": 20,
+          "seconds": 10.436481332872063
+        },
+        "redq": {
+          "initial_mean": 0.13242820525509175,
+          "final_mean": 1.2510480844181155,
+          "restart_std": 0.3780434849734267,
+          "energy_error_per_spin": 0.7465258902822777,
+          "normalized_deviation": 0.6937742436529155,
+          "surrogate_reported_final": -0.0828778512775898,
+          "restarts": 20,
+          "seconds": 0.8090765839442611
+        },
+        "exact_vqe": {
+          "initial_mean": 0.13242820525509175,
+          "final_mean": -2.7537083774310642,
+          "restart_std": 0.6755252641864892,
+          "energy_error_per_spin": 0.07906647997408105,
+          "normalized_deviation": 0.07347941719954933,
+          "surrogate_reported_final": -2.7537083774310642,
+          "restarts": 20,
+          "seconds": 70.17466754186898
+        }
+      }
+    },
+    {
+      "J": -0.1,
+      "h": -0.5,
+      "N": 6,
+      "features": 969,
+      "baseline": "h_cs",
+      "seed": 45,
+      "prediction": {
+        "h_cs": {
+          "mae": 0.7230006375235525,
+          "rmse": 0.9018075139500874,
+          "r2": -1.3309936423325102,
+          "pearson": 0.2191933363054712,
+          "R(h)": 0.8132567922168371
+        },
+        "redq": {
+          "mae": 0.46882674601292906,
+          "rmse": 0.5911999381966772,
+          "r2": -0.001802589269790822,
+          "pearson": -0.02676012500571983,
+          "R(h)": 0.3495173669237549
+        }
+      },
+      "baseline_training": {
+        "updates": 108,
+        "loss": 743.635585020168,
+        "stop": "ema"
+      },
+      "redq_training": {
+        "best_val_mse": 0.7637302875518799,
+        "best_epoch": 1,
+        "epochs_run": 31,
+        "parameters": 133761,
+        "training_seconds": 11.19604712491855
+      },
+      "spectrum": [
+        -3.0250376229278246,
+        3.0250376229278264
+      ],
+      "vqe": {
+        "h_cs": {
+          "initial_mean": 0.1097786405865457,
+          "final_mean": -0.8229152791178874,
+          "restart_std": 0.4623294159558627,
+          "energy_error_per_spin": 0.3670203906349895,
+          "normalized_deviation": 0.3639826372933805,
+          "surrogate_reported_final": -5.565409214205644,
+          "restarts": 20,
+          "seconds": 10.282072165980935
+        },
+        "redq": {
+          "initial_mean": 0.1097786405865457,
+          "final_mean": 2.997486054133643,
+          "restart_std": 0.011242707697844417,
+          "energy_error_per_spin": 1.0037539461769112,
+          "normalized_deviation": 0.9954460783255454,
+          "surrogate_reported_final": -0.08236999474465848,
+          "restarts": 20,
+          "seconds": 0.7729991660453379
+        },
+        "exact_vqe": {
+          "initial_mean": 0.1097786405865457,
+          "final_mean": -2.5731919383785096,
+          "restart_std": 0.7925115988403973,
+          "energy_error_per_spin": 0.07530761409155244,
+          "normalized_deviation": 0.0746843082420888,
+          "surrogate_reported_final": -2.57319193837851,
+          "restarts": 20,
+          "seconds": 68.229986499995
+        }
+      }
+    },
+    {
+      "J": 0.1,
+      "h": -0.5,
+      "N": 6,
+      "features": 969,
+      "baseline": "h_cs",
+      "seed": 45,
+      "prediction": {
+        "h_cs": {
+          "mae": 0.736992974457894,
+          "rmse": 0.912090595322394,
+          "r2": -1.3906098931695672,
+          "pearson": 0.22097223646464312,
+          "R(h)": 0.8319092540755592
+        },
+        "redq": {
+          "mae": 0.46972345483259587,
+          "rmse": 0.5905055055438365,
+          "r2": -0.0020298501897066945,
+          "pearson": -0.0438985698051399,
+          "R(h)": 0.34869675207758194
+        }
+      },
+      "baseline_training": {
+        "updates": 105,
+        "loss": 710.4152159084147,
+        "stop": "ema"
+      },
+      "redq_training": {
+        "best_val_mse": 0.8099550604820251,
+        "best_epoch": 1,
+        "epochs_run": 31,
+        "parameters": 133761,
+        "training_seconds": 10.996942624915391
+      },
+      "spectrum": [
+        -3.0250376229278264,
+        3.0250376229278246
+      ],
+      "vqe": {
+        "h_cs": {
+          "initial_mean": 0.08712907591799962,
+          "final_mean": -0.8687366461549653,
+          "restart_std": 0.4251694885303918,
+          "energy_error_per_spin": 0.3593834961288102,
+          "normalized_deviation": 0.3564089518142678,
+          "surrogate_reported_final": -5.654049400136214,
+          "restarts": 20,
+          "seconds": 10.151311291847378
+        },
+        "redq": {
+          "initial_mean": 0.08712907591799962,
+          "final_mean": 1.2131474821101014,
+          "restart_std": 1.172889672535498,
+          "energy_error_per_spin": 0.706364184172988,
+          "normalized_deviation": 0.7005177510711322,
+          "surrogate_reported_final": -0.07213556617498398,
+          "restarts": 20,
+          "seconds": 0.7526620838325471
+        },
+        "exact_vqe": {
+          "initial_mean": 0.08712907591799962,
+          "final_mean": -2.579262551098914,
+          "restart_std": 0.7849380338521219,
+          "energy_error_per_spin": 0.07429584530481878,
+          "normalized_deviation": 0.07368091366041639,
+          "surrogate_reported_final": -2.579262551098914,
+          "restarts": 20,
+          "seconds": 70.229813874932
+        }
+      }
+    },
+    {
+      "J": 0.3,
+      "h": -0.5,
+      "N": 6,
+      "features": 969,
+      "baseline": "h_cs",
+      "seed": 45,
+      "prediction": {
+        "h_cs": {
+          "mae": 0.9178929461596256,
+          "rmse": 1.1359298640468172,
+          "r2": -2.1474398711057634,
+          "pearson": 0.16836358964344336,
+          "R(h)": 1.2903366560334206
+        },
+        "redq": {
+          "mae": 0.5183735160591114,
+          "rmse": 0.6440784302623029,
+          "r2": -0.011886769456100454,
+          "pearson": -0.02597815471920712,
+          "R(h)": 0.4148370243291522
+        }
+      },
+      "baseline_training": {
+        "updates": 98,
+        "loss": 1069.3067363106366,
+        "stop": "ema"
+      },
+      "redq_training": {
+        "best_val_mse": 1.2242170572280884,
+        "best_epoch": 6,
+        "epochs_run": 36,
+        "parameters": 133761,
+        "training_seconds": 11.915745167061687
+      },
+      "spectrum": [
+        -3.2281072572755534,
+        3.2281072572755503
+      ],
+      "vqe": {
+        "h_cs": {
+          "initial_mean": 0.06447951124945354,
+          "final_mean": -0.6677026900232181,
+          "restart_std": 0.545557333569573,
+          "energy_error_per_spin": 0.42673409454205585,
+          "normalized_deviation": 0.39657984744491703,
+          "surrogate_reported_final": -7.018093145898719,
+          "restarts": 20,
+          "seconds": 9.978072915924713
+        },
+        "redq": {
+          "initial_mean": 0.06447951124945354,
+          "final_mean": 1.2566578008124,
+          "restart_std": 1.0807604095399364,
+          "energy_error_per_spin": 0.747460843014659,
+          "normalized_deviation": 0.6946431299610831,
+          "surrogate_reported_final": -0.39078897461295126,
+          "restarts": 20,
+          "seconds": 0.737503666896373
+        },
+        "exact_vqe": {
+          "initial_mean": 0.06447951124945354,
+          "final_mean": -2.8435007794586946,
+          "restart_std": 0.6231631091814567,
+          "energy_error_per_spin": 0.06410107963614317,
+          "normalized_deviation": 0.05957151469332807,
+          "surrogate_reported_final": -2.8435007794586946,
+          "restarts": 20,
+          "seconds": 71.53876754199155
+        }
+      }
+    },
+    {
+      "J": 0.5,
+      "h": -0.5,
+      "N": 6,
+      "features": 969,
+      "baseline": "h_cs",
+      "seed": 45,
+      "prediction": {
+        "h_cs": {
+          "mae": 1.202984303905634,
+          "rmse": 1.482961901768381,
+          "r2": -3.1120778011474908,
+          "pearson": 0.12007150323353617,
+          "R(h)": 2.1991760020964937
+        },
+        "redq": {
+          "mae": 0.6002762697555276,
+          "rmse": 0.7430540162653613,
+          "r2": -0.03238600132079639,
+          "pearson": 0.06276866597139927,
+          "R(h)": 0.5521292710880837
+        }
+      },
+      "baseline_training": {
+        "updates": 92,
+        "loss": 1818.3551081788605,
+        "stop": "ema"
+      },
+      "redq_training": {
+        "best_val_mse": 1.993058204650879,
+        "best_epoch": 7,
+        "epochs_run": 37,
+        "parameters": 133761,
+        "training_seconds": 12.367563417181373
+      },
+      "spectrum": [
+        -3.648114905279376,
+        3.648114905279378
+      ],
+      "vqe": {
+        "h_cs": {
+          "initial_mean": 0.04182994658090749,
+          "final_mean": -0.354315787842515,
+          "restart_std": 0.7153271611232508,
+          "energy_error_per_spin": 0.5489665195728101,
+          "normalized_deviation": 0.45143851043044625,
+          "surrogate_reported_final": -9.306885964213524,
+          "restarts": 20,
+          "seconds": 9.820776124950498
+        },
+        "redq": {
+          "initial_mean": 0.04182994658090749,
+          "final_mean": 1.0046179544748903,
+          "restart_std": 1.0382142803062475,
+          "energy_error_per_spin": 0.7754554766257111,
+          "normalized_deviation": 0.6376900098487926,
+          "surrogate_reported_final": -0.9617362156510353,
+          "restarts": 20,
+          "seconds": 0.6942946671042591
+        },
+        "exact_vqe": {
+          "initial_mean": 0.04182994658090749,
+          "final_mean": -3.1895423345898903,
+          "restart_std": 0.4958693728320424,
+          "energy_error_per_spin": 0.07642876178158091,
+          "normalized_deviation": 0.06285062047056976,
+          "surrogate_reported_final": -3.1895423345898903,
+          "restarts": 20,
+          "seconds": 71.6066803750582
+        }
+      }
+    }
+  ]
+}

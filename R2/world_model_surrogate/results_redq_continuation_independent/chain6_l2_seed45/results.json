@@ -1,0 +1,155 @@
+{
+  "records": [
+    {
+      "case": "chain6_l2",
+      "seed": 45,
+      "J": -0.5,
+      "methods": {
+        "redq": {
+          "final_mean": -2.2006323591235253,
+          "restart_std": 0.5099514092822807
+        },
+        "nc": {
+          "final_mean": -0.6222189507479302,
+          "restart_std": 0.4515222141473201
+        }
+      },
+      "original_baseline": -0.5483830597594967,
+      "unsmoothed_product": -2.1698346184948667,
+      "paired_improvement": 1.578413408375595
+    },
+    {
+      "case": "chain6_l2",
+      "seed": 45,
+      "J": -0.3,
+      "methods": {
+        "redq": {
+          "final_mean": -1.8132764749819454,
+          "restart_std": 0.45145903131717513
+        },
+        "nc": {
+          "final_mean": -0.7759005420857061,
+          "restart_std": 0.4427567109333073
+        }
+      },
+      "original_baseline": -0.7974753229058368,
+      "unsmoothed_product": -1.75413824345936,
+      "paired_improvement": 1.0373759328962393
+    },
+    {
+      "case": "chain6_l2",
+      "seed": 45,
+      "J": -0.1,
+      "methods": {
+        "redq": {
+          "final_mean": -1.7524734387441296,
+          "restart_std": 0.7095433823207609
+        },
+        "nc": {
+          "final_mean": -0.8200744889006607,
+          "restart_std": 0.5590481217023495
+        }
+      },
+      "original_baseline": -0.8229152791178874,
+      "unsmoothed_product": -1.3263452931902264,
+      "paired_improvement": 0.9323989498434689
+    },
+    {
+      "case": "chain6_l2",
+      "seed": 45,
+      "J": 0.1,
+      "methods": {
+        "redq": {
+          "final_mean": -1.6694739930918558,
+          "restart_std": 0.7955805858674359
+        },
+        "nc": {
+          "final_mean": -0.9269118678597941,
+          "restart_std": 0.46351749155919275
+        }
+      },
+      "original_baseline": -0.8687366461549653,
+      "unsmoothed_product": -1.353911524898588,
+      "paired_improvement": 0.7425621252320618
+    },
+    {
+      "case": "chain6_l2",
+      "seed": 45,
+      "J": 0.3,
+      "methods": {
+        "redq": {
+          "final_mean": -1.8323989468252524,
+          "restart_std": 0.5250611054257611
+        },
+        "nc": {
+          "final_mean": -0.6278571168714537,
+          "restart_std": 0.5390179359725431
+        }
+      },
+      "original_baseline": -0.6677026900232181,
+      "unsmoothed_product": -1.7025215528904252,
+      "paired_improvement": 1.2045418299537987
+    },
+    {
+      "case": "chain6_l2",
+      "seed": 45,
+      "J": 0.5,
+      "methods": {
+        "redq": {
+          "final_mean": -2.288380974723419,
+          "restart_std": 0.4697693921193431
+        },
+        "nc": {
+          "final_mean": -0.20155339973351766,
+          "restart_std": 0.6929516109193119
+        }
+      },
+      "original_baseline": -0.354315787842515,
+      "unsmoothed_product": -2.0426796746708975,
+      "paired_improvement": 2.0868275749899015
+    }
+  ],
+  "sigma": 1.0,
+  "fraction": 0.6,
+  "source": "world_model_surrogate/results_product_redq_independent/chain6_l2_seed45",
+  "training_protocol": {
+    "method": "product",
+    "case": {
+      "id": "chain6_l2",
+      "rows": 1,
+      "cols": 6,
+      "layers": 2,
+      "shared": false,
+      "train": 2000,
+      "val": 400,
+      "test": 400,
+      "shots": 10,
+      "feature_count": null,
+      "couplings": [
+        -0.5,
+        -0.3,
+        -0.1,
+        0.1,
+        0.3,
+        0.5
+      ]
+    },
+    "seed": 45,
+    "width": 32,
+    "harmonics": 1,
+    "epochs": 300,
+    "dataset_sha256": "577713455213e2851a69c27e72b582a4f90766df087814c40e4acc1ddfc1473b",
+    "training_labels": "stored measured_terms only",
+    "checkpoint": "measured validation MSE",
+    "extra_measurements": 0,
+    "exact_values": "post-fit evaluation only",
+    "vqe": {
+      "restarts": 20,
+      "steps": 100,
+      "lr": 0.1,
+      "clip": 3.141592653589793,
+      "exact_curve_every": 10
+    },
+    "scope": "development audit; seeds used in earlier development"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "cell": {
+    "name": "tfim_n14_seed42",
+    "task": "tfim",
+    "n": 14,
+    "seed": 42,
+    "epochs": 250,
+    "patience": 30,
+    "min_epochs": 0,
+    "data": "results_table1_hcs/datasets/table1_hcs_n14_T32.npz",
+    "source": "results_table1_hcs/n14_seed42",
+    "product": "results_product_table1/n14_seed42"
+  },
+  "started_at": 1794153563.8621392
+}

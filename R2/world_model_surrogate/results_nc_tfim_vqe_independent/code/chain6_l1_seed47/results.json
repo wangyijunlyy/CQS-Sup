@@ -1,0 +1,156 @@
+{
+  "completed": true,
+  "protocol": {
+    "case": {
+      "id": "chain6_l1",
+      "rows": 1,
+      "cols": 6,
+      "layers": 1,
+      "shared": false,
+      "train": 2000,
+      "val": 400,
+      "test": 400,
+      "shots": 10,
+      "feature_count": null,
+      "couplings": [
+        -0.1
+      ]
+    },
+    "seed": 47,
+    "config": "nc-si-tfim-vqe-independent-v1",
+    "baseline": "h_cs",
+    "source": "NC experimental regression; new noiseless simulator with finite-shot labels",
+    "profile": "code",
+    "hamiltonian_sign": -1,
+    "actual_alpha": 10.0,
+    "feature_budget": null,
+    "measured_training_and_validation_circuits": 2400,
+    "shots_per_control": 10,
+    "h": -0.5,
+    "initial_state": "plus",
+    "hadamards": "once only",
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "baseline_fit": {
+      "alpha": 1.0,
+      "support": 2,
+      "fit_lr": 0.01,
+      "fit_epochs": 5000,
+      "init_seed": 1234,
+      "ema_decay": 0.9,
+      "ema_threshold": 0.0001
+    },
+    "redq": {
+      "width": 128,
+      "epochs": 300,
+      "lr": 0.001,
+      "batch_size": 32,
+      "patience": 30
+    },
+    "vqe": {
+      "restarts": 20,
+      "steps": 100,
+      "lr": 0.1,
+      "clip": 3.141592653589793,
+      "exact_curve_every": 10
+    },
+    "public_code_setting_difference": "SI alpha=1; code alpha=10 (h_cs),0.1 (h_qs); code h_qs uses +J ZZ +h X",
+    "model_selection": "NC training EMA; RED-Q validation measured MSE",
+    "data_reuse": "same stored measurements; both classical models refit per Hamiltonian",
+    "quantum_hardware_access": false
+  },
+  "records": [
+    {
+      "J": -0.1,
+      "h": -0.5,
+      "N": 6,
+      "features": 243,
+      "baseline": "h_cs",
+      "seed": 47,
+      "prediction": {
+        "h_cs": {
+          "mae": 0.2035976142703513,
+          "rmse": 0.2547022165382202,
+          "r2": 0.8838856062169518,
+          "pearson": 0.9457800925957554,
+          "R(h)": 0.06487321910948242
+        },
+        "redq": {
+          "mae": 0.4228087964777521,
+          "rmse": 0.5173770441235227,
+          "r2": 0.5208903471733751,
+          "pearson": 0.721832030002179,
+          "R(h)": 0.2676790057859936
+        }
+      },
+      "baseline_training": {
+        "updates": 111,
+        "loss": 781.2821409839685,
+        "stop": "ema"
+      },
+      "redq_training": {
+        "best_val_mse": 0.6631974577903748,
+        "best_epoch": 15,
+        "epochs_run": 45,
+        "parameters": 133761,
+        "training_seconds": 10.960594333009794
+      },
+      "spectrum": [
+        -3.0250376229278246,
+        3.0250376229278264
+      ],
+      "vqe": {
+        "h_cs": {
+          "initial_mean": -0.1464524668170428,
+          "final_mean": -2.4950824770237907,
+          "restart_std": 0.8871090264300926,
+          "energy_error_per_spin": 0.08832585765067236,
+          "normalized_deviation": 0.08759480243936761,
+          "surrogate_reported_final": -3.2445087312697267,
+          "restarts": 20,
+          "seconds": 2.1117117919493467
+        },
+        "redq": {
+          "initial_mean": -0.1464524668170428,
+          "final_mean": -1.9643521906386145,
+          "restart_std": 0.6777481624272472,
+          "energy_error_per_spin": 0.17678090538153501,
+          "normalized_deviation": 0.17531772567883147,
+          "surrogate_reported_final": -2.8190877437591553,
+          "restarts": 20,
+          "seconds": 0.5987679169047624
+        },
+        "exact_vqe": {
+          "initial_mean": -0.1464524668170428,
+          "final_mean": -2.5999288591756216,
+          "restart_std": 0.8207487149107057,
+          "energy_error_per_spin": 0.07085146062536725,
+          "normalized_deviation": 0.070265037454436,
+          "surrogate_reported_final": -2.5999288591756216,
+          "restarts": 20,
+          "seconds": 43.22724745911546
+        }
+      }
+    }
+  ]
+}

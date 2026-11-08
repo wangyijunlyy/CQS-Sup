@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "scope": "publishedadditionaltrainingreference;notfixed300epochbaseline",
+  "rows": [
+    {
+      "cell": "fspt_n8_k24_seed42",
+      "task": "fspt",
+      "n": 8,
+      "k": 24,
+      "seed": 42,
+      "method": "cqs_r_curriculum",
+      "mae": 0.23285498528708917,
+      "mse": 0.103823565089514,
+      "source": "paper_iclr2027/rebuttal_20261107/evidence/W2_curriculum/n8_seed42",
+      "budget": "12periodpretraincap300+24periodcap300"
+    },
+    {
+      "cell": "fspt_n8_k24_seed43",
+      "task": "fspt",
+      "n": 8,
+      "k": 24,
+      "seed": 43,
+      "method": "cqs_r_curriculum",
+      "mae": 0.22864103059574215,
+      "mse": 0.10107247644656918,
+      "source": "paper_iclr2027/rebuttal_20261107/evidence/W2_curriculum/n8_seed43",
+      "budget": "12periodpretraincap300+24periodcap300"
+    },
+    {
+      "cell": "fspt_n8_k24_seed44",
+      "task": "fspt",
+      "n": 8,
+      "k": 24,
+      "seed": 44,
+      "method": "cqs_r_curriculum",
+      "mae": 0.2241325487231461,
+      "mse": 0.0960120612354122,
+      "source": "paper_iclr2027/rebuttal_20261107/evidence/W2_curriculum/n8_seed44",
+      "budget": "12periodpretraincap300+24periodcap300"
+    },
+    {
+      "cell": "fspt_n10_k24_seed42",
+      "task": "fspt",
+      "n": 10,
+      "k": 24,
+      "seed": 42,
+      "method": "cqs_r_curriculum",
+      "mae": 0.23437506072838976,
+      "mse": 0.10809997757722598,
+      "source": "paper_iclr2027/rebuttal_20261107/evidence/W2_curriculum/n10_seed42",
+      "budget": "12periodpretraincap300+24periodcap300"
+    },
+    {
+      "cell": "fspt_n10_k24_seed43",
+      "task": "fspt",
+      "n": 10,
+      "k": 24,
+      "seed": 43,
+      "method": "cqs_r_curriculum",
+      "mae": 0.23909589478523655,
+      "mse": 0.11176161047460247,
+      "source": "paper_iclr2027/rebuttal_20261107/evidence/W2_curriculum/n10_seed43",
+      "budget": "12periodpretraincap300+24periodcap300"
+    },
+    {
+      "cell": "fspt_n10_k24_seed44",
+      "task": "fspt",
+      "n": 10,
+      "k": 24,
+      "seed": 44,
+      "method": "cqs_r_curriculum",
+      "mae": 0.23545943427643337,
+      "mse": 0.10903855902646482,
+      "source": "paper_iclr2027/rebuttal_20261107/evidence/W2_curriculum/n10_seed44",
+      "budget": "12periodpretraincap300+24periodcap300"
+    }
+  ],
+  "groups": [
+    {
+      "n": 8,
+      "mae": 0.22854285486865913,
+      "sd": 0.004362046968803054
+    },
+    {
+      "n": 10,
+      "mae": 0.23631012993001987,
+      "sd": 0.0024727173047771485
+    }
+  ]
+}

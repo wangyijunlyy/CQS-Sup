@@ -1,0 +1,71 @@
+{
+  "protocol": {
+    "name": "fspt_scaling_n10_k6_seed42_redq_m",
+    "family": "fspt_scaling",
+    "method": "redq_m",
+    "n": 10,
+    "k": 6,
+    "seed": 42,
+    "epochs": 300,
+    "source": "results_fspt_scaling/n10_k6_seed42",
+    "dataset": "results_fspt_scaling/datasets/dataset_n10.npz",
+    "dataset_sha256": "badb2bdd67919ce43349391ec3bdb7e23f84d6c39970b3ecf705d8b6f186a958",
+    "train_labels_sha256": "532e9e9e76ee52dba942a56b56eb18dce1edb1448b78f8a4c0eb679ee56fb0d3",
+    "val_labels_sha256": "79ccad4738aa0d6962db08b75099949e22a51c8d9ccab6ebb6876f558f29da20",
+    "test_targets_sha256": "36df6fac9a49e9c698384c2370cf41d6b27a00e56ed72b82c89eb1c723d4db89",
+    "split_sha256": {
+      "train": "55f385cf2332d9056aaed6f496e7bebd2df52c6a9547ce2144b309432d4b0290",
+      "val": "c059903174c6aa1b09ba5be918458c3ec19acbbd00cdb795fa1ed06c27b20671",
+      "test": "df74807e5196ff1e30de6b5a6191260a3def7891698e78bd589478d7fe87d51d"
+    },
+    "version": "paired-extension-v1",
+    "no_extra_measurements": true,
+    "hardware": false
+  },
+  "completed": true,
+  "metrics": {
+    "mae": 0.27688244878533685,
+    "rmse": 0.37971050652632476,
+    "r2": 0.2842940106174715,
+    "pearson": 0.5332310991636758,
+    "R(h)": 0.14418006876647813,
+    "per_period_mae": [
+      0.12797580659389496,
+      0.296988308429718,
+      0.31617918610572815,
+      0.3142390251159668,
+      0.3071783781051636,
+      0.29873421788215637
+    ],
+    "boundary": {
+      "mae": 0.3470881678226094,
+      "rmse": 0.4434489850399322,
+      "r2": 0.32526284180833287,
+      "pearson": 0.5710565604343603,
+      "R(h)": 0.196647002332946
+    },
+    "bulk": {
+      "mae": 0.25933101902601874,
+      "rmse": 0.36202670533382086,
+      "r2": 0.26761341162041896,
+      "pearson": 0.517314514019238,
+      "R(h)": 0.13106333537486117
+    }
+  },
+  "training": {
+    "epochs_run": 244,
+    "best_epoch": 214,
+    "best_val_mse": 0.14015788078308103,
+    "training_seconds": 88.8232875529211,
+    "parameters": 223740,
+    "rank": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 30,
+    "cap": 300,
+    "batch_size": 32,
+    "selection": "validation MSE"
+  },
+  "total_seconds": 91.92188325617462,
+  "pred_sha256": "0ee75e3225944d2adbdbc1c91f7ed20a864f7899708a9ed94f954d8d5a4dbaef"
+}

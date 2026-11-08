@@ -1,0 +1,76 @@
+{
+  "stage": "architecture-level product recurrent fusion feasibility on reused independent pools",
+  "n": 8,
+  "horizon": 12,
+  "seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005
+  ],
+  "data_source": "world_model_surrogate/results_supplementary/e2/confirmation/seed*/dataset.npz",
+  "shapes": {
+    "X": [
+      2800,
+      9
+    ],
+    "y": [
+      2800,
+      12,
+      8
+    ]
+  },
+  "split": [
+    2000,
+    400,
+    400
+  ],
+  "labels": "exact physical-qubit localZ expectations",
+  "arms": [
+    "recurrent",
+    "product",
+    "hybrid",
+    "additive"
+  ],
+  "hybrid": {
+    "rank": 32,
+    "hidden": 64,
+    "parameters": 108872,
+    "update": "q=maskedproduct;z=z*q;h=GRU(q-1,z-1,t/24);y=linear(z-1,h)",
+    "masks": "fixed union over all12prefix support masks;period-specific factors;GRU shared across time andobservables"
+  },
+  "recurrent": {
+    "width": 115,
+    "parameters": 108913
+  },
+  "product": {
+    "original_ProductFSPT_rank": 32,
+    "parameters": 542304
+  },
+  "additive": "same hybrid parameters andinitialweights;spatial1+sum(g-1),temporal additive accumulation",
+  "factor_initialization": "constant1;cos/sin normalstd.02 for both product architectures",
+  "Adam_lr": 0.001,
+  "weight_decay": 0.0001,
+  "gradient_clip_norm": 1.0,
+  "batch": 32,
+  "loss": "uniform momentMSE",
+  "seconds_per_arm": 120.0,
+  "selection": "best validationMSE checkpoint completed within120s;initialeligible at0",
+  "time_includes": "training,validation,andeligibleCPUcheckpointcopy",
+  "warmup": "3batches+validation,restore initial model/optimizer/batchRNG",
+  "schedule": "cyclicarmorder bydataset",
+  "truth_gate": "all20fits saved and audited before any newmodel testprediction",
+  "primary_metrics": [
+    "testMAE",
+    "testMSE",
+    "first6MAE",
+    "last6MAE"
+  ],
+  "statistics": "poolmeans andpaired95%tCI over5pools",
+  "feasibility": "finite stable fit;bothpaths active;exactprefixreuse;errorbelowtrainmean baseline",
+  "new_data": 0,
+  "new_measurements": 0,
+  "hardware_shots": 0,
+  "scope": "feasibilitydevelopment;not newindependentconfirmation"
+}

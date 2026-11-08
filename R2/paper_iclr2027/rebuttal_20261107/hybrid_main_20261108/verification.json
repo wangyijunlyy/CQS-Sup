@@ -1,0 +1,973 @@
+{
+  "passed": true,
+  "fits": 66,
+  "before_newmodel_test": true,
+  "checks": [
+    {
+      "cell": "fspt_n4_k6_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0,
+        "gru_change": 0.6268915832042694,
+        "factor_gradient": 1.1196766049072515,
+        "gru_gradient": 1.2984203978176017,
+        "current_q_gradient": 0.17282559434224343,
+        "accumulated_z_gradient": 0.14608920000678746
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 1.4210854715202004e-14
+      }
+    },
+    {
+      "cell": "fspt_n4_k6_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0000017661216134,
+        "gru_change": 0.5758184343576431,
+        "factor_gradient": 0.807291988867622,
+        "gru_gradient": 1.928167807302399,
+        "current_q_gradient": 0.14174843695689912,
+        "accumulated_z_gradient": 0.127559868163365
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 7.105427357601002e-15
+      }
+    },
+    {
+      "cell": "fspt_n4_k6_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0000000353916967,
+        "gru_change": 0.5823992937803268,
+        "factor_gradient": 0.5386289296383481,
+        "gru_gradient": 1.2195454273298487,
+        "current_q_gradient": 0.23008671261430352,
+        "accumulated_z_gradient": 0.18577073984177375
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 1.0658141036401503e-14
+      }
+    },
+    {
+      "cell": "fspt_n4_k12_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.1898819655179977,
+        "gru_change": 0.6079172641038895,
+        "factor_gradient": 1.047945097438305,
+        "gru_gradient": 2.259756031604547,
+        "current_q_gradient": 0.12520743903068682,
+        "accumulated_z_gradient": 0.10411188832898752
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 2.842170943040401e-14
+      }
+    },
+    {
+      "cell": "fspt_n4_k12_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.148886051028967,
+        "gru_change": 0.5847121030092239,
+        "factor_gradient": 0.6788330148442641,
+        "gru_gradient": 1.969037881129464,
+        "current_q_gradient": 0.13409200595630447,
+        "accumulated_z_gradient": 0.09661456956853619
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 7.105427357601002e-15
+      }
+    },
+    {
+      "cell": "fspt_n4_k12_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.141130343079567,
+        "gru_change": 0.5749025940895081,
+        "factor_gradient": 0.8652045802553069,
+        "gru_gradient": 2.6610370210069902,
+        "current_q_gradient": 0.4688651454078018,
+        "accumulated_z_gradient": 0.2401385695204696
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 2.842170943040401e-14
+      }
+    },
+    {
+      "cell": "fspt_n4_k24_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0935343878227286,
+        "gru_change": 0.686260998249054,
+        "factor_gradient": 1.407778485958642,
+        "gru_gradient": 6.703431159544222,
+        "current_q_gradient": 0.17064918800478523,
+        "accumulated_z_gradient": 0.12802098847001514
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 6.894831927617417e-14
+      }
+    },
+    {
+      "cell": "fspt_n4_k24_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.4162402153015137,
+        "gru_change": 0.7425104379653931,
+        "factor_gradient": 0.7487520160364541,
+        "gru_gradient": 5.304955873871384,
+        "current_q_gradient": 0.24390870326730746,
+        "accumulated_z_gradient": 0.15773545017753468
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 1.4210854715202004e-14
+      }
+    },
+    {
+      "cell": "fspt_n4_k24_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.4325892888009548,
+        "gru_change": 0.6616498529911041,
+        "factor_gradient": 1.0097826252812576,
+        "gru_gradient": 5.034254878075243,
+        "current_q_gradient": 1.044888574384289,
+        "accumulated_z_gradient": 0.5940497891735592
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 8.526512829121202e-14
+      }
+    },
+    {
+      "cell": "fspt_n6_k6_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.025827867910266,
+        "gru_change": 0.5268662422895432,
+        "factor_gradient": 0.7885991178975597,
+        "gru_gradient": 1.7716478463671215,
+        "current_q_gradient": 0.12476352180707423,
+        "accumulated_z_gradient": 0.1040122885214755
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 1.6431300764452317e-14
+      }
+    },
+    {
+      "cell": "fspt_n6_k6_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0411932580173016,
+        "gru_change": 0.4681621640920639,
+        "factor_gradient": 0.38999262030496673,
+        "gru_gradient": 1.1544757612206875,
+        "current_q_gradient": 0.10916124934600022,
+        "accumulated_z_gradient": 0.0886587635186959
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 3.2751579226442118e-15
+      }
+    },
+    {
+      "cell": "fspt_n6_k6_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0,
+        "gru_change": 0.6026282012462616,
+        "factor_gradient": 0.42377471229231023,
+        "gru_gradient": 0.9193083060584962,
+        "current_q_gradient": 0.10717455619726542,
+        "accumulated_z_gradient": 0.08462785297704892
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 6.217248937900877e-15
+      }
+    },
+    {
+      "cell": "fspt_n6_k12_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0770576670765877,
+        "gru_change": 0.5169631987810135,
+        "factor_gradient": 0.7164452592473636,
+        "gru_gradient": 2.6716028769845406,
+        "current_q_gradient": 0.15465398060184127,
+        "accumulated_z_gradient": 0.12114949376423652
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 1.5987211554602254e-14
+      }
+    },
+    {
+      "cell": "fspt_n6_k12_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0453526824712753,
+        "gru_change": 0.6185678839683533,
+        "factor_gradient": 0.6641093537336268,
+        "gru_gradient": 2.8324272461313784,
+        "current_q_gradient": 0.12364547174794589,
+        "accumulated_z_gradient": 0.08924616401875622
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 1.2878587085651816e-14
+      }
+    },
+    {
+      "cell": "fspt_n6_k12_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.1333173364400864,
+        "gru_change": 0.499394953250885,
+        "factor_gradient": 0.3863658882457574,
+        "gru_gradient": 3.0261627246500407,
+        "current_q_gradient": 0.18606858211061297,
+        "accumulated_z_gradient": 0.11492228626143808
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 6.572520305780927e-14
+      }
+    },
+    {
+      "cell": "fspt_n6_k24_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0474962648004293,
+        "gru_change": 0.7651199251413345,
+        "factor_gradient": 1.6195846574464878,
+        "gru_gradient": 7.541155713993786,
+        "current_q_gradient": 0.2237819679423489,
+        "accumulated_z_gradient": 0.1724630286780227
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 9.237055564881302e-14
+      }
+    },
+    {
+      "cell": "fspt_n6_k24_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.247736632823944,
+        "gru_change": 0.8119068443775177,
+        "factor_gradient": 0.5914157426981022,
+        "gru_gradient": 5.476171525440381,
+        "current_q_gradient": 0.14492169755570775,
+        "accumulated_z_gradient": 0.12150663740387734
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 2.842170943040401e-14
+      }
+    },
+    {
+      "cell": "fspt_n6_k24_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.1299650222063065,
+        "gru_change": 0.5959443002939224,
+        "factor_gradient": 0.6491575007839276,
+        "gru_gradient": 6.034638287871466,
+        "current_q_gradient": 0.25264438146309093,
+        "accumulated_z_gradient": 0.18331181630819496
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 7.105427357601002e-14
+      }
+    },
+    {
+      "cell": "fspt_n8_k6_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0290297344326973,
+        "gru_change": 0.48626141250133514,
+        "factor_gradient": 0.5214412446798382,
+        "gru_gradient": 1.8920128593323333,
+        "current_q_gradient": 0.08139518656784199,
+        "accumulated_z_gradient": 0.07769189487961696
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 6.217248937900877e-15
+      }
+    },
+    {
+      "cell": "fspt_n8_k6_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0003413371741772,
+        "gru_change": 0.4570380300283432,
+        "factor_gradient": 0.6970089437303052,
+        "gru_gradient": 1.945930790055422,
+        "current_q_gradient": 0.10309864152388264,
+        "accumulated_z_gradient": 0.08685639375318523
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 1.7763568394002505e-15
+      }
+    },
+    {
+      "cell": "fspt_n8_k6_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0,
+        "gru_change": 0.4502783566713333,
+        "factor_gradient": 0.3729692402909667,
+        "gru_gradient": 1.1915249652634594,
+        "current_q_gradient": 0.13288539022422216,
+        "accumulated_z_gradient": 0.10347312622716442
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 7.993605777301127e-15
+      }
+    },
+    {
+      "cell": "fspt_n8_k12_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.052049981430173,
+        "gru_change": 0.4666239470243454,
+        "factor_gradient": 1.1151787745342543,
+        "gru_gradient": 4.785686576429027,
+        "current_q_gradient": 0.1478389299158393,
+        "accumulated_z_gradient": 0.12212499028657993
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 4.263256414560601e-14
+      }
+    },
+    {
+      "cell": "fspt_n8_k12_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.1442936062812805,
+        "gru_change": 0.6145136803388596,
+        "factor_gradient": 0.49405177448740106,
+        "gru_gradient": 3.344759517454027,
+        "current_q_gradient": 0.1210487677437551,
+        "accumulated_z_gradient": 0.08142163194419477
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 7.993605777301127e-15
+      }
+    },
+    {
+      "cell": "fspt_n8_k12_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0,
+        "gru_change": 0.45159877836704254,
+        "factor_gradient": 0.4048868094275225,
+        "gru_gradient": 2.7507671821624715,
+        "current_q_gradient": 0.20158486881431725,
+        "accumulated_z_gradient": 0.13855689048993114
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 1.4210854715202004e-14
+      }
+    },
+    {
+      "cell": "fspt_n8_k24_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0947693288326263,
+        "gru_change": 0.7244438827037811,
+        "factor_gradient": 1.2415542904862442,
+        "gru_gradient": 11.151837440172011,
+        "current_q_gradient": 0.13971869179511162,
+        "accumulated_z_gradient": 0.13258607369264488
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 1.1368683772161603e-13
+      }
+    },
+    {
+      "cell": "fspt_n8_k24_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.2426497042179108,
+        "gru_change": 0.7624669969081879,
+        "factor_gradient": 1.13021188377034,
+        "gru_gradient": 9.170346352598834,
+        "current_q_gradient": 0.14642912677199213,
+        "accumulated_z_gradient": 0.11506460326381918
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 2.3314683517128287e-15
+      }
+    },
+    {
+      "cell": "fspt_n8_k24_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.062247633934021,
+        "gru_change": 0.538702055811882,
+        "factor_gradient": 0.28581429167618316,
+        "gru_gradient": 6.304320156535782,
+        "current_q_gradient": 0.23788887929341668,
+        "accumulated_z_gradient": 0.10158427789506747
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 3.019806626980426e-14
+      }
+    },
+    {
+      "cell": "fspt_n10_k6_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.2093121856451035,
+        "gru_change": 0.5436694473028183,
+        "factor_gradient": 0.4516545710878643,
+        "gru_gradient": 1.4371094236658972,
+        "current_q_gradient": 0.10054148936789434,
+        "accumulated_z_gradient": 0.08036542167171085
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 7.105427357601002e-15
+      }
+    },
+    {
+      "cell": "fspt_n10_k6_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.260294884443283,
+        "gru_change": 0.41545137763023376,
+        "factor_gradient": 0.3038628258443759,
+        "gru_gradient": 2.1023800877212273,
+        "current_q_gradient": 0.10243497291701337,
+        "accumulated_z_gradient": 0.07981319380570226
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 4.884981308350689e-15
+      }
+    },
+    {
+      "cell": "fspt_n10_k6_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0274259205907583,
+        "gru_change": 0.4939761757850647,
+        "factor_gradient": 0.3821281051737506,
+        "gru_gradient": 1.560609744592796,
+        "current_q_gradient": 0.2067468404917173,
+        "accumulated_z_gradient": 0.10315407383468865
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 1.4210854715202004e-14
+      }
+    },
+    {
+      "cell": "fspt_n10_k12_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.1563405245542526,
+        "gru_change": 0.5930249243974686,
+        "factor_gradient": 0.5548410441499617,
+        "gru_gradient": 4.055175403499721,
+        "current_q_gradient": 0.11628211646801304,
+        "accumulated_z_gradient": 0.07615748086288907
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 1.7763568394002505e-14
+      }
+    },
+    {
+      "cell": "fspt_n10_k12_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0918211713433266,
+        "gru_change": 0.5982982516288757,
+        "factor_gradient": 0.2727672607291942,
+        "gru_gradient": 3.1194214579016792,
+        "current_q_gradient": 0.10342497898192733,
+        "accumulated_z_gradient": 0.06155332171536909
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 5.329070518200751e-15
+      }
+    },
+    {
+      "cell": "fspt_n10_k12_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0,
+        "gru_change": 0.5295868664979935,
+        "factor_gradient": 0.7613702587304336,
+        "gru_gradient": 3.7277946679567346,
+        "current_q_gradient": 0.25766553464625613,
+        "accumulated_z_gradient": 0.14358835885217855
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 2.842170943040401e-14
+      }
+    },
+    {
+      "cell": "fspt_n10_k24_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.6063333749771118,
+        "gru_change": 0.5774439126253128,
+        "factor_gradient": 0.9409166556140157,
+        "gru_gradient": 6.950294497253471,
+        "current_q_gradient": 0.11100423257879566,
+        "accumulated_z_gradient": 0.09601156573747986
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 1.1368683772161603e-13
+      }
+    },
+    {
+      "cell": "fspt_n10_k24_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.4496932923793793,
+        "gru_change": 0.5682790577411652,
+        "factor_gradient": 0.35704893098343404,
+        "gru_gradient": 6.2823991557291805,
+        "current_q_gradient": 0.09981219037120673,
+        "accumulated_z_gradient": 0.06109022899818954
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 7.105427357601002e-15
+      }
+    },
+    {
+      "cell": "fspt_n10_k24_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.5969796776771545,
+        "gru_change": 0.5784230977296829,
+        "factor_gradient": 0.42754572818650055,
+        "gru_gradient": 3.198379444296273,
+        "current_q_gradient": 0.0804903246551033,
+        "accumulated_z_gradient": 0.05609750826482994
+      },
+      "prefix_equivalence": {
+        "prediction": 0.0,
+        "gradient": 3.375077994860476e-14
+      }
+    },
+    {
+      "cell": "tfim_n8_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.015543826855719,
+        "gru_change": 0.7720510214567184,
+        "factor_gradient": 0.005072569897440256,
+        "gru_gradient": 0.0025017778146680125,
+        "current_q_gradient": 0.002188483189708185,
+        "accumulated_z_gradient": 0.0017742102201215543
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "tfim_n8_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.984259644523263,
+        "gru_change": 0.547199159860611,
+        "factor_gradient": 0.01762514931561623,
+        "gru_gradient": 0.007707681691428338,
+        "current_q_gradient": 0.009872239080767311,
+        "accumulated_z_gradient": 0.008151068015272343
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "tfim_n8_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0149677461013198,
+        "gru_change": 0.6478190571069717,
+        "factor_gradient": 0.00614994984591077,
+        "gru_gradient": 0.003230778220064,
+        "current_q_gradient": 0.003277207594142517,
+        "accumulated_z_gradient": 0.003302415639455554
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "tfim_n10_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.9939802284352481,
+        "gru_change": 0.665753185749054,
+        "factor_gradient": 0.009547423545539085,
+        "gru_gradient": 0.003997181333542644,
+        "current_q_gradient": 0.004842778815047471,
+        "accumulated_z_gradient": 0.003918916194132649
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "tfim_n10_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.9939802284352481,
+        "gru_change": 0.8518222123384476,
+        "factor_gradient": 0.006603565469388873,
+        "gru_gradient": 0.003801320633787979,
+        "current_q_gradient": 0.004343740369304395,
+        "accumulated_z_gradient": 0.0038973808671342383
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "tfim_n10_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.9703620169311762,
+        "gru_change": 0.6579369455575943,
+        "factor_gradient": 0.007512940216885437,
+        "gru_gradient": 0.003763450698689398,
+        "current_q_gradient": 0.00401942727837096,
+        "accumulated_z_gradient": 0.003316816996141992
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "tfim_n12_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0153503250330687,
+        "gru_change": 0.6492695361375809,
+        "factor_gradient": 0.024112834779422807,
+        "gru_gradient": 0.014271314833172608,
+        "current_q_gradient": 0.01188602471730356,
+        "accumulated_z_gradient": 0.009084769664864377
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "tfim_n12_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0284037794917822,
+        "gru_change": 0.7189830243587494,
+        "factor_gradient": 0.011099201459256516,
+        "gru_gradient": 0.00848933901817317,
+        "current_q_gradient": 0.0068055168519073825,
+        "accumulated_z_gradient": 0.006356784865863963
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "tfim_n12_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.9989328528754413,
+        "gru_change": 0.567284494638443,
+        "factor_gradient": 0.01754255424305487,
+        "gru_gradient": 0.010597039787449674,
+        "current_q_gradient": 0.009213758365944007,
+        "accumulated_z_gradient": 0.008814959116900174
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "tfim_n14_seed42",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.001152214827016,
+        "gru_change": 0.6545839607715607,
+        "factor_gradient": 0.011050751565912505,
+        "gru_gradient": 0.009619730271498194,
+        "current_q_gradient": 0.008322628236767486,
+        "accumulated_z_gradient": 0.006969305574385536
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "tfim_n14_seed43",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.9994506625225767,
+        "gru_change": 0.628421738743782,
+        "factor_gradient": 0.007161407171297416,
+        "gru_gradient": 0.0037654034115819973,
+        "current_q_gradient": 0.004244008584364631,
+        "accumulated_z_gradient": 0.003599059315983046
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "tfim_n14_seed44",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.9980192810762674,
+        "gru_change": 0.7886475324630737,
+        "factor_gradient": 0.017172856021859126,
+        "gru_gradient": 0.009868310273511635,
+        "current_q_gradient": 0.009188566076228344,
+        "accumulated_z_gradient": 0.009537406926171579
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_chain6_l1_seed45",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.9973447937518358,
+        "gru_change": 0.35831381380558014,
+        "factor_gradient": 0.14323657998446945,
+        "gru_gradient": 0.08041150765346623,
+        "current_q_gradient": 0.07601279858525292,
+        "accumulated_z_gradient": 0.07436992827008354
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_chain6_l1_seed46",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.9994506625225767,
+        "gru_change": 0.31778784096241,
+        "factor_gradient": 0.11559761534994,
+        "gru_gradient": 0.045763962724678225,
+        "current_q_gradient": 0.06416936273110581,
+        "accumulated_z_gradient": 0.06464993647836575
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_chain6_l1_seed47",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.9874586593359709,
+        "gru_change": 0.28579454123973846,
+        "factor_gradient": 0.07488393477673197,
+        "gru_gradient": 0.026995539429942244,
+        "current_q_gradient": 0.042684492587826604,
+        "accumulated_z_gradient": 0.04065211651222282
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_chain6_l2_seed45",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.8653212189674377,
+        "gru_change": 0.2234201580286026,
+        "factor_gradient": 0.01623930998780036,
+        "gru_gradient": 0.016281407133389107,
+        "current_q_gradient": 0.011544272133889005,
+        "accumulated_z_gradient": 0.022184442457215566
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_chain6_l2_seed46",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.9714374169707298,
+        "gru_change": 0.21129702031612396,
+        "factor_gradient": 0.018077267857940848,
+        "gru_gradient": 0.02035383421129933,
+        "current_q_gradient": 0.014486673157880771,
+        "accumulated_z_gradient": 0.02076332118315638
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_chain6_l2_seed47",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.8653212189674377,
+        "gru_change": 0.21998216211795807,
+        "factor_gradient": 0.013811549054241154,
+        "gru_gradient": 0.011610949617241096,
+        "current_q_gradient": 0.005456831214566612,
+        "accumulated_z_gradient": 0.009466337506566558
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_grid2x3_l1_seed45",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.8080723732709885,
+        "gru_change": 0.15195133537054062,
+        "factor_gradient": 0.030165409145364804,
+        "gru_gradient": 0.045549667997705004,
+        "current_q_gradient": 0.011331025938062468,
+        "accumulated_z_gradient": 0.011482813039745037
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_grid2x3_l1_seed46",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.982573214918375,
+        "gru_change": 0.1579500213265419,
+        "factor_gradient": 0.020102892363450173,
+        "gru_gradient": 0.05838904010883986,
+        "current_q_gradient": 0.005562956795939367,
+        "accumulated_z_gradient": 0.005565535841028583
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_grid2x3_l1_seed47",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.6521934866905212,
+        "gru_change": 0.1502959169447422,
+        "factor_gradient": 0.06453096623900291,
+        "gru_gradient": 0.03628255784008495,
+        "current_q_gradient": 0.018098744476676826,
+        "accumulated_z_gradient": 0.017820100568336203
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_grid2x3_l2_seed45",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.7157939076423645,
+        "gru_change": 0.3289267122745514,
+        "factor_gradient": 0.07759245000650816,
+        "gru_gradient": 0.08838069490712029,
+        "current_q_gradient": 0.012382214757932889,
+        "accumulated_z_gradient": 0.0361445606150879
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_grid2x3_l2_seed46",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.6954855620861053,
+        "gru_change": 0.2641235738992691,
+        "factor_gradient": 0.06672061630530784,
+        "gru_gradient": 0.07284628977044336,
+        "current_q_gradient": 0.011894966716338884,
+        "accumulated_z_gradient": 0.031330293959626054
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_grid2x3_l2_seed47",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.286669284105301,
+        "gru_change": 0.3929334133863449,
+        "factor_gradient": 0.07262733177738942,
+        "gru_gradient": 0.14106521152504273,
+        "current_q_gradient": 0.029602981833283314,
+        "accumulated_z_gradient": 0.08584519453785729
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_grid3x3_l1_seed45",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.5111940801143646,
+        "gru_change": 0.14053119160234928,
+        "factor_gradient": 0.04186111186173727,
+        "gru_gradient": 0.03359135838705475,
+        "current_q_gradient": 0.01593516937288287,
+        "accumulated_z_gradient": 0.015527799526922358
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_grid3x3_l1_seed46",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.7841257005929947,
+        "gru_change": 0.1620854288339615,
+        "factor_gradient": 0.027780542014014642,
+        "gru_gradient": 0.04954882360461259,
+        "current_q_gradient": 0.007879236822977366,
+        "accumulated_z_gradient": 0.007870780290173454
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_grid3x3_l1_seed47",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 0.760490819811821,
+        "gru_change": 0.1611657701432705,
+        "factor_gradient": 0.052286492156356855,
+        "gru_gradient": 0.09770398057905137,
+        "current_q_gradient": 0.014365035115979908,
+        "accumulated_z_gradient": 0.014487877103517614
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_grid3x3_l2_seed45",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.1189556866884232,
+        "gru_change": 0.3409154415130615,
+        "factor_gradient": 0.026129448272289475,
+        "gru_gradient": 0.37915856535814524,
+        "current_q_gradient": 0.015204173108645722,
+        "accumulated_z_gradient": 0.052778593170876034
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_grid3x3_l2_seed46",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.0763163194060326,
+        "gru_change": 0.39329904317855835,
+        "factor_gradient": 0.056827002521216134,
+        "gru_gradient": 0.08728285051543351,
+        "current_q_gradient": 0.02867216299960907,
+        "accumulated_z_gradient": 0.08574284541913824
+      },
+      "prefix_equivalence": null
+    },
+    {
+      "cell": "vqe_grid3x3_l2_seed47",
+      "validation_replay_max_error": 0.0,
+      "trained_paths": {
+        "factor_change": 1.2297028005123138,
+        "gru_change": 0.361364409327507,
+        "factor_gradient": 0.08784494103288681,
+        "gru_gradient": 0.550166682968419,
+        "current_q_gradient": 0.039808239311566254,
+        "accumulated_z_gradient": 0.12151704360510594
+      },
+      "prefix_equivalence": null
+    }
+  ]
+}

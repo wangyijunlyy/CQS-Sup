@@ -1,0 +1,164 @@
+{
+  "completed": true,
+  "protocol": {
+    "case": {
+      "id": "grid2x3_l2",
+      "rows": 2,
+      "cols": 3,
+      "layers": 2,
+      "shared": true,
+      "train": 160,
+      "val": 40,
+      "test": 200,
+      "shots": 10000,
+      "feature_count": 1000,
+      "couplings": [
+        -0.1
+      ]
+    },
+    "seed": 45,
+    "config": "nc-si-tfim-vqe-independent-v1",
+    "baseline": "h_qs",
+    "source": "NC experimental regression; new noiseless simulator with finite-shot labels",
+    "profile": "code",
+    "hamiltonian_sign": 1,
+    "actual_alpha": 0.1,
+    "feature_budget": null,
+    "measured_training_and_validation_circuits": 200,
+    "shots_per_control": 20000,
+    "h": -0.5,
+    "initial_state": "plus",
+    "hadamards": "once only",
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "baseline_fit": {
+      "alpha": 1.0,
+      "support": 2,
+      "fit_lr": 0.01,
+      "fit_epochs": 5000,
+      "init_seed": 1234,
+      "ema_decay": 0.9,
+      "ema_threshold": 0.0001
+    },
+    "redq": {
+      "width": 128,
+      "epochs": 300,
+      "lr": 0.001,
+      "batch_size": 32,
+      "patience": 30
+    },
+    "vqe": {
+      "restarts": 20,
+      "steps": 100,
+      "lr": 0.1,
+      "clip": 3.141592653589793,
+      "exact_curve_every": 10
+    },
+    "public_code_setting_difference": "SI alpha=1; code alpha=10 (h_cs),0.1 (h_qs); code h_qs uses +J ZZ +h X",
+    "model_selection": "NC training EMA; RED-Q validation measured MSE",
+    "data_reuse": "same stored measurements; both classical models refit per Hamiltonian",
+    "quantum_hardware_access": false
+  },
+  "records": [
+    {
+      "J": -0.1,
+      "h": -0.5,
+      "N": 6,
+      "features": 1353,
+      "baseline": "h_qs",
+      "seed": 45,
+      "prediction": {
+        "h_qs": {
+          "mae": 0.5338072377862226,
+          "rmse": 0.6501399344928779,
+          "r2": 0.34591337100171726,
+          "pearson": 0.6014941148287846,
+          "R(h)": 0.42268193442240354
+        },
+        "redq": {
+          "mae": 0.602864097318495,
+          "rmse": 0.7929897052150522,
+          "r2": 0.026901768177139407,
+          "pearson": 0.4052426630852363,
+          "R(h)": 0.6288326725770553
+        }
+      },
+      "baseline_training": {
+        "updates": 95,
+        "loss": 46.200248980912,
+        "stop": "ema"
+      },
+      "redq_training": {
+        "best_val_mse": 0.29390668869018555,
+        "best_epoch": 74,
+        "epochs_run": 104,
+        "parameters": 132609,
+        "training_seconds": 2.857491625007242
+      },
+      "spectrum": [
+        -3.035675192441114,
+        3.0356751924411074
+      ],
+      "vqe": {
+        "h_qs": {
+          "initial_mean": -0.6673158434188146,
+          "final_mean": -2.8839266308542744,
+          "restart_std": 0.4440665472446114,
+          "energy_error_per_spin": 0.025291426931139956,
+          "normalized_deviation": 0.024994202601895048,
+          "surrogate_reported_final": -2.426131825841197,
+          "restarts": 20,
+          "seconds": 2.9624823750928044
+        },
+        "redq": {
+          "initial_mean": -0.6673158434188146,
+          "final_mean": -1.9833887418772185,
+          "restart_std": 0.9045566742686147,
+          "energy_error_per_spin": 0.1753810750939826,
+          "normalized_deviation": 0.17332000030571604,
+          "surrogate_reported_final": -2.6320872843265533,
+          "restarts": 20,
+          "seconds": 0.8745159171521664
+        },
+        "exact_vqe": {
+          "initial_mean": -0.6673158434188146,
+          "final_mean": -2.2609674733086087,
+          "restart_std": 0.9549923331275287,
+          "energy_error_per_spin": 0.12911795318875094,
+          "normalized_deviation": 0.12760056165783856,
+          "surrogate_reported_final": -2.2609674733086083,
+          "restarts": 20,
+          "seconds": 85.23524933308363
+        }
+      }
+    }
+  ]
+}

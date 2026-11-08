@@ -1,0 +1,63 @@
+{
+  "protocol": {
+    "method": "product",
+    "case": {
+      "id": "grid2x3_l2",
+      "rows": 2,
+      "cols": 3,
+      "layers": 2,
+      "shared": true,
+      "train": 160,
+      "val": 40,
+      "test": 200,
+      "shots": 10000,
+      "feature_count": 1000,
+      "couplings": [
+        -0.1
+      ]
+    },
+    "seed": 46,
+    "width": 32,
+    "harmonics": 4,
+    "epochs": 3000,
+    "dataset_sha256": "e851716bd656bb21694ca96b09c5fea0c7ac38a60875097b17aef1a2b9dd03b7",
+    "training_labels": "stored measured_terms only",
+    "checkpoint": "measured validation MSE",
+    "extra_measurements": 0,
+    "exact_values": "post-fit evaluation only",
+    "vqe": {
+      "restarts": 20,
+      "steps": 100,
+      "lr": 0.1,
+      "clip": 3.141592653589793,
+      "exact_curve_every": 10
+    },
+    "scope": "development audit; seeds used in earlier development",
+    "min_epochs": 500,
+    "patience": 100
+  },
+  "training": {
+    "best_val_mse": 0.005430769640952349,
+    "best_epoch": 2779,
+    "epochs_run": 2879,
+    "parameters": 15405,
+    "training_seconds": 38.18802125006914
+  },
+  "records": [
+    {
+      "J": -0.1,
+      "final_mean": -2.4115085323015544,
+      "restart_std": 0.9341737002316582,
+      "baseline_final_mean": -2.3492532214226167,
+      "original_redq_final_mean": -2.999999999999999,
+      "prediction": {
+        "mae": 0.1447658613588849,
+        "rmse": 0.20184866740526672,
+        "r2": 0.9315197669302799,
+        "pearson": 0.9666715137050735,
+        "R(h)": 0.04074288453328198
+      },
+      "improvement": 0.06225531087893765
+    }
+  ]
+}
