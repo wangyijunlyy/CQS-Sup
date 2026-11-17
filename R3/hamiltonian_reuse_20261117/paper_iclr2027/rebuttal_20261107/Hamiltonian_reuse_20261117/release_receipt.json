@@ -1,0 +1,10 @@
+{
+  "archive": "Hamiltonian_reuse_20261117_repro.tar.gz",
+  "bytes": 463408880,
+  "sha256": "826b7122cdc8a11809c18f6d8d200c5d4aa06c97464683f71ce257b2a38e24b1",
+  "source_files": 39,
+  "data_files": 5604,
+  "checkpoints": 20,
+  "anonymous_text_scan_passed": true,
+  "archive_owner_metadata_normalized": true
+}

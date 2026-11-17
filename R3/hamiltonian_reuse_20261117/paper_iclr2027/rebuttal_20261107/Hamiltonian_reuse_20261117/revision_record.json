@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "reason": "Review identified lack of perturbed starts on later SPSA Hamiltonians. Retain best historical measured incumbent and perturb19 starts on every target, matching CQS start policy. Rerun development and all formal arms before any exact scoring.",
+  "previous_records": "Hamiltonian_reuse_20261117_v1 on execution host; local metadata retained separately",
+  "previous_exact_scoring_started": false,
+  "time_utc": 1794920286.585748
+}

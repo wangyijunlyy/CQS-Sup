@@ -1,0 +1,7 @@
+{
+  "best_val_mse": 0.00357136782258749,
+  "best_epoch": 3000,
+  "epochs_run": 3000,
+  "parameters": 24885,
+  "training_seconds": 51.62653445900651
+}

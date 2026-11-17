@@ -1,6 +1,31 @@
 # R3: additional experiments and reproducibility materials
 
-This folder provides the experiment code, the actual datasets and model checkpoints, and the saved predictions and measurement/search traces used in the R3 response. The main artifact, an additional TFIM training-input bundle and the ten-dataset fixed-data chain bundle are attached to the `r3-repro-20261108` release of this same repository. `fetch_artifacts.py` downloads and extracts them automatically; no author workstation or server is required.
+This folder provides the experiment code, the actual datasets and model checkpoints, and the saved predictions and measurement/search traces used in the R3 response. For the earlier experiments, the main artifact, an additional TFIM training-input bundle and the ten-dataset fixed-data chain bundle are attached to the `r3-repro-20261108` release of this same repository. `fetch_artifacts.py` downloads and extracts them automatically; no author workstation or server is required.
+
+## Cross-Hamiltonian reuse experiment
+
+The [cross-Hamiltonian reuse package](hamiltonian_reuse_20261117/README.txt) is self-contained. Its code, actual measured datasets, all 20 original CQS-P checkpoints and complete search histories are committed in this folder. This experiment needs no release download, credentials, author workstation or quantum-hardware account. The isolated package preserves its own dependencies and the unchanged scientific arrays.
+
+From `R3`, create a separate environment and replay it:
+
+```bash
+python -m venv .venv-reuse
+source .venv-reuse/bin/activate
+python -m pip install -r hamiltonian_reuse_20261117/requirements.txt
+python reproduce.py --suite hamiltonian-reuse
+```
+
+Python 3.10 was used for the original runs. The complete package was also replayed with Python 3.12. It covers ten existing independent dataset/model fits for each of the grid and chain tasks, ten distinct Hamiltonians in two orders, two SPSA historical-data regimes and four independently rerun per-target budgets. All 360 sequences, 72,000 retained endpoints and 41,600 chronological measurement-feedback events are included. SPSA may reweight all its historical measurements and warm-start from historical controls, with perturbed starts on every target. Initial acquisition is fully charged. The fixed global CQS-P model is never refitted across Hamiltonians.
+
+Replay reconstructs measurement histories, parameter updates, acceptance decisions and resource counters, reoptimizes all 400 CQS targets, and checks exact endpoint energies against independent Qiskit evaluations. No new QPU measurements are taken. [Settings and full results](hamiltonian_reuse_20261117/paper_iclr2027/rebuttal_20261107/Hamiltonian_reuse_20261117/results_report.md) include both task orders, all budgets and the fixed-chain limitations. Reported costs are cumulative shots and logical feedback rounds, with post-search simulation scores used only for evaluation.
+
+To regenerate every reuse workload from the released measured pools and unchanged checkpoints in a separate empty directory:
+
+```bash
+python hamiltonian_reuse_20261117/reproduce.py --fresh --out fresh_reuse --workers 2
+```
+
+This reruns the complete workload with frozen SPSA settings. It reuses the original fitted models rather than retraining them. The package includes the independent development readouts, protocol, frozen selections, model/data identities and a complete file manifest. It contains no account-specific download addresses. The commands below concern the earlier R3 experiments and their release assets.
 
 ## Reproduce the results
 

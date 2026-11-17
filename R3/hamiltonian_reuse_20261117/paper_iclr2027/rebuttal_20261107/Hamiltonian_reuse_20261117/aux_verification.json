@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "independent_development_readouts": 16,
+  "cqs_targets_reoptimized": 400,
+  "cqs_parameter_max_error": 0.0,
+  "development_holdout_never_used_for_search": true
+}

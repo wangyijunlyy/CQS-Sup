@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "sequences": 6,
+  "seconds": 5.2119197498541325,
+  "records": [
+    {
+      "path": "runs/grid/seed17101/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17101/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12640000
+    },
+    {
+      "path": "runs/grid/seed17101/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 16600000
+    },
+    {
+      "path": "runs/chain/seed17201/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17201/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17201/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    }
+  ],
+  "description": "Independent local NumPy2.5/Python3.12 replay of unchanged arrays generated on NumPy2.0/Python3.10. Main complete audit covers all360 sequences on original environment."
+}

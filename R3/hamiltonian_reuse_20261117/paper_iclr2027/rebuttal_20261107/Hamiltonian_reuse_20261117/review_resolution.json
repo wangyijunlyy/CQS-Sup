@@ -1,0 +1,12 @@
+{
+  "fresh_review_completed": true,
+  "important_findings": 1,
+  "fixed": "Every later SPSA target now receives19 perturbed starts; measured incumbent retention and best historical control remain available.",
+  "regression": "test_later_targets_retain_perturbed_starts_away_from_chain_saddle failed before correction, passed afterward with complete3-test suite.",
+  "rerun": "Full development and360 formal workloads repeated under protocolv2 before any exact scoring. Prior v1 records retained remotely, local metadata retained separately.",
+  "reporting": [
+    "Historical best includes previous endpoints; do not claim preservation of20 trajectory-specific warmstarts.",
+    "Measured-control acquisitions include topups and are not basis-resolved circuits.",
+    "Report quality with shots and logical feedback rounds."
+  ]
+}

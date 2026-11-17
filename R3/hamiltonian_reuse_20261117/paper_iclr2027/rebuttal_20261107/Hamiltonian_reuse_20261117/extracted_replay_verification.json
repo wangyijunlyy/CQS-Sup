@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "actual_archive_extracted": true,
+  "default_reproduction_command_passed": true,
+  "immutable_file_hashes_checked": 4867,
+  "sequences_reaudited": 360,
+  "cqs_targets_reoptimized": 400,
+  "development_readouts_rebuilt": 16,
+  "all_endpoints_rescored": 72000,
+  "summary_energy_max_error": 3.552713678800501e-15,
+  "independent_qiskit_energy_max_error": 3.552713678800501e-14,
+  "cqs_parameter_replay_max_error": 7.913669719528116e-13,
+  "archive_sha256": "826b7122cdc8a11809c18f6d8d200c5d4aa06c97464683f71ce257b2a38e24b1"
+}

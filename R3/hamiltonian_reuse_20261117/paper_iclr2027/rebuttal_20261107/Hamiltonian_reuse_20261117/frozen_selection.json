@@ -1,0 +1,190 @@
+{
+  "grid_low": {
+    "config": {
+      "gain": 0.05,
+      "c": 0.05,
+      "shots": 500
+    },
+    "candidates": [
+      {
+        "config": {
+          "gain": 0.05,
+          "c": 0.05,
+          "shots": 100
+        },
+        "scores": [
+          -4.9391655,
+          -4.9484425
+        ],
+        "mean": -4.943804
+      },
+      {
+        "config": {
+          "gain": 0.05,
+          "c": 0.05,
+          "shots": 500
+        },
+        "scores": [
+          -4.959535,
+          -4.9591455
+        ],
+        "mean": -4.95934025
+      }
+    ]
+  },
+  "grid_shared": {
+    "config": {
+      "gain": 0.05,
+      "c": 0.05,
+      "shots": 500
+    },
+    "candidates": [
+      {
+        "config": {
+          "gain": 0.05,
+          "c": 0.05,
+          "shots": 100
+        },
+        "scores": [
+          -4.9522525,
+          -4.951601999999999
+        ],
+        "mean": -4.95192725
+      },
+      {
+        "config": {
+          "gain": 0.05,
+          "c": 0.05,
+          "shots": 500
+        },
+        "scores": [
+          -4.947123,
+          -4.9622775
+        ],
+        "mean": -4.95470025
+      }
+    ]
+  },
+  "chain_low": {
+    "config": {
+      "gain": 0.2,
+      "c": 0.2,
+      "shots": 500
+    },
+    "candidates": [
+      {
+        "config": {
+          "gain": 0.2,
+          "c": 0.2,
+          "shots": 100
+        },
+        "scores": [
+          -3.1336185,
+          -3.0940255000000003
+        ],
+        "mean": -3.113822
+      },
+      {
+        "config": {
+          "gain": 0.2,
+          "c": 0.2,
+          "shots": 500
+        },
+        "scores": [
+          -3.129801,
+          -3.133787
+        ],
+        "mean": -3.131794
+      }
+    ]
+  },
+  "chain_shared": {
+    "config": {
+      "gain": 0.2,
+      "c": 0.2,
+      "shots": 500
+    },
+    "candidates": [
+      {
+        "config": {
+          "gain": 0.2,
+          "c": 0.2,
+          "shots": 100
+        },
+        "scores": [
+          -3.097119,
+          -3.1247944999999997
+        ],
+        "mean": -3.1109567499999997
+      },
+      {
+        "config": {
+          "gain": 0.2,
+          "c": 0.2,
+          "shots": 500
+        },
+        "scores": [
+          -3.1430935,
+          -3.13829
+        ],
+        "mean": -3.1406917500000002
+      }
+    ]
+  },
+  "frozen_utc": 1794920300.228791,
+  "exact_values_used": false,
+  "source_hashes": {
+    "test_warm.py": "c969c870d42c85201c5423c525168584ad05d08229ba54da12eafb6563aa9a73",
+    "audit.py": "78d0c945be3d1661eb42ac40eeba7c86a3518512a374021489071969a37bf56a",
+    "supervise.py": "4a07a22c8968751c5917b66aa408e1d1bcc1d9abf302aa73af486e89de0fb550",
+    "test_history.py": "83cab83a1b11b9be01f8fb19b8697523071d4aa09af600213dcab317e8664ce1",
+    "analyze.py": "e51c5952e598989b0026f13a52f514c2e9e1cd536e4e85e50dd7078ac71521a2",
+    "history.py": "57852775dcded1c21734883086358741e690323f355e4a6716969ffaf72c0fb4",
+    "run_reuse.py": "2ee9152485f9f74ca5b7c15cf6e9f6391d732bb2b540b17ee3708d456c82d90a"
+  },
+  "dependency_hashes": {
+    "engine.py": "623689fc0f3f548dfd18d48a019dd47953a385e793277ffdf37af2ab58ae3914"
+  },
+  "model_and_data_hashes": {
+    "grid/seed17101/product.pt": "a2bebbb3ac7d6a4a1eec22d1b1035399f914cfa449c62075cdce759c943eeed7",
+    "grid/seed17101/dataset.npz": "f3c495413f94ba442c579e352c34ce22a174faec75239ddf786a3eeb5b2f1f38",
+    "grid/seed17102/product.pt": "3636271143bf085583ac60d773428d6b05b57cb9361c1b8ebdc029beadcab31d",
+    "grid/seed17102/dataset.npz": "3a5fadd179ce54a76bc42eabb50c8e9b32d0a2ac72edd01906f17a5a494947b8",
+    "grid/seed17103/product.pt": "1416825364eb85a9cfad9ff25a99cdc2d03e2c5ecd74cd0b94359da591cc9763",
+    "grid/seed17103/dataset.npz": "1483c5946eee0d4fb4ca3294cb87296c53436f4c3ea5e75bc1bd86aa7d0c14d5",
+    "grid/seed17104/product.pt": "b5c754a580c74fbc14f5fdb00cbceefb2de843702b36d96919bb73f426192834",
+    "grid/seed17104/dataset.npz": "c0a34e80dec55e9b13bae7471e68c1938cc0258440750e64f43ad82000be2176",
+    "grid/seed17105/product.pt": "2675996580ad25470859146f1ec32f6c11f7a45ffe7893775ed73f86aed285b8",
+    "grid/seed17105/dataset.npz": "5db2bb11d890e2c4d6631581927907056a8a50443445971716dc0db32579ecdb",
+    "grid/seed17106/product.pt": "fa2acf1d40ea70df94036c0861d7fafc176a8be08ea2e2ce1e114bd3ffeea421",
+    "grid/seed17106/dataset.npz": "1eab2f6afb966b5ff990e8cff2b2dc3c1fa2120899919000aee198021bb278de",
+    "grid/seed17107/product.pt": "177833270538e797ec1398feff18fe1c3f6d77d33141ed7ddedcb195b952da21",
+    "grid/seed17107/dataset.npz": "2e00df3091f5a2175590244b4c4c44be485eba9447bc3f32ef52ff7531a10afa",
+    "grid/seed17108/product.pt": "65dff8c351dd54d8c357ae56635d5154beedebbcee408ac6bfb56c99dfa82589",
+    "grid/seed17108/dataset.npz": "b20b3f0ee21dcd24aa24e92c3b774b86892efc8f7c4076005e963c485a38de87",
+    "grid/seed17109/product.pt": "62339d8ea24f5bbd2d130ea07d6d0461835cbf11a9ea41a3eac81108ef99b069",
+    "grid/seed17109/dataset.npz": "8d017dea2e359efa46389ae44a1cc40059f82b93aabba6bafa913144dac1656f",
+    "grid/seed17110/product.pt": "111620d9781341a47655bca3c59c02d2775c218359d791f6793aeace5f8fdc45",
+    "grid/seed17110/dataset.npz": "a69c04ce3e1409c4220e6f94fec395624bec4ff032184dc56521a503098b51eb",
+    "chain/seed17201/product.pt": "39f1d917a9a3c97c33fe1b49bc083df82a095f4a10d17cea67d3d38f2f8a6b0d",
+    "chain/seed17201/dataset.npz": "e8816a87882b5c649096def17f704701f08b7b6aab02edfbefae92cc4ac29854",
+    "chain/seed17202/product.pt": "88d7f50dbcc8051eb452c15053e5c3fbbbe4d7ffc4775bf71e639fb9a91639c0",
+    "chain/seed17202/dataset.npz": "ba4fbc2ebc620d48471cf7a7f284df9c1f1c87b766be143535ef79f4240e0422",
+    "chain/seed17203/product.pt": "6b5b07357353bcc7cfefefba8492d88eff0d8bbb165b2e24a49cba074072a925",
+    "chain/seed17203/dataset.npz": "c36d2f29ff82a37f4e8104fbcc7e33129d65f979c7851666b1ce193e312c8ec4",
+    "chain/seed17204/product.pt": "8427a902b336510e69b679d9736a3419f8a0f43acf76c529242ac0a58cf89df4",
+    "chain/seed17204/dataset.npz": "4fb9fcc22addc8fbd6a9bb834c08aa119ff31d6ab6e741964b28917d5a95a90d",
+    "chain/seed17205/product.pt": "75082a94394ec7028256dd597a50e83a94141c47a302428ad9db5d64b6f0fc59",
+    "chain/seed17205/dataset.npz": "86718c58b859459db266e78bb2a58ad5f31be1af783a16a4534d79c12f7ba796",
+    "chain/seed17206/product.pt": "d06811b1ea63e4ab4342d46cbb76b52b5e7441eb5e7b46bfcf49bcf0aadb2987",
+    "chain/seed17206/dataset.npz": "f4f9ad475199e9114634d9eba86770233668bc49ee2de20c2de6ec1ef2423f19",
+    "chain/seed17207/product.pt": "aa450021c9c316177f5e62a04c6945201b843e9fcdaab18a7f7e68ad5bd0ceae",
+    "chain/seed17207/dataset.npz": "f0b25a13634201f030671b096affaa7303c45a5fa61270f061f0a887d8bae0af",
+    "chain/seed17208/product.pt": "076473fff9d58f5c2201547a14bca42de302050fec3d13f9ecc66fb5f1691673",
+    "chain/seed17208/dataset.npz": "cc68b84531aecd480dcd203b3c1405162bd4959efd8c23dbf1eb62912eae5dd2",
+    "chain/seed17209/product.pt": "b51ae46a58c07ea72a70a96e128b625af497a56858ad13578e0034f4ddb4cf48",
+    "chain/seed17209/dataset.npz": "1b68db16101ce0829660c41fea4a0ac2dcd6362d0d012b0b81f700fbe502762e",
+    "chain/seed17210/product.pt": "c68cc61130e2f05f93acbb915b323f7d294803accb04ce4e5a660955dcbb8357",
+    "chain/seed17210/dataset.npz": "bdf7f1e1a095002ad29e57c51baaa5426d6cad39aca9a955c5fb747049f783a0"
+  }
+}

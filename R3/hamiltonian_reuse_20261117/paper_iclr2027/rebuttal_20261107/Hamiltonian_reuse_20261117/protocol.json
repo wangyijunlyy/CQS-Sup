@@ -1,0 +1,107 @@
+{
+  "version": "sequential-hamiltonian-reuse-v2",
+  "created_utc": 1794920291.398768,
+  "orders": {
+    "smooth": [
+      -0.05,
+      -0.1,
+      -0.15,
+      -0.2,
+      -0.25,
+      -0.3,
+      -0.35,
+      -0.4,
+      -0.45,
+      -0.5
+    ],
+    "jumping": [
+      -0.05,
+      -0.5,
+      -0.1,
+      -0.45,
+      -0.15,
+      -0.4,
+      -0.2,
+      -0.35,
+      -0.25,
+      -0.3
+    ]
+  },
+  "caps_per_target": [
+    0,
+    160000,
+    640000,
+    1280000
+  ],
+  "h": -0.5,
+  "tasks": {
+    "grid": {
+      "qubits": 9,
+      "layers": 2,
+      "controls": 3,
+      "seeds": [
+        17101,
+        17102,
+        17103,
+        17104,
+        17105,
+        17106,
+        17107,
+        17108,
+        17109,
+        17110
+      ],
+      "initial_cqs": 4000000,
+      "initial_spsa_low": 40000
+    },
+    "chain": {
+      "qubits": 6,
+      "layers": 2,
+      "controls": 16,
+      "seeds": [
+        17201,
+        17202,
+        17203,
+        17204,
+        17205,
+        17206,
+        17207,
+        17208,
+        17209,
+        17210
+      ],
+      "initial_cqs": 24000,
+      "initial_spsa_low": 0
+    }
+  },
+  "datasets": "Existing independent full fits from JJuz_followup_20261117, unchanged weights. Additional workload, not a fresh training cohort.",
+  "regimes": [
+    "low",
+    "shared"
+  ],
+  "outputs_per_target": 20,
+  "history": "Reweight all past measured X-sum/ZZ-sum statistics, exact-control cache with precision topups. Best historical mean+2SE control includes previous endpoints, with19 perturbed starts on every new target and incumbent retention. Each regime/order/budget owns an isolated history.",
+  "development": {
+    "seeds": [
+      45,
+      46
+    ],
+    "order": "smooth",
+    "cap": 640000,
+    "shots_per_group_candidates": [
+      100,
+      500
+    ],
+    "selection": "Independent post-sequence 1000-shot/group readout of all200 retained endpoints; never used for search or warmstarts.",
+    "gain_c": "Previously frozen grid .05/.05, chain .2/.2"
+  },
+  "cqs": {
+    "steps": 100,
+    "learning_rate": 0.1,
+    "refits": 0,
+    "online_shots": 0
+  },
+  "costs": "Initial acquisition charged once; all new shots charged. Both SPSA probes, trajectories and commuting groups batched per feedback round. Logical dependency rounds, not real backend jobs/latency.",
+  "scoring": "Save all workloads before post-hoc exact evaluation. Dataset-level means over20 endpoints, then prefixes1/2/5/10 Hamiltonians. Descriptive budget frontier tolerance .02, not oracle stopping.",
+  "hardware_shots": 0
+}

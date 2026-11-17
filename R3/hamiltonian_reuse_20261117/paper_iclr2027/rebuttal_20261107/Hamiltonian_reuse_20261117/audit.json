@@ -1,0 +1,2539 @@
+{
+  "passed": true,
+  "sequences": 360,
+  "events": 41600,
+  "draws": 1615828,
+  "checks": [
+    "chronological target-local history, no future labels",
+    "all grouped draws and precision topups",
+    "cached recombination energies and variances",
+    "warmstarts and frozen SPSA updates",
+    "retention and all20 saved outputs",
+    "actual shots and logical feedback rounds",
+    "unchanged existing global models and datasets",
+    "source hashes frozen before formal workloads"
+  ],
+  "records": [
+    {
+      "path": "runs/chain/seed17201/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17201/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17201/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17201/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17201/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17201/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17201/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17201/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17201/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17201/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17201/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17201/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17201/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17201/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17201/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17201/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17201/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17201/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17202/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17202/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17202/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17202/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17202/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17202/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17202/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17202/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17202/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17202/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17202/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17202/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17202/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17202/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17202/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17202/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17202/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17202/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17203/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17203/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17203/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17203/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17203/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17203/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17203/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17203/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17203/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17203/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17203/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17203/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17203/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17203/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17203/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17203/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17203/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17203/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17204/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17204/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17204/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17204/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17204/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17204/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17204/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12601,
+      "shots": 12625000
+    },
+    {
+      "path": "runs/chain/seed17204/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1401,
+      "shots": 1425000
+    },
+    {
+      "path": "runs/chain/seed17204/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6201,
+      "shots": 6225000
+    },
+    {
+      "path": "runs/chain/seed17204/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17204/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17204/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17204/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17204/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17204/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17204/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12601,
+      "shots": 12625000
+    },
+    {
+      "path": "runs/chain/seed17204/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1401,
+      "shots": 1425000
+    },
+    {
+      "path": "runs/chain/seed17204/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6201,
+      "shots": 6225000
+    },
+    {
+      "path": "runs/chain/seed17205/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17205/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17205/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17205/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17205/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17205/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17205/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17205/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17205/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17205/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17205/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17205/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17205/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17205/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17205/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17205/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17205/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17205/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17206/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17206/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17206/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17206/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17206/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17206/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17206/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17206/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17206/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17206/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17206/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17206/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17206/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17206/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17206/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17206/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17206/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17206/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17207/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17207/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17207/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17207/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17207/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17207/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17207/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17207/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17207/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17207/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17207/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17207/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17207/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17207/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17207/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17207/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17207/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17207/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17208/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17208/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17208/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17208/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17208/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17208/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17208/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17208/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17208/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17208/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17208/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17208/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17208/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17208/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17208/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17208/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17208/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17208/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17209/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17209/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17209/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17209/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17209/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17209/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17209/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12601,
+      "shots": 12625000
+    },
+    {
+      "path": "runs/chain/seed17209/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1401,
+      "shots": 1425000
+    },
+    {
+      "path": "runs/chain/seed17209/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6201,
+      "shots": 6225000
+    },
+    {
+      "path": "runs/chain/seed17209/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17209/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17209/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17209/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17209/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17209/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17209/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17209/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17209/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17210/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17210/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17210/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17210/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17210/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17210/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17210/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17210/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17210/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/chain/seed17210/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17210/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 0
+    },
+    {
+      "path": "runs/chain/seed17210/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12600000
+    },
+    {
+      "path": "runs/chain/seed17210/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1400000
+    },
+    {
+      "path": "runs/chain/seed17210/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6200000
+    },
+    {
+      "path": "runs/chain/seed17210/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 24000
+    },
+    {
+      "path": "runs/chain/seed17210/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12624000
+    },
+    {
+      "path": "runs/chain/seed17210/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1424000
+    },
+    {
+      "path": "runs/chain/seed17210/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6224000
+    },
+    {
+      "path": "runs/grid/seed17101/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17101/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17101/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12640000
+    },
+    {
+      "path": "runs/grid/seed17101/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 1438000
+    },
+    {
+      "path": "runs/grid/seed17101/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6240000
+    },
+    {
+      "path": "runs/grid/seed17101/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17101/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 16600000
+    },
+    {
+      "path": "runs/grid/seed17101/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 5398000
+    },
+    {
+      "path": "runs/grid/seed17101/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 10200000
+    },
+    {
+      "path": "runs/grid/seed17101/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17101/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17101/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12596,
+      "shots": 12636000
+    },
+    {
+      "path": "runs/grid/seed17101/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 1438000
+    },
+    {
+      "path": "runs/grid/seed17101/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6197,
+      "shots": 6237000
+    },
+    {
+      "path": "runs/grid/seed17101/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17101/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 16600000
+    },
+    {
+      "path": "runs/grid/seed17101/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 5398000
+    },
+    {
+      "path": "runs/grid/seed17101/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6196,
+      "shots": 10196000
+    },
+    {
+      "path": "runs/grid/seed17102/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17102/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17102/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12640000
+    },
+    {
+      "path": "runs/grid/seed17102/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1440000
+    },
+    {
+      "path": "runs/grid/seed17102/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6198,
+      "shots": 6238000
+    },
+    {
+      "path": "runs/grid/seed17102/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17102/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 16598000
+    },
+    {
+      "path": "runs/grid/seed17102/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 5400000
+    },
+    {
+      "path": "runs/grid/seed17102/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 10200000
+    },
+    {
+      "path": "runs/grid/seed17102/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17102/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17102/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 12638000
+    },
+    {
+      "path": "runs/grid/seed17102/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 1438000
+    },
+    {
+      "path": "runs/grid/seed17102/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6240000
+    },
+    {
+      "path": "runs/grid/seed17102/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17102/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 16598000
+    },
+    {
+      "path": "runs/grid/seed17102/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 5398000
+    },
+    {
+      "path": "runs/grid/seed17102/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 10200000
+    },
+    {
+      "path": "runs/grid/seed17103/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17103/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17103/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12640000
+    },
+    {
+      "path": "runs/grid/seed17103/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1440000
+    },
+    {
+      "path": "runs/grid/seed17103/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6240000
+    },
+    {
+      "path": "runs/grid/seed17103/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17103/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 16598000
+    },
+    {
+      "path": "runs/grid/seed17103/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 5398000
+    },
+    {
+      "path": "runs/grid/seed17103/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6198,
+      "shots": 10198000
+    },
+    {
+      "path": "runs/grid/seed17103/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17103/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17103/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 12638000
+    },
+    {
+      "path": "runs/grid/seed17103/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1440000
+    },
+    {
+      "path": "runs/grid/seed17103/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6198,
+      "shots": 6238000
+    },
+    {
+      "path": "runs/grid/seed17103/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17103/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 16598000
+    },
+    {
+      "path": "runs/grid/seed17103/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 5400000
+    },
+    {
+      "path": "runs/grid/seed17103/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6198,
+      "shots": 10198000
+    },
+    {
+      "path": "runs/grid/seed17104/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17104/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17104/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 12638000
+    },
+    {
+      "path": "runs/grid/seed17104/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1440000
+    },
+    {
+      "path": "runs/grid/seed17104/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6240000
+    },
+    {
+      "path": "runs/grid/seed17104/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17104/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 16598000
+    },
+    {
+      "path": "runs/grid/seed17104/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 5398000
+    },
+    {
+      "path": "runs/grid/seed17104/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 10200000
+    },
+    {
+      "path": "runs/grid/seed17104/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17104/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17104/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 12638000
+    },
+    {
+      "path": "runs/grid/seed17104/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 1438000
+    },
+    {
+      "path": "runs/grid/seed17104/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6196,
+      "shots": 6236000
+    },
+    {
+      "path": "runs/grid/seed17104/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17104/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 16598000
+    },
+    {
+      "path": "runs/grid/seed17104/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 5398000
+    },
+    {
+      "path": "runs/grid/seed17104/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6196,
+      "shots": 10196000
+    },
+    {
+      "path": "runs/grid/seed17105/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17105/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17105/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12640000
+    },
+    {
+      "path": "runs/grid/seed17105/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 1438000
+    },
+    {
+      "path": "runs/grid/seed17105/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6240000
+    },
+    {
+      "path": "runs/grid/seed17105/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17105/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 16600000
+    },
+    {
+      "path": "runs/grid/seed17105/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1396,
+      "shots": 5396000
+    },
+    {
+      "path": "runs/grid/seed17105/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6198,
+      "shots": 10198000
+    },
+    {
+      "path": "runs/grid/seed17105/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17105/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17105/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 12638000
+    },
+    {
+      "path": "runs/grid/seed17105/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 1438000
+    },
+    {
+      "path": "runs/grid/seed17105/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6196,
+      "shots": 6236000
+    },
+    {
+      "path": "runs/grid/seed17105/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17105/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12596,
+      "shots": 16596000
+    },
+    {
+      "path": "runs/grid/seed17105/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 5398000
+    },
+    {
+      "path": "runs/grid/seed17105/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6198,
+      "shots": 10198000
+    },
+    {
+      "path": "runs/grid/seed17106/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17106/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17106/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 12638000
+    },
+    {
+      "path": "runs/grid/seed17106/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 1438000
+    },
+    {
+      "path": "runs/grid/seed17106/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6240000
+    },
+    {
+      "path": "runs/grid/seed17106/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17106/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 16600000
+    },
+    {
+      "path": "runs/grid/seed17106/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 5398000
+    },
+    {
+      "path": "runs/grid/seed17106/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6198,
+      "shots": 10198000
+    },
+    {
+      "path": "runs/grid/seed17106/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17106/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17106/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 12638000
+    },
+    {
+      "path": "runs/grid/seed17106/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 1438000
+    },
+    {
+      "path": "runs/grid/seed17106/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6198,
+      "shots": 6238000
+    },
+    {
+      "path": "runs/grid/seed17106/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17106/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 16598000
+    },
+    {
+      "path": "runs/grid/seed17106/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1396,
+      "shots": 5396000
+    },
+    {
+      "path": "runs/grid/seed17106/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6194,
+      "shots": 10194000
+    },
+    {
+      "path": "runs/grid/seed17107/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17107/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17107/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 12638000
+    },
+    {
+      "path": "runs/grid/seed17107/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 1438000
+    },
+    {
+      "path": "runs/grid/seed17107/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6196,
+      "shots": 6236000
+    },
+    {
+      "path": "runs/grid/seed17107/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17107/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12596,
+      "shots": 16596000
+    },
+    {
+      "path": "runs/grid/seed17107/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 5400000
+    },
+    {
+      "path": "runs/grid/seed17107/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 10200000
+    },
+    {
+      "path": "runs/grid/seed17107/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17107/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17107/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 12638000
+    },
+    {
+      "path": "runs/grid/seed17107/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 1438000
+    },
+    {
+      "path": "runs/grid/seed17107/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6240000
+    },
+    {
+      "path": "runs/grid/seed17107/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17107/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 16598000
+    },
+    {
+      "path": "runs/grid/seed17107/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 5398000
+    },
+    {
+      "path": "runs/grid/seed17107/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6198,
+      "shots": 10198000
+    },
+    {
+      "path": "runs/grid/seed17108/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17108/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17108/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12640000
+    },
+    {
+      "path": "runs/grid/seed17108/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1440000
+    },
+    {
+      "path": "runs/grid/seed17108/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6198,
+      "shots": 6238000
+    },
+    {
+      "path": "runs/grid/seed17108/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17108/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 16600000
+    },
+    {
+      "path": "runs/grid/seed17108/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 5400000
+    },
+    {
+      "path": "runs/grid/seed17108/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6198,
+      "shots": 10198000
+    },
+    {
+      "path": "runs/grid/seed17108/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17108/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17108/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 12638000
+    },
+    {
+      "path": "runs/grid/seed17108/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1440000
+    },
+    {
+      "path": "runs/grid/seed17108/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6240000
+    },
+    {
+      "path": "runs/grid/seed17108/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17108/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 16600000
+    },
+    {
+      "path": "runs/grid/seed17108/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 5400000
+    },
+    {
+      "path": "runs/grid/seed17108/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 10200000
+    },
+    {
+      "path": "runs/grid/seed17109/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17109/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17109/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12594,
+      "shots": 12634000
+    },
+    {
+      "path": "runs/grid/seed17109/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 1440000
+    },
+    {
+      "path": "runs/grid/seed17109/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6240000
+    },
+    {
+      "path": "runs/grid/seed17109/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17109/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 16598000
+    },
+    {
+      "path": "runs/grid/seed17109/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1394,
+      "shots": 5394000
+    },
+    {
+      "path": "runs/grid/seed17109/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 10200000
+    },
+    {
+      "path": "runs/grid/seed17109/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17109/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17109/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12596,
+      "shots": 12636000
+    },
+    {
+      "path": "runs/grid/seed17109/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 1438000
+    },
+    {
+      "path": "runs/grid/seed17109/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6240000
+    },
+    {
+      "path": "runs/grid/seed17109/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17109/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 16598000
+    },
+    {
+      "path": "runs/grid/seed17109/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 5400000
+    },
+    {
+      "path": "runs/grid/seed17109/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6196,
+      "shots": 10196000
+    },
+    {
+      "path": "runs/grid/seed17110/jumping/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17110/jumping/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17110/jumping/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12640000
+    },
+    {
+      "path": "runs/grid/seed17110/jumping/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 1438000
+    },
+    {
+      "path": "runs/grid/seed17110/jumping/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6240000
+    },
+    {
+      "path": "runs/grid/seed17110/jumping/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17110/jumping/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12598,
+      "shots": 16598000
+    },
+    {
+      "path": "runs/grid/seed17110/jumping/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1400,
+      "shots": 5400000
+    },
+    {
+      "path": "runs/grid/seed17110/jumping/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 10200000
+    },
+    {
+      "path": "runs/grid/seed17110/smooth/cqs",
+      "method": "cqs",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17110/smooth/low_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 40000
+    },
+    {
+      "path": "runs/grid/seed17110/smooth/low_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 12640000
+    },
+    {
+      "path": "runs/grid/seed17110/smooth/low_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 1438000
+    },
+    {
+      "path": "runs/grid/seed17110/smooth/low_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6200,
+      "shots": 6240000
+    },
+    {
+      "path": "runs/grid/seed17110/smooth/shared_cap0",
+      "method": "spsa",
+      "events": 0,
+      "draws": 0,
+      "shots": 4000000
+    },
+    {
+      "path": "runs/grid/seed17110/smooth/shared_cap1280000",
+      "method": "spsa",
+      "events": 320,
+      "draws": 12600,
+      "shots": 16600000
+    },
+    {
+      "path": "runs/grid/seed17110/smooth/shared_cap160000",
+      "method": "spsa",
+      "events": 40,
+      "draws": 1398,
+      "shots": 5398000
+    },
+    {
+      "path": "runs/grid/seed17110/smooth/shared_cap640000",
+      "method": "spsa",
+      "events": 160,
+      "draws": 6198,
+      "shots": 10198000
+    }
+  ],
+  "time_utc": 1794920926.4180522
+}

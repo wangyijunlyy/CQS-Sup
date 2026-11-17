@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "source_files": 39,
+  "manifested_data_files": 5604,
+  "text_files_scanned": 458,
+  "numpy_archives_scanned": 5168,
+  "checkpoints_scanned": 20,
+  "all_manifest_hashes_match": true,
+  "personal_identifiers_found": 0,
+  "object_arrays_found": 0,
+  "private_credentials_included": false
+}

@@ -10,17 +10,20 @@ SUITES={
  'query':[("analyze_resource_query.py",)],
  'chain':[("analyze_chain_depth_recovery.py",),("analyze_chain_mechanism.py",),("analyze_resource_chain.py",)],
  'chain-fixed':[("reviewer_weak_reject_2/fixed_data_chain_20261108/analyze_confirmation.py",)],
+ 'hamiltonian-reuse':[(str(ROOT/'hamiltonian_reuse_20261117'/'reproduce.py'),)],
 }
 def main():
     ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--suite',choices=['all',*SUITES],default='all');args=ap.parse_args()
-    subprocess.run([sys.executable,str(ROOT/'fetch_artifacts.py'),'--check'],check=True,cwd=ROOT)
+    if args.suite!='hamiltonian-reuse':
+        subprocess.run([sys.executable,str(ROOT/'fetch_artifacts.py'),'--check'],check=True,cwd=ROOT)
     runs=[]
     for name in (SUITES if args.suite=='all' else [args.suite]):
         for job in SUITES[name]:
             command=[sys.executable,*job];start=time.perf_counter()
             print(f'=== {name}: {job[0]} ===',flush=True)
             subprocess.run(command,check=True,cwd=EXP)
-            runs.append({'suite':name,'script':job[0],'passed':True,'seconds':time.perf_counter()-start})
+            script=str(Path(job[0]).relative_to(ROOT)) if Path(job[0]).is_absolute() else job[0]
+            runs.append({'suite':name,'script':script,'passed':True,'seconds':time.perf_counter()-start})
     report={'passed':True,'mode':'Replay from released datasets/checkpoints/traces','runs':runs}
     (ROOT/'reproduction_report.json').write_text(json.dumps(report,indent=2)+'\n')
     print('All requested replay suites passed.')

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "sequences": 360,
+  "hamiltonian_outputs": 3600,
+  "retained_endpoints": 72000,
+  "independent_global_fits": 20,
+  "refits": 0,
+  "qiskit_checks": 1440,
+  "qiskit_energy_max_error": 2.042810365310288e-14,
+  "hardware_shots": 0,
+  "uncertainty": "Unadjusted descriptive t95 intervals across10 independent existing dataset/model fits. Endpoints and Hamiltonians are not treated as independent replicates.",
+  "evaluation_cost": "Post-hoc noiseless simulation only. Final hardware certification measurements excluded for both methods.",
+  "frontier": "Grid of independently rerun per-target caps, compared after search. Not oracle-guided termination or proof of optimal SPSA cost."
+}
